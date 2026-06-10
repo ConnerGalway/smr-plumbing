@@ -1,0 +1,2546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR Plumbing &amp; Heating — Search Visibility Report · Junction Consulting</title>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --blue: #006FB9;
+  --gold: #D6B033;
+  --ink: #1A1818;
+  --bg: #F5F4F0;
+  --surface: #FFFFFF;
+  --surface-warm: #FAF9F6;
+  --light: #F3F3F3;
+  --green: #17BA8F;
+  --orange: #B84D0F;
+  --red: #C0392B;
+  --amber: #B45309;
+  --rule: #E2E0DB;
+  --nav-h: 56px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-heading { font-family: 'Kantumruy Pro', sans-serif; }
+code, pre, .mono { font-family: 'JetBrains Mono', monospace; }
+
+/* ─── NAV ─────────────────────────────────────────────── */
+#main-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--nav-h);
+  background: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.nav-brand {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--gold);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-links {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-links a {
+  display: block;
+  padding: 0 16px;
+  height: var(--nav-h);
+  line-height: var(--nav-h);
+  font-size: 13px;
+  font-weight: 500;
+  color: #888;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+  letter-spacing: 0.01em;
+}
+.nav-links a:hover { color: #ccc; }
+.nav-links a.active { color: #fff; border-bottom-color: var(--blue); }
+.nav-agency {
+  font-size: 13px;
+  color: #666;
+  white-space: nowrap;
+}
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 8px;
+  background: none;
+  border: none;
+}
+.nav-hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #888;
+  transition: all 0.3s;
+}
+.nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-hamburger.open span:nth-child(2) { opacity: 0; }
+.nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.nav-mobile-menu {
+  display: none;
+  position: fixed;
+  top: var(--nav-h);
+  left: 0; right: 0;
+  background: var(--ink);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  z-index: 999;
+  padding: 8px 0;
+}
+.nav-mobile-menu.open { display: block; }
+.nav-mobile-menu a {
+  display: block;
+  padding: 12px 24px;
+  font-size: 14px;
+  color: #888;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+}
+.nav-mobile-menu a:hover, .nav-mobile-menu a.active {
+  color: #fff;
+  border-left-color: var(--blue);
+  background: rgba(255,255,255,0.03);
+}
+
+@media (max-width: 767px) {
+  .nav-links { display: none; }
+  .nav-agency { display: none; }
+  .nav-hamburger { display: flex; }
+}
+
+/* ─── SECTIONS ────────────────────────────────────────── */
+section { scroll-margin-top: var(--nav-h); }
+.section-inner { max-width: 1100px; margin: 0 auto; padding: 80px 24px; }
+.section-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+.section-h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.15;
+  margin-bottom: 48px;
+}
+
+/* ─── COVER ───────────────────────────────────────────── */
+#cover {
+  min-height: 100vh;
+  background: var(--ink);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--nav-h) 0 0;
+  position: relative;
+  overflow: hidden;
+}
+#cover::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse at 70% 50%, rgba(0,111,185,0.08) 0%, transparent 60%),
+              radial-gradient(ellipse at 20% 80%, rgba(214,176,51,0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+.cover-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px 80px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 60px;
+  align-items: center;
+  width: 100%;
+}
+.cover-prepared {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--gold);
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+.cover-h1 {
+  font-size: clamp(36px, 5.5vw, 68px);
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.08;
+  margin-bottom: 20px;
+}
+.cover-sub {
+  font-size: clamp(15px, 2vw, 18px);
+  font-weight: 300;
+  color: #888;
+  margin-bottom: 48px;
+  line-height: 1.5;
+}
+.hero-stats {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.hero-stat {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 20px 24px;
+  min-width: 160px;
+}
+.hero-stat-num {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.hero-stat-label {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
+}
+.cover-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.grade-ring-wrap {
+  position: relative;
+  width: 220px;
+  height: 220px;
+}
+.grade-ring-wrap svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+.grade-ring-track { fill: none; stroke: rgba(255,255,255,0.08); stroke-width: 8; }
+.grade-ring-prog {
+  fill: none;
+  stroke: var(--blue);
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-dasharray: 565.49;
+  stroke-dashoffset: 565.49;
+  transition: stroke-dashoffset 1.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.grade-ring-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.grade-letter {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+.grade-score {
+  font-size: 13px;
+  color: #666;
+}
+.grade-tagline {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--gold);
+  text-align: center;
+  max-width: 220px;
+  line-height: 1.5;
+}
+
+.scroll-arrow {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  animation: bob 2s ease-in-out infinite;
+}
+.scroll-arrow span {
+  display: block;
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.2));
+}
+.scroll-arrow svg { color: rgba(255,255,255,0.2); }
+
+@keyframes bob {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(8px); }
+}
+
+@media (max-width: 767px) {
+  .cover-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 20px 60px;
+  }
+  .cover-right { order: -1; }
+  .grade-ring-wrap { width: 160px; height: 160px; }
+  .grade-letter { font-size: 44px; }
+  .hero-stats { gap: 12px; }
+  .hero-stat { min-width: 140px; padding: 16px 18px; }
+  .hero-stat-num { font-size: 26px; }
+}
+
+/* ─── OVERVIEW ────────────────────────────────────────── */
+#overview { background: var(--surface-warm); }
+
+.radials-row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+.radial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.radial-svg-wrap {
+  position: relative;
+  width: 104px;
+  height: 104px;
+}
+.radial-svg-wrap svg {
+  width: 104px;
+  height: 104px;
+  transform: rotate(-90deg);
+}
+.radial-track { fill: none; stroke: var(--rule); stroke-width: 7; }
+.radial-prog {
+  fill: none;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-dasharray: 263.89;
+  stroke-dashoffset: 263.89;
+  transition: stroke-dashoffset 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.radial-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.radial-grade {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+}
+.radial-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #777;
+  text-align: center;
+  max-width: 100px;
+}
+
+.exec-summary {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--blue);
+  border-radius: 8px;
+  padding: 24px 28px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ─── OPPORTUNITY ─────────────────────────────────────── */
+#opportunity { background: var(--bg); }
+
+.big-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 52px;
+}
+.big-stat-box {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 28px 24px;
+  text-align: center;
+}
+.big-stat-num {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.big-stat-label {
+  font-size: 13px;
+  color: #888;
+}
+
+@media (max-width: 600px) {
+  .big-stats-row { grid-template-columns: 1fr; }
+}
+
+/* Filter pills */
+.filter-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  color: #666;
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.02em;
+}
+.pill:hover { border-color: var(--blue); color: var(--blue); }
+.pill.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+
+/* Keyword table */
+.kw-table-wrap {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 52px;
+}
+.kw-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.kw-table thead th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999;
+  background: var(--light);
+  border-bottom: 1px solid var(--rule);
+}
+.kw-table tbody tr.kw-row {
+  cursor: pointer;
+  border-bottom: 1px solid var(--rule);
+  transition: background 0.12s;
+}
+.kw-table tbody tr.kw-row:hover { background: #fafaf8; }
+.kw-table tbody tr.kw-row td {
+  padding: 11px 16px;
+  color: var(--ink);
+}
+.kw-table tbody tr.kw-detail {
+  background: #f8f7f4;
+  border-bottom: 1px solid var(--rule);
+  display: none;
+}
+.kw-table tbody tr.kw-detail.open { display: table-row; }
+.kw-table tbody tr.kw-detail td {
+  padding: 12px 16px 12px 36px;
+  font-size: 13px;
+  color: #555;
+}
+.kw-detail-action {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.kw-detail-action::before {
+  content: '→';
+  color: var(--blue);
+  font-weight: 600;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.pos-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.status-ranking { background: rgba(23,186,143,0.1); color: var(--green); }
+.status-opportunity { background: rgba(0,111,185,0.1); color: var(--blue); }
+
+/* Chart section */
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.chart-title {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.toggle-group {
+  display: flex;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.toggle-btn {
+  padding: 7px 16px;
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--surface);
+  border: none;
+  cursor: pointer;
+  color: #888;
+  transition: all 0.15s;
+}
+.toggle-btn.active { background: var(--blue); color: #fff; }
+
+.chart-wrap {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 24px;
+  position: relative;
+}
+.forecast-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 0;
+}
+.forecast-stat {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+.forecast-stat-num {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 4px;
+}
+.forecast-stat-label { font-size: 12px; color: #888; }
+
+@media (max-width: 600px) {
+  .forecast-stats { grid-template-columns: 1fr; }
+  .chart-header { flex-direction: column; align-items: flex-start; }
+}
+
+/* ─── COMPETITIVE ─────────────────────────────────────── */
+#competitive { background: var(--surface-warm); }
+
+.comp-table-wrap {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.comp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.comp-table thead th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999;
+  background: var(--light);
+  border-bottom: 1px solid var(--rule);
+}
+.comp-row {
+  border-bottom: 1px solid var(--rule);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.comp-row:hover { background: #fafaf8; }
+.comp-row.smr-row {
+  border-left: 3px solid var(--blue);
+  background: rgba(0,111,185,0.025);
+}
+.comp-row.smr-row:hover { background: rgba(0,111,185,0.04); }
+.comp-row td { padding: 13px 16px; }
+.comp-detail-row {
+  display: none;
+  border-bottom: 1px solid var(--rule);
+  background: #f8f7f4;
+}
+.comp-detail-row.open { display: table-row; }
+.comp-detail-row td {
+  padding: 16px 20px 16px 40px;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+}
+.comp-name { font-weight: 600; color: var(--ink); }
+.smr-row .comp-name { color: var(--blue); }
+.comp-you-badge {
+  display: inline-block;
+  background: var(--blue);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 10px;
+  margin-left: 8px;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+}
+.check-icon { color: var(--green); }
+.x-icon { color: #ccc; }
+.ds-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ds-bar-track {
+  width: 80px;
+  height: 5px;
+  background: var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.ds-bar-fill {
+  height: 100%;
+  background: var(--blue);
+  border-radius: 3px;
+}
+.smr-row .ds-bar-fill { background: var(--gold); }
+
+.comp-advantage {
+  font-size: 12px;
+  color: var(--green);
+  font-style: italic;
+}
+.smr-row .comp-advantage { color: var(--blue); font-style: normal; font-weight: 500; }
+
+/* ─── AUDIT TABS ──────────────────────────────────────── */
+#audit { background: var(--bg); }
+
+.tab-bar {
+  display: flex;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 36px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.tab-bar::-webkit-scrollbar { display: none; }
+.tab-btn {
+  flex-shrink: 0;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #888;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+  margin-bottom: -1px;
+}
+.tab-btn:hover { color: var(--ink); }
+.tab-btn.active { color: var(--blue); border-bottom-color: var(--blue); }
+
+.tab-panel { display: none; opacity: 0; transition: opacity 0.2s; }
+.tab-panel.active { display: block; opacity: 1; }
+
+.grade-badge-lg {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 28px;
+}
+.grade-badge-letter {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1;
+}
+.grade-badge-score {
+  font-size: 14px;
+  color: #999;
+  align-self: flex-end;
+  padding-bottom: 8px;
+}
+
+.finding-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+.finding-header {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.priority-badge {
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+.pri-critical { background: var(--red); color: #fff; }
+.pri-high { background: var(--orange); color: #fff; }
+.pri-medium { background: var(--gold); color: #1a1818; }
+.pri-low { background: #e0e0e0; color: #555; }
+.pri-monitor { background: var(--blue); color: #fff; }
+
+.finding-title {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.finding-body {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 12px;
+}
+.finding-action {
+  display: flex;
+  gap: 8px;
+  background: rgba(0,111,185,0.04);
+  border-left: 3px solid var(--blue);
+  border-radius: 0 6px 6px 0;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+}
+.finding-action::before { content: '→ '; color: var(--blue); font-weight: 700; flex-shrink: 0; }
+
+/* Backlink chart */
+.chart-section { margin: 32px 0; }
+.chart-section-title {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.backlink-chart-wrap {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+
+.backlink-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.bl-stat {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 16px;
+}
+.bl-stat-val {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 3px;
+}
+.bl-stat-label { font-size: 12px; color: #888; }
+
+/* GEO Checklist */
+.geo-checklist { margin: 28px 0; }
+.geo-item {
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  background: var(--surface);
+}
+.geo-item-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  user-select: none;
+}
+.geo-status-icon { font-size: 16px; flex-shrink: 0; }
+.geo-item-name { font-size: 14px; font-weight: 500; flex: 1; color: var(--ink); }
+.geo-expand-icon {
+  font-size: 12px;
+  color: #aaa;
+  transition: transform 0.2s;
+}
+.geo-item.open .geo-expand-icon { transform: rotate(180deg); }
+.geo-item-detail {
+  display: none;
+  padding: 0 16px 14px 44px;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+}
+.geo-item.open .geo-item-detail { display: block; }
+
+.llms-template {
+  margin-top: 12px;
+  background: #1e1e2e;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.llms-template-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  background: rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.llms-template-header span { font-size: 11px; color: #888; font-family: 'JetBrains Mono', monospace; }
+.copy-btn {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+  letter-spacing: 0.04em;
+}
+.copy-btn:hover { background: #0058a3; }
+.copy-btn.copied { background: var(--green); }
+.llms-code {
+  padding: 16px 14px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: #cdd6f4;
+  line-height: 1.7;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+/* Performance Tab */
+.perf-device-toggle {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+.perf-device-btn {
+  padding: 8px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  color: #888;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.perf-device-btn.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+
+.perf-grade-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.perf-grade-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+.perf-device-label { font-size: 13px; color: #888; }
+.perf-grade-val {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.metric-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 16px;
+  border-top-width: 3px;
+}
+.metric-card.good { border-top-color: var(--green); }
+.metric-card.needs-improvement { border-top-color: var(--gold); }
+.metric-card.poor { border-top-color: var(--red); }
+.metric-name { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #999; margin-bottom: 6px; }
+.metric-val { font-family: 'Kantumruy Pro', sans-serif; font-size: 24px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+.metric-val.good { color: var(--green); }
+.metric-val.needs-improvement { color: var(--gold); }
+.metric-val.poor { color: var(--red); }
+.metric-desc { font-size: 11px; color: #aaa; }
+
+.tech-stack-note {
+  background: var(--light);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+.tech-stack-note strong { color: var(--ink); }
+
+/* What's Working */
+.wins-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.win-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #444;
+}
+.win-check {
+  color: var(--green);
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+@media (max-width: 600px) {
+  .wins-grid { grid-template-columns: 1fr; }
+  .backlink-stats-grid { grid-template-columns: 1fr; }
+}
+
+/* ─── ROADMAP ─────────────────────────────────────────── */
+#roadmap { background: var(--surface-warm); }
+
+.phases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 900px) {
+  .phases-grid { grid-template-columns: 1fr; }
+}
+
+.phase-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.phase-header {
+  padding: 20px 20px 16px;
+  border-bottom: 1px solid var(--rule);
+}
+.phase-dot-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.phase-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.phase-name {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+.phase-range {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 12px;
+}
+.phase-progress-bar {
+  height: 5px;
+  background: var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.phase-progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+.phase-progress-label { font-size: 11px; color: #aaa; }
+
+.phase-tasks { padding: 16px 20px; }
+.phase-task {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(226,224,219,0.5);
+}
+.phase-task:last-child { border-bottom: none; }
+.phase-task input[type="checkbox"] { display: none; }
+.phase-task-check {
+  width: 17px;
+  height: 17px;
+  border-radius: 4px;
+  border: 1.5px solid var(--rule);
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+.phase-task-check.checked {
+  border-color: var(--green);
+  background: var(--green);
+}
+.phase-task-check.checked::after {
+  content: '';
+  display: block;
+  width: 9px;
+  height: 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg) translateY(-1px);
+}
+.phase-task-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #444;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.phase-task-text.done {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+/* ─── SUMMARY ─────────────────────────────────────────── */
+#summary { background: var(--bg); }
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .summary-grid { grid-template-columns: 1fr; }
+}
+.summary-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+}
+.summary-text p { margin-bottom: 16px; }
+.summary-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.summary-stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.summary-stat-key { font-size: 14px; color: #888; }
+.summary-stat-val {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* Footer */
+.report-footer {
+  border-top: 1px solid var(--rule);
+  padding: 32px 24px;
+  text-align: center;
+}
+.report-footer-main {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 6px;
+}
+.report-footer-main a { color: var(--blue); text-decoration: none; }
+.report-footer-sub {
+  font-size: 12px;
+  color: #bbb;
+}
+
+/* ─── PRINT ───────────────────────────────────────────── */
+@media print {
+  #main-nav, .nav-mobile-menu, .filter-pills, .toggle-group, .tab-bar,
+  .perf-device-toggle, .scroll-arrow, .copy-btn { display: none !important; }
+  .tab-panel { display: block !important; opacity: 1 !important; }
+  #cover { background: #fff !important; color: var(--ink) !important; min-height: auto; padding: 40px 0 20px; }
+  .cover-h1 { color: var(--ink) !important; }
+  .cover-sub { color: #555 !important; }
+  .cover-prepared { color: var(--gold) !important; }
+  .grade-letter { color: var(--ink) !important; }
+  .hero-stat { border-color: var(--rule) !important; background: var(--light) !important; }
+  .hero-stat-num { color: var(--ink) !important; }
+  section { page-break-before: always; }
+  #cover { page-break-before: avoid; }
+  body { background: #fff !important; }
+}
+
+/* ─── REDUCED MOTION ──────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
+  html { scroll-behavior: auto; }
+}
+
+/* ─── UTILITIES ───────────────────────────────────────── */
+.hidden { display: none !important; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════ NAV ═══ -->
+<nav id="main-nav" role="navigation" aria-label="Report navigation">
+  <a class="nav-brand" href="#cover">SMR Plumbing</a>
+  <ul class="nav-links" role="list">
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#opportunity">Opportunity</a></li>
+    <li><a href="#competitive">Competitive</a></li>
+    <li><a href="#audit">Audit</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+  </ul>
+  <span class="nav-agency">Junction Consulting</span>
+  <button class="nav-hamburger" id="hamburger" aria-label="Open mobile menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="nav-mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+  <a href="#overview">Overview</a>
+  <a href="#competitive">Competitive</a>
+  <a href="#opportunity">Opportunity</a>
+  <a href="#audit">Audit</a>
+  <a href="#roadmap">Roadmap</a>
+  <a href="#summary">Summary</a>
+</div>
+
+<!-- ═══════════════════════════════════════ COVER ═══ -->
+<section id="cover">
+  <div class="cover-inner">
+    <div class="cover-left">
+      <p class="cover-prepared">Prepared by Junction Consulting · June 2026</p>
+      <h1 class="cover-h1">SMR Plumbing &amp; Heating<br>Search Visibility Report</h1>
+      <p class="cover-sub">SEO Audit &amp; Lead Growth Strategy · North Vancouver &amp; Lower Mainland</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="stat-visits">0</div>
+          <div class="hero-stat-label">Current Monthly Visits</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="stat-searches">0</div>
+          <div class="hero-stat-label">Monthly Searches: 'plumber vancouver'</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="stat-ai">0</div>
+          <div class="hero-stat-label">AI Search Appearances</div>
+        </div>
+      </div>
+    </div>
+    <div class="cover-right">
+      <div class="grade-ring-wrap" role="img" aria-label="Overall SEO grade: B+, score 74 out of 100">
+        <svg viewBox="0 0 220 220" aria-hidden="true">
+          <circle class="grade-ring-track" cx="110" cy="110" r="90"/>
+          <circle class="grade-ring-prog" id="heroRingProg" cx="110" cy="110" r="90"/>
+        </svg>
+        <div class="grade-ring-text">
+          <div class="grade-letter">B+</div>
+          <div class="grade-score">74 / 100</div>
+        </div>
+      </div>
+      <p class="grade-tagline">Strong technical foundation. Massive untapped lead potential.</p>
+    </div>
+  </div>
+  <div class="scroll-arrow" aria-hidden="true">
+    <span></span>
+    <svg width="16" height="10" viewBox="0 0 16 10" fill="none">
+      <path d="M1 1L8 8L15 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ OVERVIEW ═══ -->
+<section id="overview">
+  <div class="section-inner">
+    <p class="section-label">Audit Overview</p>
+    <h2 class="section-h2">Where SMR Stands Today</h2>
+
+    <div class="radials-row" id="radials-row">
+      <!-- radials injected by JS -->
+    </div>
+
+    <blockquote class="exec-summary">
+      SMR has the strongest technical SEO foundation in the North Vancouver trades market — A+ on-page execution, clean site architecture, and zero errors. The gap is authority, AI visibility, and local depth. Fixing the three Critical issues alone could double organic traffic within 90 days.
+    </blockquote>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ OPPORTUNITY ═══ -->
+<section id="opportunity">
+  <div class="section-inner">
+    <p class="section-label">Keyword Opportunity</p>
+    <h2 class="section-h2">The Traffic Gap</h2>
+
+    <div class="big-stats-row">
+      <div class="big-stat-box">
+        <div class="big-stat-num">105<span style="font-size:0.55em;font-weight:400;color:#aaa">/mo</span></div>
+        <div class="big-stat-label">Current organic traffic</div>
+      </div>
+      <div class="big-stat-box">
+        <div class="big-stat-num">14,000+<span style="font-size:0.45em;font-weight:400;color:#aaa">/mo</span></div>
+        <div class="big-stat-label">Total addressable keyword volume</div>
+      </div>
+      <div class="big-stat-box">
+        <div class="big-stat-num" style="color:var(--blue)">133×</div>
+        <div class="big-stat-label">Growth multiplier if fully captured</div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Kantumruy Pro',sans-serif;font-size:22px;font-weight:700;margin-bottom:16px;">Keyword Explorer</h3>
+    <div class="filter-pills" id="kw-filters" role="group" aria-label="Filter keywords">
+      <button class="pill active" data-filter="all">All</button>
+      <button class="pill" data-filter="ranking">Currently Ranking</button>
+      <button class="pill" data-filter="opportunity">Opportunities</button>
+      <button class="pill" data-filter="emergency">Emergency</button>
+      <button class="pill" data-filter="hvac">HVAC</button>
+      <button class="pill" data-filter="local">Local</button>
+      <button class="pill" data-filter="rebates">Rebates</button>
+    </div>
+
+    <div class="kw-table-wrap">
+      <table class="kw-table" aria-label="Keyword rankings and opportunities">
+        <thead>
+          <tr>
+            <th>Keyword</th>
+            <th>Position</th>
+            <th>Monthly Searches</th>
+            <th>Est. Traffic</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="kw-tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- Traffic Growth Chart -->
+    <div class="chart-header">
+      <h3 class="chart-title">Traffic Growth Forecast</h3>
+      <div class="toggle-group" role="group" aria-label="Forecast scenario">
+        <button class="toggle-btn active" id="btn-conservative">Conservative Forecast</button>
+        <button class="toggle-btn" id="btn-aggressive">Aggressive Forecast</button>
+      </div>
+    </div>
+    <div class="chart-wrap">
+      <canvas id="trafficChart" height="280" aria-label="Traffic growth forecast chart"></canvas>
+    </div>
+    <div class="forecast-stats">
+      <div class="forecast-stat">
+        <div class="forecast-stat-num" id="fc-m3">280</div>
+        <div class="forecast-stat-label">Month 3 visitors</div>
+      </div>
+      <div class="forecast-stat">
+        <div class="forecast-stat-num" id="fc-m6">560</div>
+        <div class="forecast-stat-label">Month 6 visitors</div>
+      </div>
+      <div class="forecast-stat">
+        <div class="forecast-stat-num" id="fc-m12leads">50</div>
+        <div class="forecast-stat-label">Month 12 est. leads/mo</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ COMPETITIVE ═══ -->
+<section id="competitive">
+  <div class="section-inner">
+    <p class="section-label">Competitive Landscape</p>
+    <h2 class="section-h2">North Vancouver Plumbing Market</h2>
+
+    <div class="comp-table-wrap">
+      <table class="comp-table" aria-label="Competitor comparison">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>Domain Strength</th>
+            <th>Reviews</th>
+            <th>Emergency</th>
+            <th>GEO Ready</th>
+            <th>SMR Advantage</th>
+          </tr>
+        </thead>
+        <tbody id="comp-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ AUDIT TABS ═══ -->
+<section id="audit">
+  <div class="section-inner">
+    <p class="section-label">Detailed Audit Findings</p>
+    <h2 class="section-h2">Six-Area Deep Dive</h2>
+
+    <div class="tab-bar" role="tablist" aria-label="Audit categories">
+      <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-links" id="tab-btn-links">🔗 Link Authority</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-ai" id="tab-btn-ai">🤖 AI Search</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-local" id="tab-btn-local">📍 Local SEO</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-perf" id="tab-btn-perf">⚡ Performance</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-content" id="tab-btn-content">✍️ Content</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-wins" id="tab-btn-wins">✅ What's Working</button>
+    </div>
+
+    <!-- TAB 1: Link Authority -->
+    <div class="tab-panel active" id="tab-links" role="tabpanel" aria-labelledby="tab-btn-links">
+      <div class="grade-badge-lg">
+        <span class="grade-badge-letter" style="color:var(--orange)">D</span>
+        <span class="grade-badge-score">28 / 100</span>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-critical">Critical</span>
+          <h4 class="finding-title">Low domain authority is the primary ranking ceiling</h4>
+        </div>
+        <p class="finding-body">Domain Strength of 12/100 with only 20 dofollow backlinks prevents competitive ranking on high-volume terms. 45 of 65 backlinks are nofollow and pass minimal ranking benefit. Top referring domains are all directory sites with limited editorial value.</p>
+        <div class="finding-action">Target 8–12 high-quality dofollow links over 6 months from: local North Vancouver BIAs, FortisBC/BC Hydro contractor listings, strata management company vendor pages, HAVAN member directory, HomeStars.</div>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-high">High</span>
+          <h4 class="finding-title">High-value link targets identified</h4>
+        </div>
+        <p class="finding-body">FortisBC and BC Hydro contractor directories carry high domain authority and direct commercial relevance. A listing (dofollow) from these sources would provide both SEO authority and qualified referral traffic from homeowners actively seeking rebate-eligible contractors.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-medium">Medium</span>
+          <h4 class="finding-title">Strata management companies are an untapped link + lead source</h4>
+        </div>
+        <p class="finding-body">North Vancouver has hundreds of strata corporations managed by firms like FirstService, Rancho, and Tribe. A vendor page listing on 3–5 strata management sites delivers both quality backlinks and direct referral leads — making link building a business development activity.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-monitor">Monitor</span>
+          <h4 class="finding-title">Backlink anchor text includes suspicious patterns</h4>
+        </div>
+        <p class="finding-body">Several backlink anchors include Telegram group links which may indicate low-quality link patterns. Not currently a penalty risk but should be monitored via Google Search Console.</p>
+      </div>
+
+      <div class="chart-section">
+        <h4 class="chart-section-title">Backlink Profile — Top Referring Domains</h4>
+        <div class="backlink-chart-wrap">
+          <canvas id="backlinkChart" height="280" aria-label="Backlink domain strength chart"></canvas>
+        </div>
+        <div class="backlink-stats-grid">
+          <div class="bl-stat"><div class="bl-stat-val">65</div><div class="bl-stat-label">Total Backlinks</div></div>
+          <div class="bl-stat"><div class="bl-stat-val">48</div><div class="bl-stat-label">Referring Domains</div></div>
+          <div class="bl-stat"><div class="bl-stat-val">20</div><div class="bl-stat-label">Dofollow Links</div></div>
+          <div class="bl-stat"><div class="bl-stat-val">45</div><div class="bl-stat-label">Nofollow Links</div></div>
+          <div class="bl-stat"><div class="bl-stat-val">12/100</div><div class="bl-stat-label">Domain Strength</div></div>
+          <div class="bl-stat"><div class="bl-stat-val">3/100</div><div class="bl-stat-label">Page Strength</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: AI Search -->
+    <div class="tab-panel" id="tab-ai" role="tabpanel" aria-labelledby="tab-btn-ai">
+      <div class="grade-badge-lg">
+        <span class="grade-badge-letter" style="color:var(--red)">F</span>
+        <span class="grade-badge-score">12 / 100</span>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-critical">Critical</span>
+          <h4 class="finding-title">Zero presence in AI-powered search</h4>
+        </div>
+        <p class="finding-body">0 Google AI Overview appearances. No llms.txt file. As ChatGPT, Perplexity, and Google AI Mode answer queries like "best plumber North Vancouver," businesses with GEO infrastructure will be cited first. SMR is entirely invisible in this growing channel today.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-high">High</span>
+          <h4 class="finding-title">Create llms.txt file (30-minute fix)</h4>
+        </div>
+        <p class="finding-body">The llms.txt file is the "robots.txt for AI." It tells AI crawlers what the site is about, which pages matter, and what services are offered. A missing llms.txt file is a significant missed opportunity for AI citation.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-high">High</span>
+          <h4 class="finding-title">Upgrade Organization schema to LocalBusiness/Plumber type</h4>
+        </div>
+        <p class="finding-body">The site uses a generic Organization schema but is missing Plumber schema (a LocalBusiness subtype). This schema should include: service area (areaServed), all service types, geo coordinates, opening hours, and payment methods. This directly improves AI Overview and Google Local Pack citations.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-medium">Medium</span>
+          <h4 class="finding-title">25% dynamic rendering blocks AI crawlers</h4>
+        </div>
+        <p class="finding-body">AI search crawlers don't execute JavaScript. Approximately 25% of the site's content is injected by JS (likely Elementor sliders and lazy-loaded sections) and is invisible to AI systems. Key content — services, locations, contact details — must be in the initial HTML response.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-medium">Medium</span>
+          <h4 class="finding-title">Add FAQPage schema to all service pages</h4>
+        </div>
+        <p class="finding-body">AI search specifically extracts FAQ-formatted content for citation. Adding FAQ sections (with FAQPage schema) to each service page dramatically increases the probability of being cited in AI answers. Each FAQ answer should be 2–4 sentences and directly answer a real customer question.</p>
+      </div>
+
+      <div class="geo-checklist" id="geo-checklist"></div>
+    </div>
+
+    <!-- TAB 3: Local SEO -->
+    <div class="tab-panel" id="tab-local" role="tabpanel" aria-labelledby="tab-btn-local">
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-critical">Critical</span>
+          <h4 class="finding-title">Business address missing from website</h4>
+        </div>
+        <p class="finding-body">The website does not display the business address anywhere, breaking NAP (Name, Address, Phone) consistency — a core local ranking signal. The Google Business Profile address is: 1081 Roosevelt Crescent, North Vancouver, BC V7P 1M4. This must appear in the footer on every page, formatted identically to the GBP listing.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-critical">Critical</span>
+          <h4 class="finding-title">No LocalBusiness schema</h4>
+        </div>
+        <p class="finding-body">Despite having JSON-LD on the site, there is no LocalBusiness or Plumber schema type. This is the most important structured data signal for Local Pack rankings. The schema must include: geo coordinates, service area by city, opening hours, and all service types offered.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-high">High</span>
+          <h4 class="finding-title">No location-specific service pages exist</h4>
+        </div>
+        <p class="finding-body">No dedicated pages exist for key sub-markets. Pages targeting "plumber [neighbourhood]" rank more easily than generic city-wide terms because they face less competition. Priority pages to create: North Vancouver, West Vancouver, Lonsdale, Lynn Valley / Deep Cove, Edgemont Village, Burnaby, Strata Plumbing North Vancouver.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-medium">Medium</span>
+          <h4 class="finding-title">109 reviews is strong — 300+ would be dominant</h4>
+        </div>
+        <p class="finding-body">Competitors Milani and Pioneer have 500–2,000+ reviews. A systematic post-job SMS review request (sent within 2 hours of job completion, with a direct GBP link) could realistically add 3–5 reviews per week. Tools: NiceJob, Broadly, or a Zapier-automated SMS workflow.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-medium">Medium</span>
+          <h4 class="finding-title">GBP Posts, Services menu, and Q&amp;A underutilized</h4>
+        </div>
+        <p class="finding-body">Weekly GBP Posts signal business activity to Google. The Services menu should list every service with descriptions and price ranges where possible. Proactively add and answer 10+ Q&amp;A entries in GBP. Add 50+ geotagged job-site photos to the GBP listing.</p>
+      </div>
+    </div>
+
+    <!-- TAB 4: Performance -->
+    <div class="tab-panel" id="tab-perf" role="tabpanel" aria-labelledby="tab-btn-perf">
+      <div class="perf-grade-row">
+        <div class="perf-grade-chip">
+          <span class="perf-device-label">Mobile</span>
+          <span class="perf-grade-val" style="color:var(--amber)">D+</span>
+          <span style="font-size:13px;color:#aaa">35 / 100</span>
+        </div>
+        <div class="perf-grade-chip">
+          <span class="perf-device-label">Desktop</span>
+          <span class="perf-grade-val" style="color:var(--blue)">B+</span>
+          <span style="font-size:13px;color:#aaa">72 / 100</span>
+        </div>
+      </div>
+
+      <div class="perf-device-toggle">
+        <button class="perf-device-btn active" id="perf-mobile-btn">Mobile</button>
+        <button class="perf-device-btn" id="perf-desktop-btn">Desktop</button>
+      </div>
+
+      <div class="metrics-grid" id="metrics-grid"></div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-high">High</span>
+          <h4 class="finding-title">Mobile PageSpeed 39/100 is costing emergency leads</h4>
+        </div>
+        <p class="finding-body">70–80% of emergency plumbing searches happen on mobile. A 15.7s Time to Interactive means potential customers bounce before the page loads. Primary causes: 2.9s server response time, 58 JS resources, 1.35MB total JavaScript weight, images only 4% compressed.</p>
+        <div class="finding-action">Upgrade hosting to Kinsta or WP Engine, fully configure WP Rocket (Critical CSS, defer JS), audit and eliminate unused plugins, enable WebP image conversion.</div>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-medium">Medium</span>
+          <h4 class="finding-title">Missing SPF and DMARC DNS records</h4>
+        </div>
+        <p class="finding-body">No SPF or DMARC records found for the email domain. These records prevent domain spoofing and significantly improve email deliverability for quote follow-ups and booking confirmations. Both records can be added in under 30 minutes via the DNS management panel.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-low">Low</span>
+          <h4 class="finding-title">iFrames and inline styles adding overhead</h4>
+        </div>
+        <p class="finding-body">iFrames (likely the Google Maps embed) add significant load time and complicate mobile rendering. Replace with a static map image linking to Google Maps. Elementor-generated inline styles inflate HTML size and degrade page maintainability.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-low">Low</span>
+          <h4 class="finding-title">Plain text email address exposed</h4>
+        </div>
+        <p class="finding-body">The email address displayed in plain text on the website is vulnerable to spam scraper bots. Replace with a contact form or a CSS-obfuscated email display method.</p>
+      </div>
+
+      <div class="tech-stack-note">
+        <strong>Technology stack:</strong> WordPress · Elementor 4.1.1 · Yoast SEO 27.7 · WP Rocket · Google Analytics · Google Tag Manager · Facebook Pixel · ClickCease · UserWay · Apache · Swiper · Typekit · Site Kit 1.179.0
+      </div>
+    </div>
+
+    <!-- TAB 5: Content -->
+    <div class="tab-panel" id="tab-content" role="tabpanel" aria-labelledby="tab-btn-content">
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-high">High</span>
+          <h4 class="finding-title">Service pages are too thin to rank competitively</h4>
+        </div>
+        <p class="finding-body">Current service pages appear to be 200–400 words. Competitive pages for terms like "heat pump installation north vancouver" need 800–1,200 words covering: what's involved, why BC's climate suits heat pumps, available rebate programs, the installation process, typical costs, and FAQs.</p>
+        <div class="finding-action">Content priority: Heat Pumps › Gas Fitting › Emergency Plumbing › HVAC/AC › Strata/Commercial.</div>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-high">High</span>
+          <h4 class="finding-title">FortisBC/BC Hydro rebate content is a major untapped opportunity</h4>
+        </div>
+        <p class="finding-body">BC residents actively research heat pump rebates (BC Hydro up to $3,000, FortisBC up to $6,000 combined). A dedicated page — "Heat Pump Rebates in BC: What North Shore Homeowners Need to Know" — would capture high-intent research traffic and be highly cited by AI search systems. As a FortisBC registered contractor, SMR owns this topic locally.</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-medium">Medium</span>
+          <h4 class="finding-title">Blog content will compound over 12–18 months</h4>
+        </div>
+        <p class="finding-body">Target 1–2 posts per month on highly specific, answerable questions. Not volume — precision. Priority topics: "Why does my furnace short-cycle in North Vancouver winters?", "How to choose between a heat pump and furnace in BC", "What to do if you smell gas in your home: a North Vancouver guide", "Complete guide to strata plumbing responsibilities in BC", "Hot water tank vs tankless: what's right for your North Shore home?"</p>
+      </div>
+
+      <div class="finding-card">
+        <div class="finding-header">
+          <span class="priority-badge pri-low">Low</span>
+          <h4 class="finding-title">Portfolio section is an underutilized SEO asset</h4>
+        </div>
+        <p class="finding-body">Each portfolio entry should include: project type, scope, specific technologies installed (e.g., "Mitsubishi Zuba-Central heat pumps in a 12-unit North Vancouver strata building"), and neighbourhood-level location. This transforms a passive photo gallery into indexed, keyword-rich content.</p>
+      </div>
+    </div>
+
+    <!-- TAB 6: What's Working -->
+    <div class="tab-panel" id="tab-wins" role="tabpanel" aria-labelledby="tab-btn-wins">
+      <div class="grade-badge-lg">
+        <span class="grade-badge-letter" style="color:var(--green)">A+</span>
+        <span class="grade-badge-score">On-Page SEO · 20 confirmed wins</span>
+      </div>
+      <div class="wins-grid" id="wins-grid"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ ROADMAP ═══ -->
+<section id="roadmap">
+  <div class="section-inner">
+    <p class="section-label">90-Day Action Plan</p>
+    <h2 class="section-h2">Fix. Build. Scale.</h2>
+    <div class="phases-grid" id="phases-grid"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ SUMMARY ═══ -->
+<section id="summary">
+  <div class="section-inner">
+    <p class="section-label">Report Summary</p>
+    <h2 class="section-h2">Your Path to Market Leadership</h2>
+
+    <div class="summary-grid">
+      <div class="summary-text">
+        <p>SMR Plumbing &amp; Heating enters 2026 with an exceptional technical SEO foundation — the strongest on-page execution of any plumber on the North Shore — but with authority, AI visibility, and local content depth yet to be unlocked.</p>
+        <p>The opportunity is asymmetric: 14,000+ monthly searches in the addressable market, with SMR currently capturing fewer than 200 of them. Three critical fixes (address in footer, LocalBusiness schema, llms.txt) can be executed in under a week. The 90-day roadmap prioritizes the highest-leverage actions to build compounding traffic and qualified leads.</p>
+        <p>With consistent execution on the roadmap, the 12-month target of 1,250–2,100 monthly visitors is achievable — representing 50–84 new qualified leads per month from organic search alone.</p>
+      </div>
+      <div class="summary-stats">
+        <div class="summary-stat-row">
+          <span class="summary-stat-key">Current monthly visits</span>
+          <span class="summary-stat-val">147</span>
+        </div>
+        <div class="summary-stat-row">
+          <span class="summary-stat-key">On-page SEO grade</span>
+          <span class="summary-stat-val" style="color:var(--green)">A+</span>
+        </div>
+        <div class="summary-stat-row">
+          <span class="summary-stat-key">AI search readiness</span>
+          <span class="summary-stat-val" style="color:var(--red)">F</span>
+        </div>
+        <div class="summary-stat-row">
+          <span class="summary-stat-key">Google reviews</span>
+          <span class="summary-stat-val">109 ⭐ 5.0</span>
+        </div>
+        <div class="summary-stat-row">
+          <span class="summary-stat-key">12-mo traffic target</span>
+          <span class="summary-stat-val" style="color:var(--blue)">1,250–2,100</span>
+        </div>
+        <div class="summary-stat-row">
+          <span class="summary-stat-key">Est. monthly leads at M12</span>
+          <span class="summary-stat-val" style="color:var(--blue)">50–84</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="report-footer">
+    <p class="report-footer-main">Prepared by Junction Consulting · <a href="mailto:hello@wearejunction.com">hello@wearejunction.com</a> · June 2026</p>
+    <p class="report-footer-sub">This report is confidential and prepared exclusively for SMR Plumbing &amp; Heating.</p>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+// ─── DATA ─────────────────────────────────────────────────────────────────────
+
+const scoreData = [
+  {cat:"On-Page SEO", grade:"A+", score:97, color:"#17BA8F"},
+  {cat:"GEO / AI Search", grade:"F", score:12, color:"#C0392B"},
+  {cat:"Link Authority", grade:"D", score:28, color:"#B84D0F"},
+  {cat:"Usability", grade:"D+", score:35, color:"#B45309"},
+  {cat:"Performance", grade:"B+", score:72, color:"#006FB9"},
+];
+
+const keywords = [
+  {kw:"smr plumbing",pos:1,vol:110,traffic:33,status:"ranking",cat:"branded",
+   action:"Branded keyword — maintain and protect with consistent NAP data."},
+  {kw:"smr plumbing and heating",pos:1,vol:110,traffic:33,status:"ranking",cat:"branded",
+   action:"Branded keyword — ensure consistent branding across all platforms."},
+  {kw:"plumbing and heating vancouver",pos:3,vol:140,traffic:14,status:"ranking",cat:"service",
+   action:"Already ranking #3 — build internal links from new location pages to push toward #1."},
+  {kw:"plumber vancouver",pos:30,vol:4400,traffic:9,status:"ranking",cat:"core",
+   action:"Ranking #30 — needs domain authority increase and content depth to break into top 10."},
+  {kw:"heating and plumbing north vancouver",pos:3,vol:70,traffic:7,status:"ranking",cat:"local",
+   action:"Strong local ranking — reinforce with LocalBusiness schema and GBP optimization."},
+  {kw:"vancouver plumbing and heating",pos:7,vol:140,traffic:4,status:"ranking",cat:"service",
+   action:"Ranking #7 — optimize internal linking and add location-specific content to push into top 5."},
+  {kw:"vancouver heating and plumbing",pos:9,vol:140,traffic:2,status:"ranking",cat:"service",
+   action:"Ranking #9 — deepen page content and build 2–3 relevant backlinks to push into top 5."},
+  {kw:"plumbing and heating vancouver bc",pos:10,vol:140,traffic:2,status:"ranking",cat:"local",
+   action:"Ranking #10 — add location-specific FAQ content and a LocalBusiness schema to break top 5."},
+  {kw:"plumbing in vancouver",pos:6,vol:40,traffic:1,status:"ranking",cat:"core",
+   action:"Good position for a lower-volume term — maintain and cross-link with service pages."},
+  {kw:"emergency plumber north vancouver",pos:null,vol:320,traffic:0,status:"opportunity",cat:"emergency",
+   action:"Create a dedicated Emergency Plumbing page for North Vancouver with 24/7 messaging and LocalBusiness schema."},
+  {kw:"24 hour plumber vancouver",pos:null,vol:480,traffic:0,status:"opportunity",cat:"emergency",
+   action:"High-value emergency term — create a 24/7 emergency plumbing landing page targeting Vancouver metro."},
+  {kw:"heat pump installation north vancouver",pos:null,vol:260,traffic:0,status:"opportunity",cat:"hvac",
+   action:"Expand the heat pumps service page to 900+ words and add North Vancouver location signals."},
+  {kw:"gas fitting north vancouver",pos:null,vol:170,traffic:0,status:"opportunity",cat:"gas",
+   action:"Expand gas fitting service page with North Vancouver location content and FAQ schema."},
+  {kw:"hvac north vancouver",pos:null,vol:390,traffic:0,status:"opportunity",cat:"hvac",
+   action:"Create a dedicated HVAC North Vancouver page covering heat pumps, furnaces, and AC installation."},
+  {kw:"furnace repair north vancouver",pos:null,vol:210,traffic:0,status:"opportunity",cat:"heating",
+   action:"Add a furnace repair section to the heating page with North Vancouver-specific content."},
+  {kw:"strata plumbing north vancouver",pos:null,vol:90,traffic:0,status:"opportunity",cat:"commercial",
+   action:"Create a Strata Plumbing page showcasing SMR's multi-unit and commercial expertise."},
+  {kw:"commercial plumber north vancouver",pos:null,vol:140,traffic:0,status:"opportunity",cat:"commercial",
+   action:"Create a commercial plumbing landing page covering strata, new construction, and commercial work."},
+  {kw:"hot water tank replacement vancouver",pos:null,vol:320,traffic:0,status:"opportunity",cat:"service",
+   action:"Create or expand a hot water tank service page targeting Vancouver and the North Shore."},
+  {kw:"drain cleaning north vancouver",pos:null,vol:190,traffic:0,status:"opportunity",cat:"service",
+   action:"Add a drain cleaning page targeting North Vancouver with service details and local FAQs."},
+  {kw:"boiler repair north vancouver",pos:null,vol:110,traffic:0,status:"opportunity",cat:"heating",
+   action:"Add boiler repair content to the heating service page with North Vancouver keywords."},
+  {kw:"air conditioning installation north vancouver",pos:null,vol:150,traffic:0,status:"opportunity",cat:"hvac",
+   action:"Add AC installation content to the HVAC page with North Vancouver location signals."},
+  {kw:"fortisbc rebate heat pump",pos:null,vol:720,traffic:0,status:"opportunity",cat:"rebates",
+   action:"Create a FortisBC rebate page explaining eligibility, amounts, and SMR's registered contractor status."},
+  {kw:"bc hydro heat pump rebate plumber",pos:null,vol:390,traffic:0,status:"opportunity",cat:"rebates",
+   action:"Create a BC Hydro rebate page and link it from all heat pump content — high AI citation potential."},
+  {kw:"gas line installation vancouver",pos:null,vol:260,traffic:0,status:"opportunity",cat:"gas",
+   action:"Expand gas fitting page with a section on new gas line installation for Vancouver homeowners."},
+  {kw:"new construction plumbing north shore",pos:null,vol:80,traffic:0,status:"opportunity",cat:"commercial",
+   action:"Create a new construction plumbing page targeting North Shore developers and contractors."},
+];
+
+const competitors = [
+  {name:"Milani Plumbing",ds:45,reviews:"2,100+",emergency:true,geo:true,
+   advantage:"SMR's advantage: Stronger North Shore local focus, faster response on the North Shore, and a perfect 5-star rating.",
+   detail:"Milani is the dominant player in the Vancouver market with strong domain authority built over 15+ years. They invest heavily in content marketing and have extensive GEO optimization including llms.txt and FAQ schema. SMR's differentiation: specialized North Shore expertise and boutique service quality that large operators can't match.",isSMR:false},
+  {name:"Pioneer Plumbing",ds:38,reviews:"850+",emergency:true,geo:false,
+   advantage:"SMR's advantage: More comprehensive service offering including gas fitting and heat pump installation.",
+   detail:"Pioneer has strong brand recognition in the Lower Mainland and a well-optimized Google Business Profile. Their website lacks GEO optimization and their content strategy is thin. SMR can outrank them on North Shore-specific terms with targeted location pages.",isSMR:false},
+  {name:"Lew Plumbing",ds:22,reviews:"210+",emergency:false,geo:false,
+   advantage:"SMR's advantage: Broader service range, more reviews, and superior online reputation.",
+   detail:"Lew Plumbing has decent local SEO for their primary service area but minimal content investment. No GEO optimization, no FAQ schema, and their service pages are thin. SMR is well-positioned to overtake them in North Shore rankings within 90 days.",isSMR:false},
+  {name:"Global Plumbing Inc.",ds:18,reviews:"95+",emergency:false,geo:false,
+   advantage:"SMR's advantage: Stronger review profile, better on-page SEO, and broader service area.",
+   detail:"Global Plumbing has limited SEO investment and primarily relies on direct referrals. Their web presence is outdated and their Google Business Profile is underdeveloped. SMR already outperforms them on most technical SEO metrics.",isSMR:false},
+  {name:"SMR Plumbing",ds:12,reviews:"109",emergency:false,geo:false,
+   advantage:"— you are here",
+   detail:"SMR has the strongest on-page technical SEO of any North Shore plumber, but the lowest domain authority due to minimal link building to date. The opportunity gap is clear: superior content + targeted link acquisition = market leadership within 12 months.",isSMR:true},
+];
+
+const geoChecklist = [
+  {item:"Identity Schema (Organization)",status:"pass",detail:"Organization schema detected on the homepage — however, the critical Plumber/LocalBusiness type is missing, which limits Local Pack and AI citation eligibility."},
+  {item:"llms.txt file",status:"fail",detail:"No llms.txt file found at smrplumbing.com/llms.txt. This file is the primary signal for AI crawlers to understand and cite your business. Template below.",showTemplate:true},
+  {item:"LLM Content Readability",status:"fail",detail:"Approximately 25% of site content is rendered dynamically via JavaScript. AI crawlers cannot execute JS, making this content invisible. Migrate key service content to server-side HTML."},
+  {item:"AI Overview appearances",status:"fail",detail:"Zero detected AI Overview appearances for target queries. Requires: LocalBusiness schema, FAQ schema on service pages, and static content rendering."},
+  {item:"FAQPage schema",status:"fail",detail:"No FAQ schema found on any service pages. FAQPage schema is one of the most reliable triggers for AI Overview inclusion. Add to all service pages immediately."},
+  {item:"Robots.txt AI crawler access",status:"pass",detail:"AI crawlers (GPTBot, Google-Extended, PerplexityBot) are not blocked in robots.txt. This is correct — ensure this remains the case as AI crawlers grow in importance."},
+  {item:"Server-side content rendering",status:"partial",detail:"Approximately 75% of page content is server-rendered (good). The remaining 25% is JS-injected. Priority: ensure all service names, locations, contact info, and FAQs are in initial HTML."},
+  {item:"Structured NAP data",status:"partial",detail:"Phone number is present on the site, but business address is entirely missing. Complete NAP (Name, Address, Phone) consistency is required for both Local Pack rankings and AI citation accuracy."},
+];
+
+const llmsTxt = `# SMR Plumbing & Heating
+> A licensed plumbing, heating, HVAC, and gas fitting company serving North Vancouver, West Vancouver, and the Greater Vancouver area.
+
+## Key Pages
+- Homepage: https://www.smrplumbing.com/
+- Services: https://www.smrplumbing.com/services/
+- Heat Pumps: https://www.smrplumbing.com/services/heat-pumps/
+- Gas Fitting: https://www.smrplumbing.com/services/gas-fitting/
+- Contact: https://www.smrplumbing.com/contact/
+
+## Services
+Residential & commercial plumbing, heat pump installation & servicing, furnace repair & replacement, boiler service, gas line installation & repair, HVAC, drainage, hot water tank replacement, emergency plumbing.
+
+## Service Area
+North Vancouver, West Vancouver, Vancouver, Burnaby, Lower Mainland BC.
+
+## Contact
+Phone: 604-616-0062
+Address: 1081 Roosevelt Crescent, North Vancouver, BC V7P 1M4`;
+
+const perfData = {
+  mobile: {
+    score:39,
+    metrics:[
+      {name:"Score",val:"39",raw:39,unit:"",type:"score"},
+      {name:"FCP",val:"3.2s",raw:3.2,unit:"s",type:"fcp"},
+      {name:"Speed Index",val:"8.3s",raw:8.3,unit:"s",type:"si"},
+      {name:"LCP",val:"4.2s",raw:4.2,unit:"s",type:"lcp"},
+      {name:"TTI",val:"15.7s",raw:15.7,unit:"s",type:"tti"},
+      {name:"TBT",val:"1.17s",raw:1170,unit:"ms",type:"tbt"},
+      {name:"CLS",val:"0.009",raw:0.009,unit:"",type:"cls"},
+    ]
+  },
+  desktop: {
+    score:61,
+    metrics:[
+      {name:"Score",val:"61",raw:61,unit:"",type:"score"},
+      {name:"FCP",val:"0.7s",raw:0.7,unit:"s",type:"fcp"},
+      {name:"Speed Index",val:"3.3s",raw:3.3,unit:"s",type:"si"},
+      {name:"LCP",val:"1.0s",raw:1.0,unit:"s",type:"lcp"},
+      {name:"TTI",val:"3.5s",raw:3.5,unit:"s",type:"tti"},
+      {name:"TBT",val:"0.77s",raw:770,unit:"ms",type:"tbt"},
+      {name:"CLS",val:"0",raw:0,unit:"",type:"cls"},
+    ]
+  }
+};
+
+const wins = [
+  "A+ on-page SEO — title tag, meta description, H1/H2 structure, and keyword consistency all excellent",
+  "Title tag optimal (56 chars): \"Plumbing and Heating Specialist - SMR Plumbing &amp; Heating\"",
+  "Meta description optimal (138 chars) and well-written",
+  "Canonical tags, robots.txt, XML sitemap, and SSL all correctly configured",
+  "Google Analytics and Google Tag Manager properly installed",
+  "JSON-LD structured data already present (needs upgrading, not replacement)",
+  "Facebook Open Graph tags and Facebook Pixel properly configured",
+  "HTTP/2 protocol in use",
+  "All JS and CSS files minified",
+  "No deprecated HTML elements or JavaScript errors detected",
+  "WP Rocket installed (needs configuration, not replacement)",
+  "Yoast SEO at current version (27.7)",
+  "5-star Google rating with 109 reviews — exceptional for a trades contractor",
+  "Mobile viewport correctly configured",
+  "Clean, readable URL structure (/services/gas-fitting/, /services/heat-pumps/, etc.)",
+  "Active Facebook (facebook.com/smrplumbing) and Instagram (smr_plumbing_heating) linked",
+  "Comprehensive service page architecture already in place",
+  "Careers, Testimonials, Warranty, and Web Accessibility policy pages exist",
+  "No JavaScript errors reported",
+  "UserWay accessibility widget installed",
+];
+
+const phases = [
+  {
+    name:"Fix the Foundation",
+    range:"Days 1–30",
+    color:"#C0392B",
+    tasks:[
+      "Add full business address (1081 Roosevelt Crescent) to website footer",
+      "Correct phone number to 604-616-0062 across all pages",
+      "Implement LocalBusiness / Plumber JSON-LD schema (service area, hours, coordinates)",
+      "Create and deploy llms.txt file at site root",
+      "Add SPF DNS record for email domain",
+      "Add DMARC DNS record for email domain",
+      "Configure WP Rocket: enable Critical CSS, lazy loading, JS defer/delay",
+      "Replace Google Maps iFrame with static image + link",
+      "Remove or obfuscate plain text email address",
+      "Upgrade server/hosting to reduce 2.9s server response time",
+    ]
+  },
+  {
+    name:"Content & Authority Build",
+    range:"Days 30–60",
+    color:"#D6B033",
+    tasks:[
+      "Add alt attributes to all 80 images missing them",
+      "Expand Heat Pumps service page to 900+ words with FAQ section",
+      "Expand Gas Fitting service page to 900+ words with FAQ section",
+      "Create Emergency Plumbing landing page",
+      "Add FAQPage schema to all expanded service pages",
+      "Create \"BC Heat Pump Rebates\" landing page (FortisBC + BC Hydro)",
+      "Create North Vancouver location page",
+      "Create West Vancouver location page",
+      "Submit to FortisBC registered contractor directory",
+      "Submit to BC Hydro heat pump contractor directory",
+      "Submit to HAVAN member directory",
+      "Launch post-job SMS review request workflow",
+      "Start GBP Posts: minimum 1 per week",
+    ]
+  },
+  {
+    name:"Scale & Compound",
+    range:"Days 60–90",
+    color:"#17BA8F",
+    tasks:[
+      "Contact 10 North Shore strata management companies for vendor listings",
+      "Publish blog post: gas safety guide for North Vancouver homeowners",
+      "Publish blog post: heat pump vs furnace for North Shore homes",
+      "Create Lonsdale location page",
+      "Create Lynn Valley location page",
+      "Create Burnaby location page",
+      "Reduce JavaScript dependency for key service page content",
+      "Add AggregateRating schema from Google Reviews",
+      "Submit to HomeStars and Houzz",
+      "Audit portfolio pages — add descriptive copy and geo-tagged alt text",
+      "Review backlink profile and disavow spammy links",
+    ]
+  }
+];
+
+const months = ["Now","M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12"];
+const conservative = [147,160,195,280,360,450,560,650,740,860,980,1100,1250];
+const aggressive = [147,175,240,380,520,680,850,1020,1180,1380,1560,1780,2100];
+
+const backlinks = [
+  {domain:"bestprosintown.com",strength:81},
+  {domain:"betterhomesbc.ca",strength:77},
+  {domain:"directory.reviewsonmywebsite.com",strength:74},
+  {domain:"canpages.ca",strength:73},
+  {domain:"trustanalytica.org",strength:69},
+  {domain:"urls-shortener.eu",strength:65},
+  {domain:"quero.party",strength:64},
+  {domain:"bye.fyi",strength:63},
+];
+
+// ─── HERO RING ─────────────────────────────────────────────────────────────────
+(function initHeroRing() {
+  const prog = document.getElementById('heroRingProg');
+  if (!prog) return;
+  const r = 90;
+  const circ = 2 * Math.PI * r;
+  prog.setAttribute('stroke-dasharray', circ);
+  prog.setAttribute('stroke-dashoffset', circ);
+  // 74/100
+  setTimeout(() => {
+    const offset = circ - (74/100) * circ;
+    prog.style.strokeDashoffset = offset;
+  }, 300);
+})();
+
+// ─── COUNT-UP ─────────────────────────────────────────────────────────────────
+function countUp(el, target, suffix, duration) {
+  const start = performance.now();
+  function tick(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    const ease = 1 - Math.pow(1 - progress, 3);
+    const current = Math.round(ease * target);
+    el.textContent = current.toLocaleString() + suffix;
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+setTimeout(() => {
+  countUp(document.getElementById('stat-visits'), 147, '', 1400);
+  setTimeout(() => {
+    const el = document.getElementById('stat-searches');
+    countUp(el, 4400, '+', 1800);
+  }, 200);
+  document.getElementById('stat-ai').textContent = '0';
+}, 600);
+
+// ─── SCORE RADIALS ────────────────────────────────────────────────────────────
+function buildRadials() {
+  const row = document.getElementById('radials-row');
+  if (!row) return;
+  const circumference = 2 * Math.PI * 42; // ~263.89
+
+  scoreData.forEach((d, i) => {
+    const wrap = document.createElement('div');
+    wrap.className = 'radial-item';
+
+    const svgWrap = document.createElement('div');
+    svgWrap.className = 'radial-svg-wrap';
+    svgWrap.setAttribute('role', 'img');
+    svgWrap.setAttribute('aria-label', `${d.cat}: ${d.grade} (${d.score}/100)`);
+
+    const svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+    svg.setAttribute('viewBox','0 0 104 104');
+    svg.setAttribute('aria-hidden','true');
+
+    const track = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    track.setAttribute('class','radial-track');
+    track.setAttribute('cx','52'); track.setAttribute('cy','52'); track.setAttribute('r','42');
+
+    const prog = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    prog.setAttribute('class','radial-prog');
+    prog.setAttribute('cx','52'); prog.setAttribute('cy','52'); prog.setAttribute('r','42');
+    prog.setAttribute('stroke', d.color);
+    prog.setAttribute('stroke-dasharray', circumference);
+    prog.setAttribute('stroke-dashoffset', circumference);
+    prog.dataset.score = d.score;
+    prog.dataset.circumference = circumference;
+
+    svg.appendChild(track);
+    svg.appendChild(prog);
+    svgWrap.appendChild(svg);
+
+    const center = document.createElement('div');
+    center.className = 'radial-center';
+    const gl = document.createElement('div');
+    gl.className = 'radial-grade';
+    gl.style.color = d.color;
+    gl.textContent = d.grade;
+    center.appendChild(gl);
+    svgWrap.appendChild(center);
+
+    const label = document.createElement('div');
+    label.className = 'radial-label';
+    label.textContent = d.cat;
+
+    wrap.appendChild(svgWrap);
+    wrap.appendChild(label);
+    row.appendChild(wrap);
+  });
+
+  // animate on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        row.querySelectorAll('.radial-prog').forEach(prog => {
+          const score = parseFloat(prog.dataset.score);
+          const circ = parseFloat(prog.dataset.circumference);
+          const offset = circ - (score/100) * circ;
+          prog.style.transition = 'stroke-dashoffset 1.4s cubic-bezier(0.22,1,0.36,1)';
+          prog.style.strokeDashoffset = offset;
+        });
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.3 });
+  observer.observe(row);
+}
+buildRadials();
+
+// ─── NAV ──────────────────────────────────────────────────────────────────────
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobile-menu');
+hamburger.addEventListener('click', () => {
+  const open = hamburger.classList.toggle('open');
+  mobileMenu.classList.toggle('open', open);
+  hamburger.setAttribute('aria-expanded', open);
+});
+mobileMenu.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => {
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', false);
+  });
+});
+
+// Active nav via IntersectionObserver
+const navSections = ['overview','opportunity','competitive','audit','roadmap'];
+const navLinks = document.querySelectorAll('.nav-links a, .nav-mobile-menu a');
+const sectionObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const id = entry.target.id;
+      navLinks.forEach(a => {
+        const href = a.getAttribute('href');
+        a.classList.toggle('active', href === '#' + id);
+      });
+    }
+  });
+}, { rootMargin: '-40% 0px -55% 0px' });
+navSections.forEach(id => {
+  const el = document.getElementById(id);
+  if (el) sectionObserver.observe(el);
+});
+
+// ─── KEYWORD TABLE ────────────────────────────────────────────────────────────
+function posBadge(pos) {
+  if (pos === null) return `<span class="pos-badge" style="background:#E2E0DB;color:#6B6F7A">Not Ranking</span>`;
+  if (pos <= 3) return `<span class="pos-badge" style="background:#17BA8F;color:#fff">#${pos}</span>`;
+  if (pos <= 10) return `<span class="pos-badge" style="background:#D6B033;color:#1A1818">#${pos}</span>`;
+  return `<span class="pos-badge" style="background:#B84D0F;color:#fff">#${pos}</span>`;
+}
+
+function renderKwTable(filter) {
+  const tbody = document.getElementById('kw-tbody');
+  tbody.innerHTML = '';
+  const filtered = keywords.filter(k => {
+    if (filter === 'all') return true;
+    if (filter === 'ranking') return k.status === 'ranking';
+    if (filter === 'opportunity') return k.status === 'opportunity';
+    return k.cat === filter;
+  });
+  filtered.forEach((k, i) => {
+    const row = document.createElement('tr');
+    row.className = 'kw-row';
+    row.dataset.idx = i;
+    row.innerHTML = `
+      <td style="font-weight:500">${k.kw}</td>
+      <td>${posBadge(k.pos)}</td>
+      <td>${k.vol.toLocaleString()}</td>
+      <td>${k.traffic > 0 ? k.traffic : '<span style="color:#aaa">—</span>'}</td>
+      <td><span class="status-badge status-${k.status}">${k.status === 'ranking' ? 'Ranking' : 'Opportunity'}</span></td>`;
+    tbody.appendChild(row);
+
+    const detail = document.createElement('tr');
+    detail.className = 'kw-detail';
+    detail.innerHTML = `<td colspan="5"><div class="kw-detail-action">${k.action}</div></td>`;
+    tbody.appendChild(detail);
+
+    row.addEventListener('click', () => {
+      const isOpen = detail.classList.contains('open');
+      // close all
+      tbody.querySelectorAll('.kw-detail').forEach(d => d.classList.remove('open'));
+      if (!isOpen) detail.classList.add('open');
+    });
+  });
+}
+
+document.getElementById('kw-filters').querySelectorAll('.pill').forEach(pill => {
+  pill.addEventListener('click', () => {
+    document.querySelectorAll('#kw-filters .pill').forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    renderKwTable(pill.dataset.filter);
+  });
+});
+renderKwTable('all');
+
+// ─── TRAFFIC CHART ────────────────────────────────────────────────────────────
+let trafficChart;
+let currentScenario = 'conservative';
+
+function updateForecastStats(scenario) {
+  const d = scenario === 'conservative' ? conservative : aggressive;
+  document.getElementById('fc-m3').textContent = d[3].toLocaleString();
+  document.getElementById('fc-m6').textContent = d[6].toLocaleString();
+  document.getElementById('fc-m12leads').textContent = Math.round(d[12] * 0.04);
+}
+
+function buildTrafficChart(scenario) {
+  const ctx = document.getElementById('trafficChart').getContext('2d');
+  const consData = conservative;
+  const aggData = aggressive;
+
+  // reference line dataset
+  const refData = months.map(() => 147);
+
+  if (trafficChart) trafficChart.destroy();
+  trafficChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: months,
+      datasets: [
+        {
+          label: 'Conservative',
+          data: consData,
+          borderColor: scenario === 'conservative' ? '#006FB9' : 'rgba(0,111,185,0.25)',
+          backgroundColor: scenario === 'conservative' ? 'rgba(0,111,185,0.06)' : 'transparent',
+          borderWidth: scenario === 'conservative' ? 2.5 : 1.5,
+          pointRadius: scenario === 'conservative' ? 4 : 2,
+          pointBackgroundColor: '#006FB9',
+          tension: 0.4,
+          fill: scenario === 'conservative',
+        },
+        {
+          label: 'Aggressive',
+          data: aggData,
+          borderColor: scenario === 'aggressive' ? '#006FB9' : 'rgba(0,111,185,0.25)',
+          backgroundColor: scenario === 'aggressive' ? 'rgba(0,111,185,0.06)' : 'transparent',
+          borderWidth: scenario === 'aggressive' ? 2.5 : 1.5,
+          pointRadius: scenario === 'aggressive' ? 4 : 2,
+          pointBackgroundColor: '#006FB9',
+          tension: 0.4,
+          fill: scenario === 'aggressive',
+        },
+        {
+          label: 'Current Baseline',
+          data: refData,
+          borderColor: 'rgba(214,176,51,0.5)',
+          borderWidth: 1.5,
+          borderDash: [6,4],
+          pointRadius: 0,
+          tension: 0,
+          fill: false,
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1A1818',
+          titleColor: '#fff',
+          bodyColor: '#aaa',
+          borderColor: 'rgba(255,255,255,0.1)',
+          borderWidth: 1,
+          padding: 12,
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: 'rgba(0,0,0,0.04)' },
+          ticks: { font: { size: 11, family: 'Inter' }, color: '#999' }
+        },
+        y: {
+          grid: { color: 'rgba(0,0,0,0.04)' },
+          ticks: { font: { size: 11, family: 'Inter' }, color: '#999' },
+          beginAtZero: true,
+        }
+      }
+    }
+  });
+}
+
+document.getElementById('btn-conservative').addEventListener('click', () => {
+  currentScenario = 'conservative';
+  document.getElementById('btn-conservative').classList.add('active');
+  document.getElementById('btn-aggressive').classList.remove('active');
+  buildTrafficChart('conservative');
+  updateForecastStats('conservative');
+});
+document.getElementById('btn-aggressive').addEventListener('click', () => {
+  currentScenario = 'aggressive';
+  document.getElementById('btn-aggressive').classList.add('active');
+  document.getElementById('btn-conservative').classList.remove('active');
+  buildTrafficChart('aggressive');
+  updateForecastStats('aggressive');
+});
+
+// init chart when in view
+const chartObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      buildTrafficChart('conservative');
+      updateForecastStats('conservative');
+      chartObserver.disconnect();
+    }
+  });
+}, { threshold: 0.3 });
+chartObserver.observe(document.getElementById('trafficChart'));
+
+// ─── COMPETITOR TABLE ─────────────────────────────────────────────────────────
+function buildCompTable() {
+  const tbody = document.getElementById('comp-tbody');
+  competitors.forEach(c => {
+    const row = document.createElement('tr');
+    row.className = 'comp-row' + (c.isSMR ? ' smr-row' : '');
+    row.innerHTML = `
+      <td class="comp-name">${c.name}${c.isSMR ? '<span class="comp-you-badge">YOU</span>' : ''}</td>
+      <td><div class="ds-bar"><div class="ds-bar-track"><div class="ds-bar-fill" style="width:${c.ds}%"></div></div><span style="font-size:13px;font-weight:600">${c.ds}</span></div></td>
+      <td style="font-weight:500">${c.reviews}</td>
+      <td>${c.emergency ? '<span class="check-icon">✓</span>' : '<span class="x-icon">—</span>'}</td>
+      <td>${c.geo ? '<span class="check-icon">✓</span>' : '<span class="x-icon">—</span>'}</td>
+      <td class="comp-advantage">${c.advantage}</td>`;
+    tbody.appendChild(row);
+
+    const detail = document.createElement('tr');
+    detail.className = 'comp-detail-row';
+    detail.innerHTML = `<td colspan="6">${c.detail}</td>`;
+    tbody.appendChild(detail);
+
+    row.addEventListener('click', () => {
+      const open = detail.classList.toggle('open');
+    });
+  });
+}
+buildCompTable();
+
+// ─── TABS ─────────────────────────────────────────────────────────────────────
+const tabBtns = document.querySelectorAll('.tab-btn');
+const tabPanels = document.querySelectorAll('.tab-panel');
+let backlinkChartBuilt = false;
+
+tabBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    tabBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+    tabPanels.forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected','true');
+    const panelId = btn.getAttribute('aria-controls');
+    const panel = document.getElementById(panelId);
+    panel.classList.add('active');
+    panel.style.opacity = '0';
+    requestAnimationFrame(() => { panel.style.opacity = '1'; });
+
+    if (panelId === 'tab-links' && !backlinkChartBuilt) {
+      setTimeout(buildBacklinkChart, 50);
+      backlinkChartBuilt = true;
+    }
+  });
+});
+
+// ─── BACKLINK CHART ───────────────────────────────────────────────────────────
+function buildBacklinkChart() {
+  const canvas = document.getElementById('backlinkChart');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  const gradient = ctx.createLinearGradient(0, 0, 400, 0);
+  gradient.addColorStop(0, '#006FB9');
+  gradient.addColorStop(1, '#D6B033');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: backlinks.map(b => b.domain),
+      datasets: [{
+        label: 'Domain Strength',
+        data: backlinks.map(b => b.strength),
+        backgroundColor: gradient,
+        borderRadius: 4,
+        borderSkipped: false,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1A1818',
+          titleColor: '#fff',
+          bodyColor: '#aaa',
+        }
+      },
+      scales: {
+        x: {
+          max: 100,
+          grid: { color: 'rgba(0,0,0,0.04)' },
+          ticks: { font: { size: 11, family: 'Inter' }, color: '#999' }
+        },
+        y: {
+          grid: { display: false },
+          ticks: { font: { size: 11, family: 'JetBrains Mono' }, color: '#666' }
+        }
+      }
+    }
+  });
+}
+
+// build backlink chart on first view of tab-links (it's the default active tab)
+const blObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting && !backlinkChartBuilt) {
+      buildBacklinkChart();
+      backlinkChartBuilt = true;
+      blObserver.disconnect();
+    }
+  });
+}, { threshold: 0.2 });
+const backlinkCanvas = document.getElementById('backlinkChart');
+if (backlinkCanvas) blObserver.observe(backlinkCanvas);
+
+// ─── GEO CHECKLIST ────────────────────────────────────────────────────────────
+function buildGeoChecklist() {
+  const container = document.getElementById('geo-checklist');
+  if (!container) return;
+
+  const title = document.createElement('h4');
+  title.className = 'chart-section-title';
+  title.textContent = 'GEO Readiness Checklist';
+  container.appendChild(title);
+
+  geoChecklist.forEach((item, i) => {
+    const statusIcon = item.status === 'pass' ? '✅' : item.status === 'fail' ? '❌' : '⚠️';
+    const el = document.createElement('div');
+    el.className = 'geo-item';
+    el.innerHTML = `
+      <div class="geo-item-header">
+        <span class="geo-status-icon">${statusIcon}</span>
+        <span class="geo-item-name">${item.item}</span>
+        <span class="geo-expand-icon">▼</span>
+      </div>
+      <div class="geo-item-detail">
+        ${item.detail}
+        ${item.showTemplate ? `
+          <div class="llms-template">
+            <div class="llms-template-header">
+              <span>llms.txt</span>
+              <button class="copy-btn" id="copy-llms">Copy</button>
+            </div>
+            <pre class="llms-code" id="llms-code-block"></pre>
+          </div>` : ''}
+      </div>`;
+    container.appendChild(el);
+
+    el.querySelector('.geo-item-header').addEventListener('click', () => {
+      el.classList.toggle('open');
+    });
+
+    if (item.showTemplate) {
+      document.getElementById('llms-code-block').textContent = llmsTxt;
+      document.getElementById('copy-llms').addEventListener('click', (e) => {
+        e.stopPropagation();
+        navigator.clipboard.writeText(llmsTxt).then(() => {
+          const btn = document.getElementById('copy-llms');
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+        });
+      });
+    }
+  });
+}
+buildGeoChecklist();
+
+// ─── PERFORMANCE METRICS ──────────────────────────────────────────────────────
+function getMetricClass(metric) {
+  const {type, raw} = metric;
+  if (type === 'score') return raw >= 90 ? 'good' : raw >= 50 ? 'needs-improvement' : 'poor';
+  if (type === 'fcp') return raw < 1.8 ? 'good' : raw < 3 ? 'needs-improvement' : 'poor';
+  if (type === 'lcp') return raw < 2.5 ? 'good' : raw < 4 ? 'needs-improvement' : 'poor';
+  if (type === 'tti') return raw < 3.8 ? 'good' : raw < 7.3 ? 'needs-improvement' : 'poor';
+  if (type === 'tbt') return raw < 200 ? 'good' : raw < 600 ? 'needs-improvement' : 'poor';
+  if (type === 'si') return raw < 3.4 ? 'good' : raw < 5.8 ? 'needs-improvement' : 'poor';
+  if (type === 'cls') return raw < 0.1 ? 'good' : raw < 0.25 ? 'needs-improvement' : 'poor';
+  return '';
+}
+
+function renderMetrics(device) {
+  const grid = document.getElementById('metrics-grid');
+  if (!grid) return;
+  grid.innerHTML = '';
+  perfData[device].metrics.forEach(m => {
+    const cls = getMetricClass(m);
+    const card = document.createElement('div');
+    card.className = `metric-card ${cls}`;
+    card.innerHTML = `
+      <div class="metric-name">${m.name}</div>
+      <div class="metric-val ${cls}">${m.val}</div>
+      <div class="metric-desc">${cls === 'good' ? 'Good' : cls === 'needs-improvement' ? 'Needs Improvement' : 'Poor'}</div>`;
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById('perf-mobile-btn').addEventListener('click', () => {
+  document.getElementById('perf-mobile-btn').classList.add('active');
+  document.getElementById('perf-desktop-btn').classList.remove('active');
+  renderMetrics('mobile');
+});
+document.getElementById('perf-desktop-btn').addEventListener('click', () => {
+  document.getElementById('perf-desktop-btn').classList.add('active');
+  document.getElementById('perf-mobile-btn').classList.remove('active');
+  renderMetrics('desktop');
+});
+renderMetrics('mobile');
+
+// ─── WINS GRID ────────────────────────────────────────────────────────────────
+function buildWins() {
+  const grid = document.getElementById('wins-grid');
+  if (!grid) return;
+  wins.forEach(w => {
+    const item = document.createElement('div');
+    item.className = 'win-item';
+    item.innerHTML = `<span class="win-check">✓</span><span>${w}</span>`;
+    grid.appendChild(item);
+  });
+}
+buildWins();
+
+// ─── ROADMAP ──────────────────────────────────────────────────────────────────
+function buildRoadmap() {
+  const grid = document.getElementById('phases-grid');
+  if (!grid) return;
+
+  phases.forEach((phase, pi) => {
+    const card = document.createElement('div');
+    card.className = 'phase-card';
+
+    const total = phase.tasks.length;
+    const progressId = `phase-progress-${pi}`;
+    const progressLabelId = `phase-progress-label-${pi}`;
+
+    card.innerHTML = `
+      <div class="phase-header">
+        <div class="phase-dot-title">
+          <div class="phase-dot" style="background:${phase.color}"></div>
+          <div class="phase-name">Phase ${pi+1}: ${phase.name}</div>
+        </div>
+        <div class="phase-range">${phase.range}</div>
+        <div class="phase-progress-bar">
+          <div class="phase-progress-fill" id="${progressId}" style="width:0%;background:${phase.color}"></div>
+        </div>
+        <div class="phase-progress-label" id="${progressLabelId}">0 / ${total} completed</div>
+      </div>
+      <div class="phase-tasks" id="phase-tasks-${pi}"></div>`;
+
+    grid.appendChild(card);
+
+    const tasksContainer = card.querySelector(`#phase-tasks-${pi}`);
+    phase.tasks.forEach((task, ti) => {
+      const taskEl = document.createElement('div');
+      taskEl.className = 'phase-task';
+      const checkId = `task-${pi}-${ti}`;
+      taskEl.innerHTML = `
+        <input type="checkbox" id="${checkId}">
+        <div class="phase-task-check" data-for="${checkId}"></div>
+        <div class="phase-task-text" data-for="${checkId}">${task}</div>`;
+      tasksContainer.appendChild(taskEl);
+
+      function updateCheck(checked) {
+        const checkEl = taskEl.querySelector('.phase-task-check');
+        const textEl = taskEl.querySelector('.phase-task-text');
+        checkEl.classList.toggle('checked', checked);
+        textEl.classList.toggle('done', checked);
+
+        // update progress
+        const allChecks = card.querySelectorAll('input[type="checkbox"]');
+        const checkedCount = Array.from(allChecks).filter(c => c.checked).length;
+        const pct = (checkedCount / total * 100).toFixed(0);
+        document.getElementById(progressId).style.width = pct + '%';
+        document.getElementById(progressLabelId).textContent = `${checkedCount} / ${total} completed`;
+      }
+
+      const cb = taskEl.querySelector(`#${checkId}`);
+      taskEl.querySelector('.phase-task-check').addEventListener('click', () => {
+        cb.checked = !cb.checked;
+        updateCheck(cb.checked);
+      });
+      taskEl.querySelector('.phase-task-text').addEventListener('click', () => {
+        cb.checked = !cb.checked;
+        updateCheck(cb.checked);
+      });
+    });
+  });
+}
+buildRoadmap();
+</script>
+</body>
+</html>
