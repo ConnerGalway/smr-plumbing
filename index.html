@@ -1392,6 +1392,21 @@ section { scroll-margin-top: var(--nav-h); }
   color: #666;
 }
 
+.session-action-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 7px 14px;
+  background: var(--blue);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  letter-spacing: 0.02em;
+  transition: background 0.15s;
+}
+.session-action-btn:hover { background: #005a96; }
+
 .coming-soon-body {
   padding: 32px 24px;
   text-align: center;
@@ -1928,7 +1943,7 @@ section { scroll-margin-top: var(--nav-h); }
             <h4>Beth's Next Steps</h4>
             <ul>
               <li>Complete homework assignment — pick one repetitive task, spend ~15 minutes talking to Claude about how it could help, and push back/iterate on Claude's responses.</li>
-              <li>Enable memory in Claude's organisational settings (admin settings) to allow Claude to learn about the business over time.</li>
+              <li>Enable memory in Claude's organisational settings (admin settings) to allow Claude to learn about the business over time.<br><a href="https://claude.ai/settings/capabilities?modal=memory" target="_blank" rel="noopener noreferrer" class="session-action-btn">Click Here to Enable Memory</a></li>
               <li>Connect Google Drive to Claude as a connector to allow easy file referencing.</li>
               <li>Explore setting up a dedicated Claude project for SMR Plumbing marketing using Claude's interview method to generate project instructions.</li>
               <li>Discuss with Sean the possibility of connecting Jobber to Claude for enhanced workflow capabilities.</li>
