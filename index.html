@@ -1948,7 +1948,7 @@ section { scroll-margin-top: var(--nav-h); }
     <div class="sessions-grid">
 
       <!-- SESSION 1 -->
-      <div class="session-card open" id="session-1">
+      <div class="session-card" id="session-1">
         <div class="session-card-header" role="button" aria-expanded="true" aria-controls="session-1-body" tabindex="0">
           <div class="session-meta">
             <div class="session-number">Session 01</div>
@@ -2936,12 +2936,22 @@ function buildRoadmap() {
 buildRoadmap();
 
 // ─── SESSION CARDS ────────────────────────────────────────────────────────────
-document.querySelectorAll('.session-card:not(.coming-soon) .session-card-header').forEach(header => {
+const sessionHeaders = document.querySelectorAll('.session-card:not(.coming-soon) .session-card-header');
+sessionHeaders.forEach(header => {
   const card = header.closest('.session-card');
   header.addEventListener('click', () => {
     const isOpen = card.classList.contains('open');
-    card.classList.toggle('open', !isOpen);
-    header.setAttribute('aria-expanded', String(!isOpen));
+    // close all
+    sessionHeaders.forEach(h => {
+      const c = h.closest('.session-card');
+      c.classList.remove('open');
+      h.setAttribute('aria-expanded', 'false');
+    });
+    // open this one if it was closed
+    if (!isOpen) {
+      card.classList.add('open');
+      header.setAttribute('aria-expanded', 'true');
+    }
   });
   header.addEventListener('keydown', e => {
     if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); }
