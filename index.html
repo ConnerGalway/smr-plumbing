@@ -1189,6 +1189,205 @@ section { scroll-margin-top: var(--nav-h); }
 /* ─── UTILITIES ───────────────────────────────────────── */
 .hidden { display: none !important; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+
+/* ─── SESSIONS ─────────────────────────────────────────── */
+#sessions { background: var(--bg); }
+
+.sessions-intro {
+  max-width: 640px;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+.sessions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .sessions-grid { grid-template-columns: 1fr; }
+}
+
+.session-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+.session-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+
+.session-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 22px 24px 18px;
+  cursor: pointer;
+  user-select: none;
+  gap: 16px;
+}
+.session-card.coming-soon .session-card-header { cursor: default; }
+
+.session-meta { flex: 1; }
+
+.session-number {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 6px;
+}
+.session-card.coming-soon .session-number { color: #aaa; }
+
+.session-title {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+.session-card.coming-soon .session-title { color: #bbb; }
+
+.session-date {
+  font-size: 13px;
+  color: #888;
+}
+
+.session-badge {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-top: 2px;
+}
+.session-badge.completed {
+  background: rgba(23,186,143,0.12);
+  color: #0e9068;
+}
+.session-badge.upcoming {
+  background: var(--light);
+  color: #aaa;
+}
+
+.session-toggle-icon {
+  font-size: 18px;
+  color: #bbb;
+  line-height: 1;
+  margin-top: 2px;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+.session-card.open .session-toggle-icon { transform: rotate(180deg); }
+.session-card.coming-soon .session-toggle-icon { display: none; }
+
+.session-body {
+  display: none;
+  padding: 0 24px 24px;
+  border-top: 1px solid var(--rule);
+}
+.session-card.open .session-body { display: block; }
+
+.session-recap {
+  margin-top: 20px;
+}
+.session-recap h4 {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 10px;
+}
+.session-recap p {
+  font-size: 14px;
+  line-height: 1.75;
+  color: #444;
+  margin-bottom: 12px;
+}
+.session-recap p:last-child { margin-bottom: 0; }
+
+.session-next-steps {
+  margin-top: 20px;
+  background: var(--surface-warm);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+.session-next-steps h4 {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+.session-next-steps ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.session-next-steps li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  padding: 5px 0 5px 20px;
+  position: relative;
+  border-bottom: 1px solid var(--rule);
+}
+.session-next-steps li:last-child { border-bottom: none; }
+.session-next-steps li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-size: 12px;
+}
+
+.session-topics {
+  margin-top: 20px;
+}
+.session-topics h4 {
+  font-family: 'Kantumruy Pro', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 12px;
+}
+.topic-item {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.topic-item:last-child { border-bottom: none; }
+.topic-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.topic-desc {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #666;
+}
+
+.coming-soon-body {
+  padding: 32px 24px;
+  text-align: center;
+  color: #bbb;
+  font-size: 14px;
+}
 </style>
 </head>
 <body>
@@ -1202,6 +1401,7 @@ section { scroll-margin-top: var(--nav-h); }
     <li><a href="#competitive">Competitive</a></li>
     <li><a href="#audit">Audit</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#sessions">Sessions</a></li>
   </ul>
   <span class="nav-agency">Junction Consulting</span>
   <button class="nav-hamburger" id="hamburger" aria-label="Open mobile menu" aria-expanded="false">
@@ -1214,6 +1414,7 @@ section { scroll-margin-top: var(--nav-h); }
   <a href="#opportunity">Opportunity</a>
   <a href="#audit">Audit</a>
   <a href="#roadmap">Roadmap</a>
+  <a href="#sessions">Sessions</a>
   <a href="#summary">Summary</a>
 </div>
 
@@ -1655,6 +1856,119 @@ section { scroll-margin-top: var(--nav-h); }
     <p class="section-label">90-Day Action Plan</p>
     <h2 class="section-h2">Fix. Build. Scale.</h2>
     <div class="phases-grid" id="phases-grid"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ SESSIONS ═══ -->
+<section id="sessions">
+  <div class="section-inner">
+    <p class="section-label">Training Program</p>
+    <h2 class="section-h2">Session Summaries</h2>
+    <p class="sessions-intro">A four-session AI training program designed to help SMR Plumbing &amp; Heating implement AI tools for operational efficiency, content creation, and lead growth.</p>
+
+    <div class="sessions-grid">
+
+      <!-- SESSION 1 -->
+      <div class="session-card open" id="session-1">
+        <div class="session-card-header" role="button" aria-expanded="true" aria-controls="session-1-body" tabindex="0">
+          <div class="session-meta">
+            <div class="session-number">Session 01</div>
+            <div class="session-title">Introduction to AI &amp; Claude Overview</div>
+            <div class="session-date">June 2026</div>
+          </div>
+          <span class="session-badge completed">Completed</span>
+          <span class="session-toggle-icon" aria-hidden="true">▾</span>
+        </div>
+        <div class="session-body" id="session-1-body" role="region" aria-labelledby="session-1-header">
+
+          <div class="session-recap">
+            <h4>Session Recap</h4>
+            <p>Conner conducted an introductory AI training session with Beth, the office manager at SMR Plumbing, covering how the business can leverage AI tools like Claude for operational efficiency. Conner provided a comprehensive overview of Claude's features — including chat, projects, files, connectors, cowork, and Cloud Code — demonstrating how these tools can automate repetitive tasks and improve business processes.</p>
+            <p>Beth shared her current use of AI for reporting, SOPs, and project management, while expressing interest in using Claude to enhance SEO efforts and create a quoting tool to replace their current Excel-based system. They discussed potential applications for scheduling, bookkeeping, and content creation, with Conner emphasising that the goal is to automate tedious tasks rather than replace human workers.</p>
+          </div>
+
+          <div class="session-next-steps">
+            <h4>Beth's Next Steps</h4>
+            <ul>
+              <li>Complete homework assignment — pick one repetitive task, spend ~15 minutes talking to Claude about how it could help, and push back/iterate on Claude's responses.</li>
+              <li>Enable memory in Claude's organisational settings (admin settings) to allow Claude to learn about the business over time.</li>
+              <li>Connect Google Drive to Claude as a connector to allow easy file referencing.</li>
+              <li>Explore setting up a dedicated Claude project for SMR Plumbing marketing using Claude's interview method to generate project instructions.</li>
+              <li>Discuss with Sean the possibility of connecting Jobber to Claude for enhanced workflow capabilities.</li>
+            </ul>
+          </div>
+
+          <div class="session-topics">
+            <h4>Topics Covered</h4>
+            <div class="topic-item">
+              <div class="topic-title">AI Training Program Overview</div>
+              <div class="topic-desc">Outlined the four-session program structure: Session 1 covers basics and project setup; subsequent sessions focus on prompting, identifying bottlenecks, and integrating AI into business operations.</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">Claude vs. ChatGPT vs. Gemini</div>
+              <div class="topic-desc">Discussed similarities between the major AI tools. Claude's strengths are in creative and analytical projects; Gemini has advantages for image generation and document processing. All tools evolve rapidly.</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">Projects, Files &amp; Connectors</div>
+              <div class="topic-desc">Demonstrated how Claude Projects function as organised folders for training custom AI expertise. Covered how connectors (Gmail, Google Drive, Excel) and uploaded files eliminate repeated manual inputs.</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">Cowork &amp; Automation Demo</div>
+              <div class="topic-desc">Demonstrated Claude's Cowork feature — automating computer tasks such as searching for business opportunities, writing sales emails, and researching clients. Beth expressed interest in applying this to B2B outreach for new construction and developers.</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">Cloud Code &amp; Custom Tools</div>
+              <div class="topic-desc">Showed examples of custom tools built for clients: a quote generator for a tour company and the SEO audit dashboard for SMR. Emphasised that Cloud Code requires no special technical skills — just clear prompts.</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">Workflow Mapping: Beth's Role</div>
+              <div class="topic-desc">Mapped Beth's core responsibilities — scheduling service calls, accounts reconciliation, bookkeeping, Jobber management — to identify where AI can save the most time. Scheduling and content creation were identified as the highest-leverage starting points.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- SESSION 2 -->
+      <div class="session-card coming-soon" id="session-2">
+        <div class="session-card-header">
+          <div class="session-meta">
+            <div class="session-number">Session 02</div>
+            <div class="session-title">Prompting Techniques &amp; SEO Content</div>
+            <div class="session-date">Coming soon</div>
+          </div>
+          <span class="session-badge upcoming">Upcoming</span>
+        </div>
+        <div class="coming-soon-body">Summary will appear here after the session.</div>
+      </div>
+
+      <!-- SESSION 3 -->
+      <div class="session-card coming-soon" id="session-3">
+        <div class="session-card-header">
+          <div class="session-meta">
+            <div class="session-number">Session 03</div>
+            <div class="session-title">Identifying &amp; Fixing Business Bottlenecks</div>
+            <div class="session-date">Coming soon</div>
+          </div>
+          <span class="session-badge upcoming">Upcoming</span>
+        </div>
+        <div class="coming-soon-body">Summary will appear here after the session.</div>
+      </div>
+
+      <!-- SESSION 4 -->
+      <div class="session-card coming-soon" id="session-4">
+        <div class="session-card-header">
+          <div class="session-meta">
+            <div class="session-number">Session 04</div>
+            <div class="session-title">Integrating AI into Daily Operations</div>
+            <div class="session-date">Coming soon</div>
+          </div>
+          <span class="session-badge upcoming">Upcoming</span>
+        </div>
+        <div class="coming-soon-body">Summary will appear here after the session.</div>
+      </div>
+
+    </div>
   </div>
 </section>
 
@@ -2541,6 +2855,19 @@ function buildRoadmap() {
   });
 }
 buildRoadmap();
+
+// ─── SESSION CARDS ────────────────────────────────────────────────────────────
+document.querySelectorAll('.session-card:not(.coming-soon) .session-card-header').forEach(header => {
+  const card = header.closest('.session-card');
+  header.addEventListener('click', () => {
+    const isOpen = card.classList.contains('open');
+    card.classList.toggle('open', !isOpen);
+    header.setAttribute('aria-expanded', String(!isOpen));
+  });
+  header.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); }
+  });
+});
 </script>
 </body>
 </html>
