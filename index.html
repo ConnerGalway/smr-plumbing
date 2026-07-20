@@ -2009,16 +2009,64 @@ section { scroll-margin-top: var(--nav-h); }
       </div>
 
       <!-- SESSION 2 -->
-      <div class="session-card coming-soon" id="session-2">
-        <div class="session-card-header">
+      <div class="session-card" id="session-2">
+        <div class="session-card-header" role="button" aria-expanded="false" aria-controls="session-2-body" tabindex="0">
           <div class="session-meta">
             <div class="session-number">Session 02</div>
             <div class="session-title">Prompting Techniques &amp; SEO Content</div>
-            <div class="session-date">Coming soon</div>
+            <div class="session-date">July 28, 2026 · 2:00 PM</div>
           </div>
           <span class="session-badge upcoming">Upcoming</span>
+          <span class="session-toggle-icon" aria-hidden="true">▾</span>
         </div>
-        <div class="coming-soon-body">Summary will appear here after the session.</div>
+        <div class="session-body" id="session-2-body" role="region" aria-labelledby="session-2-header">
+
+          <div class="session-recap">
+            <h4>What to Expect</h4>
+            <p>In this session, we'll move from understanding AI tools to actually using them effectively. You'll learn structured prompting techniques that get consistently better results — the difference between vague outputs and content you can actually use. We'll apply these techniques directly to SEO content creation for SMR.</p>
+            <p>By the end of this session, you'll have a repeatable framework for writing prompts and will have created at least one piece of SEO-optimized content (a service page or blog post) ready for review.</p>
+          </div>
+
+          <div class="session-topics">
+            <h4>Session Agenda</h4>
+            <div class="topic-item">
+              <div class="topic-title">1. Homework Review (10 min)</div>
+              <div class="topic-desc">Quick check-in on the repetitive task you explored with Claude. What worked? What didn't? Any surprises?</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">2. The RCTF Prompting Framework (20 min)</div>
+              <div class="topic-desc">Learn the four-part structure that transforms vague requests into precise instructions: <strong>Role</strong> (who Claude should be), <strong>Context</strong> (background info), <strong>Task</strong> (what to do), and <strong>Format</strong> (how to deliver it).</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">3. SEO Content Fundamentals (15 min)</div>
+              <div class="topic-desc">Quick overview of what makes content rank: keyword placement, headers, meta descriptions, internal linking, and local signals. We'll reference the audit findings from this report.</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">4. Live Content Creation (30 min)</div>
+              <div class="topic-desc">Hands-on session where we'll create SEO-optimized content together. Options: an emergency plumbing service page, a North Vancouver location page, or a seasonal blog post (e.g., "Preparing Your Plumbing for Winter").</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">5. Building Your Prompt Library (10 min)</div>
+              <div class="topic-desc">Start documenting prompts that work. We'll set up a simple system so you're not starting from scratch every time you need similar content.</div>
+            </div>
+            <div class="topic-item">
+              <div class="topic-title">6. Q&amp;A + Next Steps (5 min)</div>
+              <div class="topic-desc">Open questions, assign homework for Session 3, and preview what's coming next.</div>
+            </div>
+          </div>
+
+          <div class="session-next-steps">
+            <h4>Preparation Checklist</h4>
+            <ul>
+              <li><strong>Complete Session 1 homework:</strong> Spend 15 minutes talking to Claude about one repetitive task. Come ready to share what you learned.</li>
+              <li><strong>Enable Claude memory:</strong> If not done yet, turn on memory in Claude settings so it remembers context about SMR.<br><a href="https://claude.ai/settings/capabilities?modal=memory" target="_blank" rel="noopener noreferrer" class="session-action-btn">Enable Memory</a></li>
+              <li><strong>Review the SEO audit:</strong> Skim the Opportunity and Content sections of this report — we'll reference specific keywords and gaps during the session.</li>
+              <li><strong>Pick a content topic:</strong> Think about which page you'd like to create or improve. Good options: Emergency Plumbing, Heat Pump Installation, or a North Vancouver location page.</li>
+              <li><strong>Have Claude open:</strong> Log into <a href="https://claude.ai" target="_blank" rel="noopener noreferrer">claude.ai</a> before the session so we can dive straight into hands-on work.</li>
+            </ul>
+          </div>
+
+        </div>
       </div>
 
       <!-- SESSION 3 -->
