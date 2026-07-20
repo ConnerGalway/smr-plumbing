@@ -1440,6 +1440,261 @@ section { scroll-margin-top: var(--nav-h); }
   color: #bbb;
   font-size: 14px;
 }
+
+/* ─── SESSIONS REDESIGN ────────────────────────────────── */
+
+/* Progress Tracker */
+.sessions-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: 48px;
+  padding: 24px 0;
+}
+.progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.progress-step-dot {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  border: 2px solid var(--rule);
+  background: var(--surface);
+  color: #aaa;
+  transition: all 0.3s ease;
+}
+.progress-step.completed .progress-step-dot {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+.progress-step.current .progress-step-dot {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+  box-shadow: 0 0 0 4px rgba(214,176,51,0.2);
+}
+.progress-step.upcoming .progress-step-dot {
+  background: var(--surface);
+  border-color: var(--rule);
+  color: #ccc;
+}
+.progress-step-label {
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #aaa;
+  text-align: center;
+  max-width: 80px;
+}
+.progress-step.completed .progress-step-label { color: var(--green); }
+.progress-step.current .progress-step-label { color: var(--gold); font-weight: 700; }
+.progress-connector {
+  width: 60px;
+  height: 2px;
+  background: var(--rule);
+  margin: 0 -1px;
+  margin-bottom: 28px;
+}
+.progress-connector.completed { background: var(--green); }
+@media (max-width: 600px) {
+  .progress-connector { width: 32px; }
+  .progress-step-label { font-size: 10px; max-width: 60px; }
+  .progress-step-dot { width: 30px; height: 30px; font-size: 11px; }
+}
+
+/* Current Status Banner */
+.sessions-status-banner {
+  background: linear-gradient(135deg, rgba(214,176,51,0.08) 0%, rgba(214,176,51,0.02) 100%);
+  border: 1px solid rgba(214,176,51,0.3);
+  border-left: 4px solid var(--gold);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.sessions-status-text {
+  font-size: 15px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.sessions-status-text strong { color: var(--gold); }
+.sessions-status-date {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gold);
+  background: rgba(214,176,51,0.12);
+  padding: 6px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* Updated Grid - Vertical Timeline Feel */
+.sessions-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Card State: Completed */
+.session-card.state-completed {
+  background: var(--surface-warm);
+  border-color: var(--rule);
+  opacity: 0.85;
+}
+.session-card.state-completed .session-card-header {
+  padding: 18px 24px 16px;
+}
+.session-card.state-completed .session-number { color: var(--green); }
+.session-card.state-completed .session-title { font-size: 16px; }
+.session-card.state-completed::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--green);
+  border-radius: 10px 0 0 10px;
+}
+.session-card.state-completed { position: relative; }
+
+/* Card State: Up Next (Current) */
+.session-card.state-current {
+  background: var(--surface);
+  border: 2px solid var(--gold);
+  box-shadow: 0 8px 32px rgba(214,176,51,0.15), 0 2px 8px rgba(0,0,0,0.06);
+  position: relative;
+}
+.session-card.state-current::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--gold);
+  border-radius: 10px 0 0 10px;
+}
+.session-card.state-current .session-card-header {
+  padding: 24px 28px 20px;
+}
+.session-card.state-current .session-number {
+  color: var(--gold);
+  font-size: 12px;
+}
+.session-card.state-current .session-title {
+  font-size: 19px;
+  color: var(--ink);
+}
+.session-card.state-current .session-badge.upcoming {
+  background: var(--gold);
+  color: var(--ink);
+  font-weight: 700;
+}
+.session-card.state-current .session-body {
+  padding: 0 28px 28px;
+}
+
+/* Prep Counter Badge */
+.session-prep-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #888;
+  margin-top: 8px;
+  padding: 4px 10px;
+  background: rgba(214,176,51,0.1);
+  border-radius: 12px;
+}
+.session-prep-count svg {
+  width: 14px;
+  height: 14px;
+  stroke: var(--gold);
+}
+.session-card.open .session-prep-count { display: none; }
+
+/* Card State: Coming Soon (Future) */
+.session-card.state-future {
+  background: var(--bg);
+  border: 1px dashed var(--rule);
+  opacity: 0.7;
+}
+.session-card.state-future .session-card-header {
+  padding: 16px 20px;
+}
+.session-card.state-future .session-number {
+  color: #bbb;
+  font-size: 10px;
+}
+.session-card.state-future .session-title {
+  font-size: 15px;
+  color: #999;
+}
+.session-card.state-future .session-date {
+  font-size: 12px;
+  color: #bbb;
+}
+.session-card.state-future .session-badge {
+  background: transparent;
+  border: 1px solid var(--rule);
+  color: #bbb;
+}
+
+/* Future Session Teaser */
+.session-teaser {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.5;
+  padding: 0 20px 16px;
+  border-top: 1px solid var(--rule);
+  margin-top: -1px;
+}
+
+/* Section Icons */
+.section-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.section-icon svg {
+  width: 16px;
+  height: 16px;
+}
+.session-recap h4 .section-icon svg { stroke: var(--blue); }
+.session-next-steps h4 .section-icon svg { stroke: var(--gold); }
+.session-topics h4 .section-icon svg { stroke: #888; }
+
+/* Completed Badge with Checkmark */
+.session-badge.completed {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.session-badge.completed::before {
+  content: '✓';
+  font-size: 10px;
+}
 </style>
 </head>
 <body>
@@ -1945,11 +2200,42 @@ section { scroll-margin-top: var(--nav-h); }
     <h2 class="section-h2">Session Summaries</h2>
     <p class="sessions-intro">A four-session AI training program designed to help SMR Plumbing &amp; Heating implement AI tools for operational efficiency, content creation, and lead growth.</p>
 
+    <!-- Progress Tracker -->
+    <div class="sessions-progress">
+      <div class="progress-step completed">
+        <div class="progress-step-dot">✓</div>
+        <div class="progress-step-label">Intro & Setup</div>
+      </div>
+      <div class="progress-connector completed"></div>
+      <div class="progress-step current">
+        <div class="progress-step-dot">2</div>
+        <div class="progress-step-label">Prompting & SEO</div>
+      </div>
+      <div class="progress-connector"></div>
+      <div class="progress-step upcoming">
+        <div class="progress-step-dot">3</div>
+        <div class="progress-step-label">Bottlenecks</div>
+      </div>
+      <div class="progress-connector"></div>
+      <div class="progress-step upcoming">
+        <div class="progress-step-dot">4</div>
+        <div class="progress-step-label">Integration</div>
+      </div>
+    </div>
+
+    <!-- Status Banner -->
+    <div class="sessions-status-banner">
+      <div class="sessions-status-text">
+        <strong>Up next:</strong> Session 2 — Prompting Techniques &amp; SEO Content. Review the preparation checklist below.
+      </div>
+      <div class="sessions-status-date">July 28 · 2:00 PM</div>
+    </div>
+
     <div class="sessions-grid">
 
       <!-- SESSION 1 -->
-      <div class="session-card" id="session-1">
-        <div class="session-card-header" role="button" aria-expanded="true" aria-controls="session-1-body" tabindex="0">
+      <div class="session-card state-completed" id="session-1">
+        <div class="session-card-header" role="button" aria-expanded="false" aria-controls="session-1-body" tabindex="0">
           <div class="session-meta">
             <div class="session-number">Session 01</div>
             <div class="session-title">Introduction to AI &amp; Claude Overview</div>
@@ -1961,13 +2247,13 @@ section { scroll-margin-top: var(--nav-h); }
         <div class="session-body" id="session-1-body" role="region" aria-labelledby="session-1-header">
 
           <div class="session-recap">
-            <h4>Session Recap</h4>
+            <h4><span class="section-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></span>Session Recap</h4>
             <p>Conner conducted an introductory AI training session with Beth, the office manager at SMR Plumbing, covering how the business can leverage AI tools like Claude for operational efficiency. Conner provided a comprehensive overview of Claude's features — including chat, projects, files, connectors, cowork, and Cloud Code — demonstrating how these tools can automate repetitive tasks and improve business processes.</p>
             <p>Beth shared her current use of AI for reporting, SOPs, and project management, while expressing interest in using Claude to enhance SEO efforts and create a quoting tool to replace their current Excel-based system. They discussed potential applications for scheduling, bookkeeping, and content creation, with Conner emphasising that the goal is to automate tedious tasks rather than replace human workers.</p>
           </div>
 
           <div class="session-next-steps">
-            <h4>Beth's Next Steps</h4>
+            <h4><span class="section-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>Beth's Next Steps</h4>
             <ul>
               <li>Complete homework assignment — pick one repetitive task, spend ~15 minutes talking to Claude about how it could help, and push back/iterate on Claude's responses.<br><a href="https://claude.ai" target="_blank" rel="noopener noreferrer" class="session-action-btn">Open Claude</a></li>
               <li>Enable memory in Claude's organisational settings (admin settings) to allow Claude to learn about the business over time.<br><a href="https://claude.ai/settings/capabilities?modal=memory" target="_blank" rel="noopener noreferrer" class="session-action-btn">Click Here to Enable Memory</a></li>
@@ -1978,7 +2264,7 @@ section { scroll-margin-top: var(--nav-h); }
           </div>
 
           <div class="session-topics">
-            <h4>Topics Covered</h4>
+            <h4><span class="section-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>Topics Covered</h4>
             <div class="topic-item">
               <div class="topic-title">AI Training Program Overview</div>
               <div class="topic-desc">Outlined the four-session program structure: Session 1 covers basics and project setup; subsequent sessions focus on prompting, identifying bottlenecks, and integrating AI into business operations.</div>
@@ -2009,26 +2295,30 @@ section { scroll-margin-top: var(--nav-h); }
       </div>
 
       <!-- SESSION 2 -->
-      <div class="session-card" id="session-2">
+      <div class="session-card state-current" id="session-2">
         <div class="session-card-header" role="button" aria-expanded="false" aria-controls="session-2-body" tabindex="0">
           <div class="session-meta">
-            <div class="session-number">Session 02</div>
+            <div class="session-number">Session 02 · Up Next</div>
             <div class="session-title">Prompting Techniques &amp; SEO Content</div>
             <div class="session-date">July 28, 2026 · 2:00 PM</div>
+            <div class="session-prep-count">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+              5 items to prepare
+            </div>
           </div>
-          <span class="session-badge upcoming">Upcoming</span>
+          <span class="session-badge upcoming">Up Next</span>
           <span class="session-toggle-icon" aria-hidden="true">▾</span>
         </div>
         <div class="session-body" id="session-2-body" role="region" aria-labelledby="session-2-header">
 
           <div class="session-recap">
-            <h4>What to Expect</h4>
+            <h4><span class="section-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>What to Expect</h4>
             <p>In this session, we'll move from understanding AI tools to actually using them effectively. You'll learn structured prompting techniques that get consistently better results — the difference between vague outputs and content you can actually use. We'll apply these techniques directly to SEO content creation for SMR.</p>
             <p>By the end of this session, you'll have a repeatable framework for writing prompts and will have created at least one piece of SEO-optimized content (a service page or blog post) ready for review.</p>
           </div>
 
           <div class="session-topics">
-            <h4>Session Agenda</h4>
+            <h4><span class="section-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>Session Agenda</h4>
             <div class="topic-item">
               <div class="topic-title">1. Homework Review (10 min)</div>
               <div class="topic-desc">Quick check-in on the repetitive task you explored with Claude. What worked? What didn't? Any surprises?</div>
@@ -2056,7 +2346,7 @@ section { scroll-margin-top: var(--nav-h); }
           </div>
 
           <div class="session-next-steps">
-            <h4>Preparation Checklist</h4>
+            <h4><span class="section-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>Preparation Checklist</h4>
             <ul>
               <li><strong>Complete Session 1 homework:</strong> Spend 15 minutes talking to Claude about one repetitive task. Come ready to share what you learned.</li>
               <li><strong>Enable Claude memory:</strong> If not done yet, turn on memory in Claude settings so it remembers context about SMR.<br><a href="https://claude.ai/settings/capabilities?modal=memory" target="_blank" rel="noopener noreferrer" class="session-action-btn">Enable Memory</a></li>
@@ -2070,29 +2360,29 @@ section { scroll-margin-top: var(--nav-h); }
       </div>
 
       <!-- SESSION 3 -->
-      <div class="session-card coming-soon" id="session-3">
+      <div class="session-card state-future" id="session-3">
         <div class="session-card-header">
           <div class="session-meta">
             <div class="session-number">Session 03</div>
             <div class="session-title">Identifying &amp; Fixing Business Bottlenecks</div>
-            <div class="session-date">Coming soon</div>
+            <div class="session-date">Unlocks after Session 2</div>
           </div>
-          <span class="session-badge upcoming">Upcoming</span>
+          <span class="session-badge upcoming">Coming Soon</span>
         </div>
-        <div class="coming-soon-body">Summary will appear here after the session.</div>
+        <div class="session-teaser">We'll audit SMR's workflows to find the tasks eating the most time — scheduling, quoting, follow-ups — and build AI-powered solutions to eliminate friction.</div>
       </div>
 
       <!-- SESSION 4 -->
-      <div class="session-card coming-soon" id="session-4">
+      <div class="session-card state-future" id="session-4">
         <div class="session-card-header">
           <div class="session-meta">
             <div class="session-number">Session 04</div>
             <div class="session-title">Integrating AI into Daily Operations</div>
-            <div class="session-date">Coming soon</div>
+            <div class="session-date">Unlocks after Session 3</div>
           </div>
-          <span class="session-badge upcoming">Upcoming</span>
+          <span class="session-badge upcoming">Coming Soon</span>
         </div>
-        <div class="coming-soon-body">Summary will appear here after the session.</div>
+        <div class="session-teaser">The capstone session: we'll connect everything — building habits, setting up automations, and creating a sustainable system so AI becomes part of how SMR operates every day.</div>
       </div>
 
     </div>
