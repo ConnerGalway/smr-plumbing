@@ -1,0 +1,1892 @@
+WEBVTT
+
+00:07:08.000 --> 00:07:09.000
+Conner Galway: Hello, Ralph.
+
+00:07:15.000 --> 00:07:16.000
+Conner Galway: I should…
+
+00:07:16.000 --> 00:07:18.000
+Beth J: Oh, perfect.
+
+00:07:18.000 --> 00:07:24.000
+Beth J: Oh, now I can't hear you. Oh, no, I can. Yeah.
+
+00:07:20.000 --> 00:07:25.000
+Conner Galway: I think we should be good now. Well, it's nice to meet you.
+
+00:07:24.000 --> 00:07:29.000
+Beth J: It's good to meet you too. What a lovely space you have there.
+
+00:07:28.000 --> 00:07:34.000
+Conner Galway: Thank you. Appreciate it. Yeah, we like it. I'm curious, how did you get…
+
+00:07:34.000 --> 00:07:38.000
+Conner Galway: mixed up in this whole SMR plumbing business.
+
+00:07:36.000 --> 00:07:47.000
+Beth J: Well, I had my resume on Indeed, and Samantha, Tristan's wife now. Do you know Tristan?
+
+00:07:46.000 --> 00:07:49.000
+Conner Galway: I know Tristan and I know Sam really well, yeah.
+
+00:07:48.000 --> 00:07:54.000
+Beth J: Okay, yeah, so she ended up finding me, and it just seemed a good fit.
+
+00:07:53.000 --> 00:07:58.000
+Conner Galway: Nice. Well, yeah, I'm sorry you have to deal with Sean every day.
+
+00:07:54.000 --> 00:07:56.000
+Beth J: Yeah.
+
+00:07:57.000 --> 00:08:02.000
+Beth J: Oh, no, he's great.
+
+00:08:01.000 --> 00:08:17.000
+Conner Galway: Yeah, I'm excited about this. I think this is going to be really interesting. I think just for context, so, I mean, Sean and I have known each other since high school, I guess, and we ended up going very different paths in our careers.
+
+00:08:12.000 --> 00:08:13.000
+Beth J: Okay.
+
+00:08:17.000 --> 00:08:21.000
+Conner Galway: works with his hands and I work with computers. But.
+
+00:08:19.000 --> 00:08:22.000
+Beth J: Yeah.
+
+00:08:21.000 --> 00:08:37.000
+Conner Galway: Yeah, for the last like 10 years or so, most of our work has been kind of in tourism around like digital marketing, social media, websites, that kind of thing. And then just over the last couple of years, I got super curious about AI.
+
+00:08:37.000 --> 00:08:53.000
+Conner Galway: Um, and honestly, just, like, started messing around with it, and, like, built a few things, and, like, deployed a couple of agents, and then our clients were like, wait, what is this thing? Um, and I was like, alright, well, fine, I'll show you. And then another one showed up, and then next thing you know, I was like.
+
+00:08:47.000 --> 00:08:48.000
+Beth J: Uh-huh.
+
+00:08:53.000 --> 00:09:00.000
+Conner Galway: Oh, I do AI now. This is what I do for a living.
+
+00:08:57.000 --> 00:09:02.000
+Beth J: Oh, that's amazing! Well, it's a great living to have right now, that's for sure!
+
+00:09:01.000 --> 00:09:06.000
+Conner Galway: Totally, yeah, kind of, like, right place at the right time kind of thing.
+
+00:09:04.000 --> 00:09:06.000
+Beth J: Yeah.
+
+00:09:06.000 --> 00:09:10.000
+Conner Galway: Yeah. And do you know, is Sean joining us today?
+
+00:09:10.000 --> 00:09:24.000
+Beth J: No, no, he's, uh, yeah, he's leaving the AI training for SEO, because he, he doesn't, um, I'm not good with Instagram, he's not good with Instagram, but I can at least do back-end kind of stuff.
+
+00:09:22.000 --> 00:09:41.000
+Conner Galway: Okay, great. All right, well, so it's just the two of us, that's awesome. Um, but yeah, so, and so we kind of, right place at the right time, and just over the last little bit, so I had a, it's funny, I had a, like, a home renovation done, a friend of mine, he was the general contractor, and they did a phenomenal job, like, does a great job with his business, and I was like.
+
+00:09:24.000 --> 00:09:25.000
+Beth J: Okay.
+
+00:09:26.000 --> 00:09:28.000
+Beth J: Yeah, yeah.
+
+00:09:41.000 --> 00:09:54.000
+Conner Galway: you know what, I feel like I should just, like, pop the hood on your business and, like, take a look at it. Because, like, from a client perspective, I was like, there's so many things that you could do for, like, communicating with clients and, like, the client experience, etc. And then I started to…
+
+00:09:44.000 --> 00:09:45.000
+Beth J: Hmm.
+
+00:09:54.000 --> 00:09:59.000
+Conner Galway: realize, at least within some of the trades businesses that I talked to, like.
+
+00:09:59.000 --> 00:10:11.000
+Conner Galway: some of the things that, like, our industry takes as obvious, um, like, trades businesses aren't using, right? Like, I… for example, I had them start using Slack, which, I don't know if you're a Slack user, and…
+
+00:10:05.000 --> 00:10:06.000
+Beth J: No.
+
+00:10:10.000 --> 00:10:38.000
+Beth J: No, I don't use Slack. I actually used to work with an IT company. So I mean, I'm used to a lot of dealing with a lot of small businesses and what they kind of use and whatnot. So Slack was pretty big and one of our bigger clients, but I personally haven't dealt a whole lot. I mean, aside from like helping them fix things here and there, I don't really haven't dealt with Slack too, too much. I did a lot with teams when I worked there, but.
+
+00:10:15.000 --> 00:10:18.000
+Conner Galway: Oh, really? Okay.
+
+00:10:30.000 --> 00:10:31.000
+Conner Galway: Mmhm.
+
+00:10:37.000 --> 00:10:42.000
+Conner Galway: Yeah, sorry to hear that. I'm not a big Teams fan.
+
+00:10:38.000 --> 00:10:39.000
+Beth J: Yeah, thank you.
+
+00:10:39.000 --> 00:10:54.000
+Beth J: You know what, honestly, we were such a small business, it was basically my boss and me, so we had, like, a few subcontractors here and there, but, like, it was… it was really small.
+
+00:10:46.000 --> 00:10:49.000
+Conner Galway: It could have been a text message.
+
+00:10:53.000 --> 00:11:04.000
+Conner Galway: Got it, yeah. But anyway, so yeah, so I recommended they use Slack, and like, to this day, like, once a month, he texts me, he's like, oh my god, this is so amazing, like, I can't believe I finally have technology. I'm like…
+
+00:11:01.000 --> 00:11:03.000
+Beth J: Yes.
+
+00:11:04.000 --> 00:11:08.000
+Conner Galway: Okay, so anyways, long story short, I was like…
+
+00:11:08.000 --> 00:11:23.000
+Conner Galway: I feel like there's a ton of opportunity for trades businesses using AI, because, like, it's a complex business, there's a lot of moving parts, like, people need quotes, and, like, we need to have SOPs, like, all of these different things that require a lot of time, that, like.
+
+00:11:11.000 --> 00:11:12.000
+Beth J: Mm-hmm.
+
+00:11:15.000 --> 00:11:17.000
+Beth J: Yes.
+
+00:11:21.000 --> 00:11:23.000
+Beth J: Oh, totally.
+
+00:11:23.000 --> 00:11:27.000
+Conner Galway: AI can kind of take an incredible amount of work off of our plates.
+
+00:11:26.000 --> 00:11:28.000
+Beth J: Right.
+
+00:11:27.000 --> 00:11:42.000
+Conner Galway: And so then I was like, I feel like this is a thing. So I reached out to a couple of friends. I was like, you want to explore this together? And Sean was like, yeah, sign me up. And it just so happened that this SEO project was happening at the same time. So it just kind of felt like a perfect fit.
+
+00:11:40.000 --> 00:11:41.000
+Beth J: Yeah.
+
+00:11:42.000 --> 00:12:00.000
+Beth J: Yeah, well, and honestly, Sean has, and I, I imagine Sean will be taking advantage of, uh, of, like, hiring you to help him with his AI, too, because he's been getting into Claude quite a bit in the last, I'd say, month and a half, at least. Um, and, and he is realizing how.
+
+00:11:51.000 --> 00:11:53.000
+Conner Galway: Mm-hmm.
+
+00:12:00.000 --> 00:12:19.000
+Beth J: impactful that can be, just to use it for… I mean, even just making things look nicer, and, like, saying the things that you want to say, but in, like, the professional and well thought out, and even just as far as, like, when he's doing his quotes. He does want to build.
+
+00:12:12.000 --> 00:12:14.000
+Conner Galway: Mmhm.
+
+00:12:19.000 --> 00:12:25.000
+Beth J: And he wants to build using Claude.
+
+00:12:25.000 --> 00:12:44.000
+Beth J: a quoting tool that works a lot better than what he's currently doing, because he's using Excel spreadsheets, it's a lot of manual labor, it's a lot of time, and he knows that Claude can do these things, he just needs to spend that time, but if he can actually get taught how to do it quicker, then he'll probably really appreciate that.
+
+00:12:41.000 --> 00:12:43.000
+Conner Galway: Mmhm.
+
+00:12:43.000 --> 00:12:57.000
+Conner Galway: I think that's super smart. And I guess one of my goals would be that you could teach them how to do it. Because I feel like over our sessions together, I have no doubt that you can pick it up enough. You can at least nudge them in the right direction.
+
+00:12:48.000 --> 00:12:51.000
+Beth J: Oh, me!
+
+00:12:57.000 --> 00:13:00.000
+Beth J: Okay. All right. Yeah.
+
+00:12:58.000 --> 00:13:04.000
+Conner Galway: And just for context, he shared that we're going to be meeting four times, right? We're going to go over four different sessions.
+
+00:13:01.000 --> 00:13:08.000
+Beth J: So he didn't tell me anything. You're the one that told me.
+
+00:13:04.000 --> 00:13:22.000
+Conner Galway: Okay. All right. Yeah, I mean, that's Sean. But yeah, so just to like introduce you into what we're doing here, basic idea is that we'll have four different sessions. Today, really all we're doing is just kind of covering the basics, making sure that we're speaking the same language.
+
+00:13:09.000 --> 00:13:12.000
+Beth J: Yes, yeah.
+
+00:13:20.000 --> 00:13:21.000
+Beth J: Okay.
+
+00:13:22.000 --> 00:13:23.000
+Beth J: Okay.
+
+00:13:22.000 --> 00:13:29.000
+Conner Galway: And it's funny, I find that even folks who… and I do get to coach people who are, like, pretty fluent in this.
+
+00:13:28.000 --> 00:13:30.000
+Beth J: Yeah?
+
+00:13:29.000 --> 00:13:45.000
+Conner Galway: Returning all the way back to the beginning to think about things like how we set up projects and how we get prompts and that kind of thing is really useful. Because if we set things up correctly, a lot more becomes possible. And so that's the first session. And then in the second session.
+
+00:13:36.000 --> 00:13:38.000
+Beth J: Oh, absolutely.
+
+00:13:40.000 --> 00:13:42.000
+Beth J: Okay.
+
+00:13:45.000 --> 00:14:00.000
+Conner Galway: Generally, normally how this goes is we can start to work towards figuring out what we want to create or do. And then like the end goal is there's one thing in the business that you like hate doing or takes a lot of time that we just automated and you never have to worry about it again.
+
+00:14:00.000 --> 00:14:01.000
+Beth J: Okay.
+
+00:14:00.000 --> 00:14:09.000
+Conner Galway: I think for this project, we'll probably stick to SEO, um, but we could also, you know, potentially get into a few, like, a quote generator or something like that.
+
+00:14:03.000 --> 00:14:04.000
+Beth J: Okay.
+
+00:14:09.000 --> 00:14:10.000
+Beth J: Okay, well.
+
+00:14:09.000 --> 00:14:23.000
+Conner Galway: So session two is we'll get into prompting and how we can write better prompts. And to be honest, at this point, that is literally a job title. There's companies who hire people just to write better prompts.
+
+00:14:18.000 --> 00:14:19.000
+Beth J: Okay.
+
+00:14:23.000 --> 00:14:38.000
+Conner Galway: And then in session 3, we'll talk about, like, what that bottleneck is, right? Whether it's SEO or quotes, that kind of thing. And then finally, the fourth one will be, like, alright, how do we actually, like, integrate this into the business? Um, whether we, like, we're connecting data, um, we're actually, like.
+
+00:14:33.000 --> 00:14:34.000
+Beth J: Okay.
+
+00:14:38.000 --> 00:14:44.000
+Conner Galway: be useful, and we're not just, like, writing blog posts, but it's actually, like, doing work for us. Um, and, like.
+
+00:14:42.000 --> 00:14:44.000
+Beth J: Okay.
+
+00:14:44.000 --> 00:14:56.000
+Conner Galway: we'll see, you know, how we go along the way. Like, this is your session, so, like, kind of… you… if you have something that you're curious about or you want to dig into, by all means. Um, but that's just, like, generally the flow of how this will go.
+
+00:14:46.000 --> 00:14:48.000
+Beth J: Go ahead.
+
+00:14:56.000 --> 00:15:12.000
+Beth J: Okay, awesome, yeah. No, I'm excited to just get going with it. Um, and I do really appreciate you being able and flexible to meet in the evening, too, because it's just… I feel like I'm just going to retain so much more. It's just so busy lately, so yeah, thank you.
+
+00:15:05.000 --> 00:15:07.000
+Conner Galway: Oh my goodness.
+
+00:15:11.000 --> 00:15:16.000
+Conner Galway: I'm sure… and, like, the phone's probably ringing all the time. It's probably better this way, right? So we can actually be.
+
+00:15:13.000 --> 00:15:19.000
+Beth J: Yes. Whenever I think I get focus time, nope.
+
+00:15:19.000 --> 00:15:23.000
+Conner Galway: I mean, I guess the phone ringing is a good thing, right? It means that new business is coming in.
+
+00:15:20.000 --> 00:15:29.000
+Beth J: It is, yes. Yeah, I can't complain. I just don't really get my tasks that I really want to get done done. No, it's good.
+
+00:15:26.000 --> 00:15:42.000
+Conner Galway: Yeah. Cool. Okay, well, and maybe where we should start is, can you tell me a little bit about, I guess, your exposure to AI in general right now? Like, which, have you used ChatGPT? And like, if so, like, what have you tried it out for?
+
+00:15:42.000 --> 00:15:57.000
+Beth J: Um, so with ChatGPT, I was just basically, you know, I was only using the free version. I wasn't using anything complex or anything. Um, and with that, I was basically getting it to, uh, you know, help me, like.
+
+00:15:48.000 --> 00:15:50.000
+Conner Galway: Mm-hmm.
+
+00:15:57.000 --> 00:16:19.000
+Beth J: every week I have to check in with the team, or like I was do like I do do the Instagram, even though I'm not good at it. And this is where Chat Gpt has been helpful. But just like just those things that like, maybe I want to create an sop I have. I'm really good at the bones of it. I but like it takes time to make it.
+
+00:16:19.000 --> 00:16:20.000
+Conner Galway: Of course.
+
+00:16:19.000 --> 00:16:36.000
+Beth J: look nice, so I'll toss that in there. And then, since Sean has started using Claude, he's actually gotten a business package for Claude. So yeah, in the last… yeah, I think I've been using it now for about a month.
+
+00:16:20.000 --> 00:16:22.000
+Conner Galway: Mm-hmm.
+
+00:16:30.000 --> 00:16:32.000
+Conner Galway: Mmhm.
+
+00:16:36.000 --> 00:17:01.000
+Beth J: and I've been using it to do projects. So if I want like just the other day, I was able to take a project that would take me probably like I don't know a full 4 h, probably to get done. I was able to just put in a few reports, and it could. It made it look way nicer than I would make it in that 4 h. And yeah, so I want to find out what the.
+
+00:16:55.000 --> 00:16:56.000
+Conner Galway: Mmhm.
+
+00:17:01.000 --> 00:17:17.000
+Beth J: what it costs, what the actual cost is per like for that individual for the company. I can get it broken down, and it's gonna give me my percentages and everything like that. So I'm using it now more for reporting and and even just like.
+
+00:17:05.000 --> 00:17:07.000
+Conner Galway: Mm-hmm. Mm-hmm.
+
+00:17:17.000 --> 00:17:27.000
+Beth J: let's see, so… what are my projects? I've only been doing projects, I haven't, like, gotten into anything nitty-gritty, so, um…
+
+00:17:27.000 --> 00:17:49.000
+Beth J: project wrap up sheets so like we're we do new construction, custom homes. So we want to be able to give them like a piece of information of what we've installed and like the basics of how to use it. And obviously for recruiting and onboarding. I've used that quite a bit social media creating a safety manual.
+
+00:17:33.000 --> 00:17:34.000
+Conner Galway: Mm-hmm.
+
+00:17:49.000 --> 00:18:02.000
+Beth J: Um, SOPs and scheduling, uh, but it's all project based. I haven't, like, even looked at artifacts or, yeah, I, I, there's, there's a lot that I'm not using it for.
+
+00:18:01.000 --> 00:18:13.000
+Conner Galway: No, honestly, you're probably ahead of most people at this point. And so that's great. It's a great place to start from. And when you say projects, are you actually using the project folders inside Claude to organize this work?
+
+00:18:11.000 --> 00:18:13.000
+Beth J: Yes.
+
+00:18:13.000 --> 00:18:15.000
+Beth J: Yeah, yeah.
+
+00:18:14.000 --> 00:18:25.000
+Conner Galway: And like, are you, and there's no wrong answer here, but maybe I'll just share my screen so that we're saying the same thing. So this, I've got our Claude up here.
+
+00:18:21.000 --> 00:18:23.000
+Beth J: Yep.
+
+00:18:26.000 --> 00:18:36.000
+Conner Galway: build a project, right? So I've got a little SMR plumbing project here, but are you using, like, custom instructions? Are you, like, teaching it about the business?
+
+00:18:36.000 --> 00:18:38.000
+Beth J: I am not.
+
+00:18:38.000 --> 00:18:40.000
+Conner Galway: Okay, we can definitely talk about that.
+
+00:18:38.000 --> 00:18:56.000
+Beth J: I'm… I'm literally just going into the projects and, like, putting… telling it what I want it to do, and… and asking it to save and connecting it to my Word and Excel spreadsheets. So, no, I'm not… I'm not teaching it, I guess. I'm telling it what we do as a business, but that's all in chat.
+
+00:18:41.000 --> 00:18:43.000
+Conner Galway: Mm-hmm.
+
+00:18:50.000 --> 00:18:52.000
+Conner Galway: Awesome. Okay, why?
+
+00:18:56.000 --> 00:18:57.000
+Conner Galway: Mmhm.
+
+00:18:57.000 --> 00:19:05.000
+Conner Galway: Right. Yeah, and so the fact that you're using projects is actually, like, means you're a couple of steps ahead. Um, and then maybe, like, because…
+
+00:19:02.000 --> 00:19:03.000
+Beth J: Okay.
+
+00:19:05.000 --> 00:19:11.000
+Conner Galway: what we'll start with is chat, and then sort of get into projects and artifacts and that kind of thing. But that's…
+
+00:19:11.000 --> 00:19:30.000
+Conner Galway: the kind of the base use case for projects is to keep everything organized, like a folder, um, but then there's lots more that we can do with it. Um, so yeah, so kind of where I wanted to start is just kind of showing the similarities between the three kind of main tools. As you said, you started up… most people, their gateway drug is ChatGPT.
+
+00:19:16.000 --> 00:19:17.000
+Beth J: Okay.
+
+00:19:19.000 --> 00:19:20.000
+Beth J: Okay.
+
+00:19:26.000 --> 00:19:27.000
+Beth J: Okay.
+
+00:19:30.000 --> 00:19:32.000
+Beth J: Okay.
+
+00:19:31.000 --> 00:19:42.000
+Conner Galway: Um, and realistically, like, the only big difference between ChatGPT and Claude is kind of how it's organized. Um, I just find, like, the user interface is better, um, but, like.
+
+00:19:37.000 --> 00:19:39.000
+Beth J: Okay.
+
+00:19:42.000 --> 00:19:58.000
+Conner Galway: Unless you're a super advanced user, they're all going to do the same thing. Generally, ChatGPT can be a little bit better sometimes at data and tables and spreadsheets and that kind of thing, although Claude is still quite good.
+
+00:19:46.000 --> 00:19:48.000
+Beth J: Okay.
+
+00:19:58.000 --> 00:20:14.000
+Conner Galway: Um, whereas Claude is much better at sort of copy, at projects, at creative projects, like building websites and things like that. Whereas Gemini from Google, which if you have a Google account, you have access to Gemini for free.
+
+00:20:08.000 --> 00:20:09.000
+Beth J: Okay.
+
+00:20:14.000 --> 00:20:15.000
+Beth J: Okay.
+
+00:20:14.000 --> 00:20:31.000
+Conner Galway: It's definitely the best for image generation, although they all suck at images. But like you can get, you know, like if you're trying to demonstrate something or create like a mock up of something, it's really good for that. And then anything document based, like if you're having to use.
+
+00:20:31.000 --> 00:20:41.000
+Conner Galway: I don't know, like, 100 different files, or it's really important that they get, like, exact details from a PDF, Gemini is the best at that. But, like, it's honestly, like.
+
+00:20:42.000 --> 00:20:59.000
+Conner Galway: Trying to, you know, you're trying to keep up constantly because like tomorrow ChatGPT is gonna release a new model. Literally today, Claude released a new model. So like what I say today might change in a couple of weeks. And so generally my advice and like what I've done with my team is we just go.
+
+00:20:50.000 --> 00:20:52.000
+Beth J: Okay.
+
+00:20:53.000 --> 00:20:55.000
+Beth J: Right. Exactly.
+
+00:20:59.000 --> 00:21:06.000
+Conner Galway: Which is the one that we like using the most? Because they're always going to be pretty similar in terms of capability.
+
+00:21:01.000 --> 00:21:02.000
+Beth J: Oh.
+
+00:21:06.000 --> 00:21:08.000
+Beth J: Okay.
+
+00:21:07.000 --> 00:21:22.000
+Conner Galway: And then just give it a little tour here. And the basic framework is pretty similar. They just call them different things, but we'll focus primarily on Claude because obviously because you all have a subscription now. And so we have our chat, right? So this is where most people start.
+
+00:21:16.000 --> 00:21:18.000
+Beth J: Okay.
+
+00:21:18.000 --> 00:21:19.000
+Beth J: Okay.
+
+00:21:22.000 --> 00:21:39.000
+Conner Galway: And Chat is sort of like the everything tool. It can do design. It can do code. It can do all of the things that we want it to do. It's usually going to be for a little bit from more intensive jobs.
+
+00:21:39.000 --> 00:21:43.000
+Conner Galway: building a report, you know, that kind of thing. It's gonna be a little bit…
+
+00:21:43.000 --> 00:21:51.000
+Conner Galway: slower, um, and it's gonna use a lot more tokens. Um, and tokens are gonna be something, as you start to use this more, something that becomes.
+
+00:21:51.000 --> 00:22:07.000
+Conner Galway: Whether you like it or not, a lot more, a bigger part of your day. Um, I would say every day I run out of tokens. Like we have a, like a pro plan. Um, and still like when, when you're doing more intensive tasks, like you run out of tokens constantly. And so this kind of becomes.
+
+00:21:54.000 --> 00:21:56.000
+Beth J: Okay.
+
+00:22:07.000 --> 00:22:11.000
+Conner Galway: The… what you're chasing. Sorry.
+
+00:22:07.000 --> 00:22:09.000
+Beth J: Oh!
+
+00:22:09.000 --> 00:22:25.000
+Beth J: Okay, so that's, um, that's interesting. Is that… because I do find my Claude crashes on me quite often when I'm using, like, using it for bigger reports and more thinking kind of thing, and to the point where sometimes it doesn't even remember me.
+
+00:22:17.000 --> 00:22:19.000
+Conner Galway: Mmm.
+
+00:22:22.000 --> 00:22:24.000
+Conner Galway: Mmhm.
+
+00:22:25.000 --> 00:22:29.000
+Beth J: Um, putting in that information. Is that because I've ran out of tokens?
+
+00:22:29.000 --> 00:22:34.000
+Conner Galway: No, no, that might be because… are you using Claude in your browser or in the desktop application?
+
+00:22:33.000 --> 00:22:51.000
+Beth J: I'm using the desktop, but I also wonder, too, if I just don't have a beefy enough computer. I have run into problems with it, like, slowing down. I have to sometimes reboot it, like, three times a day just to get it to work, and this is not just using Claude.
+
+00:22:47.000 --> 00:22:49.000
+Conner Galway: Ms. Thomas.
+
+00:22:51.000 --> 00:23:06.000
+Conner Galway: Right. So I would say, first of all, like, if you're doing, like, an intense Claude session or having to do a bunch of work, close all your browser tabs, or at least, like, have it sort of shut down because it's going to use a lot of the virtual memory of your machine, and that might cause it to crash.
+
+00:22:57.000 --> 00:22:59.000
+Beth J: Oh, okay.
+
+00:23:06.000 --> 00:23:07.000
+Beth J: Oh…
+
+00:23:06.000 --> 00:23:23.000
+Conner Galway: And then, yeah, if it crashes, it probably wouldn't remember what your previous conversation was. But if you're working within a project, it should still remember that, right? So that's one of the benefits of having projects 'cause it like has that memory. Oh, speaking of which, we should start with a couple of admin things.
+
+00:23:11.000 --> 00:23:13.000
+Beth J: Okay.
+
+00:23:19.000 --> 00:23:21.000
+Beth J: Right.
+
+00:23:22.000 --> 00:23:24.000
+Beth J: Okay.
+
+00:23:23.000 --> 00:23:33.000
+Conner Galway: So one of the things that… and, like, I'm gonna send a follow-up document after this, so, like, by all means take notes, but, like, this will… and we also have our AI friend running in the background creating a summary, so you'll also get that.
+
+00:23:27.000 --> 00:23:29.000
+Beth J: Okay.
+
+00:23:33.000 --> 00:23:35.000
+Beth J: Oh, cool. Okay.
+
+00:23:34.000 --> 00:23:50.000
+Conner Galway: But one of the things you can do is in settings, what you want to do is if you have admin in organizational settings, you'll want to go in here and you'll find, and I'll show you how to do it later, but you'll want to turn on memory, right? Because by default, memory is turned off.
+
+00:23:42.000 --> 00:23:43.000
+Beth J: Mm-hmm.
+
+00:23:48.000 --> 00:23:49.000
+Beth J: Oh.
+
+00:23:50.000 --> 00:23:51.000
+Beth J: Mm-hmm.
+
+00:23:50.000 --> 00:24:05.000
+Conner Galway: And so it won't, for example, like a previous conversation won't inform a future conversation, but if you have memory on, then it starts to get to know the organization a little bit better and then you can use it more effectively, right? So like, I'll just say like what?
+
+00:23:56.000 --> 00:23:57.000
+Beth J: Right.
+
+00:24:00.000 --> 00:24:01.000
+Beth J: Okay.
+
+00:24:05.000 --> 00:24:06.000
+Conner Galway: Yeah.
+
+00:24:07.000 --> 00:24:12.000
+Conner Galway: Well, for example, we could say something like, tell me about what?
+
+00:24:12.000 --> 00:24:15.000
+Conner Galway: Junction. It's a junction by company name.
+
+00:24:17.000 --> 00:24:34.000
+Conner Galway: And just based on, because it has memory, it kind of knows our different business units, some of the clients we've worked with, that kind of thing, just 'cause like we've been working with it for so much, right? And then I could sort of dig deeper into that. So that's, and like I said, chat is kind of our general purpose.
+
+00:24:34.000 --> 00:24:41.000
+Conner Galway: Um, and you should have your chat's logs here, but definitely don't rely on that, um, because it's…
+
+00:24:39.000 --> 00:24:40.000
+Beth J: Okay.
+
+00:24:41.000 --> 00:24:42.000
+Conner Galway: It is a little bit…
+
+00:24:42.000 --> 00:24:58.000
+Conner Galway: Unstable, um, and so projects, as you know, this is where, first of all, it operates as a folder where you can keep everything in one place, but, um, when we get into memory and instructions and files, this is where it gets really interesting. So basically what we're doing.
+
+00:24:50.000 --> 00:24:51.000
+Beth J: Mm-hmm.
+
+00:24:58.000 --> 00:25:11.000
+Conner Galway: in projects is we're training our custom Claude, right? So we can have Claude, you know, out of the box, it's just general intelligence, right? It just kind of has access to all of the information on the internet.
+
+00:25:11.000 --> 00:25:12.000
+Beth J: Okay.
+
+00:25:11.000 --> 00:25:23.000
+Conner Galway: But if we want it to be a marketing expert or we want it to really understand operations or HR or accounting or whatever we want, that's where the instructions come in.
+
+00:25:23.000 --> 00:25:38.000
+Conner Galway: And so you can see here basically what we have, and the one I'm sharing with you is we have this service that we call Accelerator, which is sort of, it's one-on-one coaching and consulting with tourism businesses. And so like, for example, this would be an example of.
+
+00:25:38.000 --> 00:25:53.000
+Conner Galway: an output. So when they go through a coaching project, they get this, which is sort of like a, you know, a little custom marketing plan. But rather than us having to do this from scratch every time, we built this.
+
+00:25:53.000 --> 00:25:54.000
+Beth J: Hello?
+
+00:25:53.000 --> 00:26:09.000
+Conner Galway: And so we've told it in the instructions, you're an implementation writer for Junction for the, you know, new plan. Your job is to take raw client information. And so what we do in our workflow is we upload the transcript, our discovery call, intake questions, all of the documentation from the coach.
+
+00:26:09.000 --> 00:26:15.000
+Conner Galway: And then it knows to do all of this. So it's kind of like writing SOPs, but for our Claude employee.
+
+00:26:09.000 --> 00:26:10.000
+Beth J: Okay.
+
+00:26:15.000 --> 00:26:16.000
+Beth J: Cool.
+
+00:26:15.000 --> 00:26:25.000
+Conner Galway: And we're telling it what good looks like, what we want it to produce, that kind of thing. So, kind of like, it's only limited by your imagination. I'll show you here, we have…
+
+00:26:25.000 --> 00:26:26.000
+Conner Galway: Lots of different, uh.
+
+00:26:26.000 --> 00:26:42.000
+Conner Galway: We had one, this does, you know, we also run online courses, so we have it sort of as the TA for our courses. And so it reviews all of the projects and provides feedback and then like the instructor kind of customizes that and gives it back.
+
+00:26:33.000 --> 00:26:35.000
+Beth J: Okay.
+
+00:26:42.000 --> 00:26:48.000
+Conner Galway: But for yours, you don't have to have one project, right? You can have many.
+
+00:26:48.000 --> 00:26:58.000
+Conner Galway: And so you'll kind of train it on the individual task. And in a minute, we'll kind of go over what those tasks might be, because normally, for me at this point, I'm like…
+
+00:26:58.000 --> 00:27:03.000
+Conner Galway: I don't even know where to start, right, with all of this stuff that it could potentially do.
+
+00:27:00.000 --> 00:27:01.000
+Beth J: Hehe.
+
+00:27:02.000 --> 00:27:03.000
+Beth J: Right.
+
+00:27:03.000 --> 00:27:08.000
+Conner Galway: But then the other thing that you'll want to know about is files.
+
+00:27:08.000 --> 00:27:18.000
+Conner Galway: Right, so, as you said, you've been sort of loading in files, um, like, one by one, and having it either use that for information, or… what we can do is, if we have.
+
+00:27:18.000 --> 00:27:19.000
+Conner Galway: Like, you know.
+
+00:27:19.000 --> 00:27:32.000
+Conner Galway: um, sort of, call it canonical or base files, um, we can upload that into this project, and it will always be able to refer back to it, right? It's not going to forget about it, because it's, like, always there in the database.
+
+00:27:32.000 --> 00:27:33.000
+Beth J: Okay.
+
+00:27:32.000 --> 00:27:48.000
+Conner Galway: And usually what we would use that for is it could be, for example — I'll show you an example of something that I just kind of demoed. So I had to create a work plan. So I said, help me to create a work plan for the crew on an upcoming job in 123 Fake Street.
+
+00:27:48.000 --> 00:28:05.000
+Conner Galway: Use the provided work order. So like we would've given it the work order and spec sheets to produce a detailed list of tasks to be completed. Use our SOPs to estimate the time for each task and the materials that would be required. And so it would then reference all of those, like our SOPs.
+
+00:27:52.000 --> 00:27:53.000
+Beth J: Yes.
+
+00:28:01.000 --> 00:28:02.000
+Beth J: Hmm.
+
+00:28:05.000 --> 00:28:21.000
+Conner Galway: Um, what our pricing sheet is, all of those things. And we wouldn't have to upload that every time. What you would have uploaded in this case is just, like, what is this one individual work order? And so then it would be able to produce something like this. Like, what is the day schedule like? You know, who's working on it?
+
+00:28:08.000 --> 00:28:09.000
+Beth J: Okay.
+
+00:28:10.000 --> 00:28:12.000
+Beth J: Oh, that's so cool.
+
+00:28:21.000 --> 00:28:25.000
+Conner Galway: What's our materials list? That sort of thing. And so just…
+
+00:28:23.000 --> 00:28:27.000
+Beth J: That is so cool.
+
+00:28:25.000 --> 00:28:29.000
+Conner Galway: Right? It just makes life so much easier.
+
+00:28:28.000 --> 00:28:29.000
+Beth J: Yeah.
+
+00:28:29.000 --> 00:28:34.000
+Conner Galway: And then how you could take this a step further even is you can put in templates.
+
+00:28:34.000 --> 00:28:35.000
+Beth J: Hmm.
+
+00:28:34.000 --> 00:28:50.000
+Conner Galway: And so maybe you have a PDF or a document or something like that, and you're like, this is how we always style this. And you can be like, I want you to create this, but I want you to create it as a PDF using the template that I've provided. And then you can download that template and just like send it off to the crew or to a client or whatever.
+
+00:28:51.000 --> 00:28:52.000
+Beth J: Okay.
+
+00:28:52.000 --> 00:28:59.000
+Conner Galway: So that's, and we'll like, we'll spend most of our time in projects, but that's just kind of like a high level overview.
+
+00:28:56.000 --> 00:28:57.000
+Beth J: Hmm.
+
+00:28:59.000 --> 00:29:00.000
+Beth J: Okay.
+
+00:28:59.000 --> 00:29:07.000
+Conner Galway: This is a brand new feature that they just launched and it'll be called Ask SMR Plumbing.
+
+00:29:06.000 --> 00:29:08.000
+Beth J: Right.
+
+00:29:07.000 --> 00:29:22.000
+Conner Galway: And basically what it's trying to do is become the chatbot for your business. So as you have more interactions with it, load in more files. So it's pulling everything from all of everybody's interactions with Claude, like Sean, you, anybody else in the business who's using it.
+
+00:29:22.000 --> 00:29:23.000
+Beth J: Mm-hmm.
+
+00:29:22.000 --> 00:29:35.000
+Conner Galway: And then you can just start to ask it questions, like, how many jobs do we have on the go right now? Like, what's our average deal size? Or, like, what's our capacity right now? And you can ask it. But, like, that will only really become useful after you've kind of used it for a month or two.
+
+00:29:34.000 --> 00:29:36.000
+Beth J: Okay.
+
+00:29:35.000 --> 00:29:38.000
+Conner Galway: But that's, you know, that's a brand new toy.
+
+00:29:38.000 --> 00:29:40.000
+Beth J: Cool.
+
+00:29:38.000 --> 00:29:41.000
+Conner Galway: And then you mentioned…
+
+00:29:40.000 --> 00:29:52.000
+Beth J: I don't know how much Sean's gonna like that, though. Can he set certain things to, like, private, where it won't share with the rest of the organization? Yeah, he can do that, right?
+
+00:29:44.000 --> 00:29:45.000
+Conner Galway: Well, yeah.
+
+00:29:51.000 --> 00:30:06.000
+Conner Galway: Yeah, yeah, so what, so what the admin on the account can do, so I'm the admin on our account, um, you can customize the instructions, um, so you can go into here and say, this is what you do talk about, what you don't talk about. What you don't have to worry about is it, like, copying and pasting things, so if he's like.
+
+00:29:52.000 --> 00:29:53.000
+Beth J: Okay.
+
+00:29:57.000 --> 00:29:59.000
+Beth J: Okay.
+
+00:30:02.000 --> 00:30:03.000
+Beth J: Okay.
+
+00:30:05.000 --> 00:30:06.000
+Beth J: Oh, okay.
+
+00:30:06.000 --> 00:30:15.000
+Conner Galway: I'm going to fire somebody. And then you typed in, am I getting fired? It wouldn't tell you, but it would, it would just give.
+
+00:30:11.000 --> 00:30:17.000
+Beth J: Okay, good. I'm like, I don't think I want to find out that way.
+
+00:30:17.000 --> 00:30:34.000
+Conner Galway: No, it's more like general information about the business and about the documents and the files that you've uploaded. And so you can choose, even when you're uploading things, to share it or not to share it. And so, yeah, I'll talk to him about that, but that just gets defined in the instructions.
+
+00:30:20.000 --> 00:30:22.000
+Beth J: Okay.
+
+00:30:24.000 --> 00:30:25.000
+Beth J: Oh.
+
+00:30:28.000 --> 00:30:30.000
+Beth J: Okay.
+
+00:30:32.000 --> 00:30:34.000
+Beth J: Yeah, yeah.
+
+00:30:34.000 --> 00:30:36.000
+Beth J: OK, wonderful.
+
+00:30:36.000 --> 00:30:44.000
+Beth J: Yeah, that's pretty important. I mean, the rest of us, it doesn't matter, but I think it's pretty important that he has that kind of privacy.
+
+00:30:36.000 --> 00:30:38.000
+Conner Galway: And then…
+
+00:30:44.000 --> 00:30:52.000
+Conner Galway: Totally, yeah. And out of the box, it's not going to reveal, you know, that he was doing a therapy session with his Claude last night.
+
+00:30:51.000 --> 00:30:58.000
+Beth J: I doubt he would ever do that.
+
+00:30:56.000 --> 00:30:59.000
+Conner Galway: Maybe you should.
+
+00:30:58.000 --> 00:31:04.000
+Beth J: Maybe, but I doubt it. Anyways.
+
+00:31:03.000 --> 00:31:09.000
+Conner Galway: And so the next thing to cover is, have you ever heard of connectors? Has that come across at any point?
+
+00:31:08.000 --> 00:31:11.000
+Beth J: No. Yeah, no.
+
+00:31:09.000 --> 00:31:22.000
+Conner Galway: Okay, this is another major unlock, specifically with Claude, but kind of with all of them. So connectors are these here, so you can add in, like, direct connections to any of the other software that you use.
+
+00:31:21.000 --> 00:31:36.000
+Beth J: Oh, so I have already used this then, yes, I just didn't recognize the name connectors. Yeah, I've integrated it with Gmail, Excel, I think Word as well, definitely Excel.
+
+00:31:23.000 --> 00:31:25.000
+Conner Galway: Oh, amazing.
+
+00:31:36.000 --> 00:31:47.000
+Beth J: I haven't done it with everything. I was going to, and then I wanted to make sure that, you know, Sean would be okay with everything being connected, but yeah.
+
+00:31:37.000 --> 00:31:38.000
+Conner Galway: Nice, okay.
+
+00:31:44.000 --> 00:31:46.000
+Conner Galway: Mmhm.
+
+00:31:46.000 --> 00:31:56.000
+Conner Galway: And do you all have — what do you use for document storage? Like, is it like SharePoint or Google Drive?
+
+00:31:55.000 --> 00:31:57.000
+Beth J: Google Drive.
+
+00:31:57.000 --> 00:32:12.000
+Conner Galway: Google Drive? Perfect. Yeah, that connection's super easy. And then now what you can do is, like, anytime you want to reference something from your Google Drive, you can just ask it to. You can be like, there's a price sheet in this folder in our Google Drive, go get it, or reference it. And you can just do that on the fly.
+
+00:31:57.000 --> 00:31:59.000
+Beth J: Yep.
+
+00:32:00.000 --> 00:32:01.000
+Beth J: Yes.
+
+00:32:10.000 --> 00:32:12.000
+Beth J: Oh, cool.
+
+00:32:13.000 --> 00:32:17.000
+Beth J: Oof, this is gonna save me so much time.
+
+00:32:15.000 --> 00:32:32.000
+Conner Galway: Totally. And you can see here, this is what we use for project management. This is our email. This is where we build websites. If you use Canva for Instagram or whatever, you can integrate that. And you can just be like, I want you to make an image of this and push it to Canva. So you can do that directly from your Claude.
+
+00:32:32.000 --> 00:32:34.000
+Beth J: Okay, cool.
+
+00:32:34.000 --> 00:32:44.000
+Conner Galway: And then we'll cover skills briefly, but we might not get to that until maybe like session three or four. But skills are really important because for the automation part.
+
+00:32:39.000 --> 00:32:41.000
+Beth J: Okay.
+
+00:32:44.000 --> 00:32:59.000
+Conner Galway: So basically what a skill is, is it takes a work process or a workflow that you would typically do and it just saves that kind of as a file. So you can just think of a skill as being an individual file. So a project is a folder, a skill is a file.
+
+00:32:59.000 --> 00:33:00.000
+Beth J: Mm-hmm.
+
+00:32:59.000 --> 00:33:18.000
+Conner Galway: But here's an example. So in our industry, there is so much information, right? There's like reports and data and like all of the research that comes out every month. And so rather than me having to read every one of those reports, I created a skill that just goes out on the internet and finds all of them.
+
+00:33:09.000 --> 00:33:10.000
+Beth J: Right.
+
+00:33:18.000 --> 00:33:19.000
+Beth J: Hmm.
+
+00:33:18.000 --> 00:33:27.000
+Conner Galway: puts them all in one folder, and then analyzes them and says, all right, well, here's what's interesting this month. And then I… and then kind of, like, get…
+
+00:33:24.000 --> 00:33:25.000
+Beth J: Hmm.
+
+00:33:27.000 --> 00:33:42.000
+Conner Galway: Three steps ahead here, I've had it create this. So this is entirely created by Claude. So it takes all of the reports from across the internet, says, here's the trends, here's the consumer insights. I didn't code any of this, by the way, Claude did it. Here's the industry stats.
+
+00:33:32.000 --> 00:33:34.000
+Beth J: Very neat.
+
+00:33:42.000 --> 00:33:46.000
+Conner Galway: And here's the recommended actions.
+
+00:33:44.000 --> 00:33:45.000
+Beth J: Wait, look…
+
+00:33:46.000 --> 00:34:01.000
+Conner Galway: And so a skill is a way for us to just, like, automate something that we might otherwise be tedious, or that we do every day. I also have… is it in this project? No, in… I have a couple of different cloud accounts. I also… and I don't know if an accountant would…
+
+00:33:52.000 --> 00:33:54.000
+Beth J: Okay.
+
+00:33:58.000 --> 00:33:59.000
+Beth J: Thank you.
+
+00:34:01.000 --> 00:34:05.000
+Conner Galway: I don't recommend that I do this, but…
+
+00:34:02.000 --> 00:34:04.000
+Beth J: Okay.
+
+00:34:06.000 --> 00:34:17.000
+Conner Galway: No, let's go into projects. Let's go to chats. I also, we did an SEO analysis for a plumbing service website. Wonder who that could be.
+
+00:34:15.000 --> 00:34:18.000
+Beth J: Thank you.
+
+00:34:17.000 --> 00:34:23.000
+Conner Galway: Um, I have a skill… well, you don't need to see my payroll. I have a skill that does our payroll.
+
+00:34:21.000 --> 00:34:25.000
+Beth J: No, I don't.
+
+00:34:24.000 --> 00:34:40.000
+Conner Galway: But basically, so what it does, and just as an example of sort of, like, a boring work process, I've trained it on, like, all of our comp across our organization, and then I've trained it also to, like, every week to go out and find the latest.
+
+00:34:29.000 --> 00:34:31.000
+Beth J: Yes?
+
+00:34:35.000 --> 00:34:37.000
+Beth J: Hmm.
+
+00:34:40.000 --> 00:34:56.000
+Conner Galway: CRA rule changes, tax implications, that kind of thing. And then it goes and takes all of that, references the data, updates a Google Sheet with all of that, and then it goes to our pay stub template, creates all the pay stubs, and then puts those in a folder.
+
+00:34:44.000 --> 00:34:45.000
+Beth J: Cool.
+
+00:34:55.000 --> 00:34:57.000
+Beth J: Oh, wow.
+
+00:34:56.000 --> 00:35:07.000
+Conner Galway: Didn't have to do anything technical. I literally just was like, I want you to walk me through this process of how I could set it up, and it did it. And then at the end, I just said, I want you to save this as a skill.
+
+00:35:02.000 --> 00:35:03.000
+Beth J: Yes.
+
+00:35:07.000 --> 00:35:10.000
+Conner Galway: And did it. And now I have a skill.
+
+00:35:08.000 --> 00:35:10.000
+Beth J: Huh.
+
+00:35:10.000 --> 00:35:16.000
+Beth J: So neat, yeah. Well, you won't need an accountant for your future.
+
+00:35:11.000 --> 00:35:12.000
+Conner Galway: So thank you.
+
+00:35:15.000 --> 00:35:19.000
+Conner Galway: My accountant would disagree, but like we…
+
+00:35:16.000 --> 00:35:17.000
+Beth J: Good.
+
+00:35:17.000 --> 00:35:24.000
+Beth J: Well, of course they will. They don't want to be obsolete. They went to school and paid a lot of money.
+
+00:35:20.000 --> 00:35:21.000
+Conner Galway: Right.
+
+00:35:21.000 --> 00:35:23.000
+Conner Galway: Really?
+
+00:35:24.000 --> 00:35:41.000
+Conner Galway: Totally, yeah. But the less I have to depend on them, the better. So that's skills. And then you had mentioned artifacts. Really, all artifacts are when we make something with Claude, whether it's something in HTML or a project or a document or something like that.
+
+00:35:28.000 --> 00:35:30.000
+Beth J: Yes. Yeah.
+
+00:35:31.000 --> 00:35:33.000
+Beth J: Mm-hmm.
+
+00:35:41.000 --> 00:35:56.000
+Conner Galway: We can just save it, and then we can share that with other people if we want to. So for example, oh, I don't know. So I created this, which is what we called a prompt library. And so this is one of the things that we'll build together.
+
+00:35:56.000 --> 00:35:57.000
+Beth J: Okay.
+
+00:35:56.000 --> 00:36:03.000
+Conner Galway: So we came up with 143 different AI prompts that somebody who works in tourism could use in their work.
+
+00:36:02.000 --> 00:36:04.000
+Beth J: Okay.
+
+00:36:03.000 --> 00:36:20.000
+Conner Galway: And so then like, you know, for example, if they wanted to do, you know, for paid advertising, they might do an audience strategy from research. Well, here's the prompt that they could copy and paste into their own Claude. And so I just did that with AI, but then I wanted to keep it somewhere, not just in the project.
+
+00:36:15.000 --> 00:36:16.000
+Beth J: Okay.
+
+00:36:20.000 --> 00:36:21.000
+Beth J: Oh.
+
+00:36:20.000 --> 00:36:29.000
+Conner Galway: but somewhere that I could share. And so I just said, save as artifact, and now it's here. And then I can just share that with anybody I want to.
+
+00:36:28.000 --> 00:36:30.000
+Beth J: Okay.
+
+00:36:33.000 --> 00:36:49.000
+Conner Galway: And then to go just a little bit deeper here in Claude, I'll share a couple of other things that you should be aware of, but probably won't use right away. So this is my desktop version. And you'll notice in desktop, it's a lot easier to navigate to these other two tabs. Have you explored Cowork yet?
+
+00:36:49.000 --> 00:36:51.000
+Beth J: No.
+
+00:36:51.000 --> 00:37:10.000
+Conner Galway: OK, cowork is bananas. Basically, what it is is when people talk about agentic AI or agents, they're talking about this. And so the difference between chat and cowork is it can take over your computer and do literally anything that you could do on your computer.
+
+00:36:54.000 --> 00:36:56.000
+Beth J: Okay.
+
+00:37:00.000 --> 00:37:02.000
+Beth J: Yep.
+
+00:37:02.000 --> 00:37:04.000
+Beth J: Okay.
+
+00:37:09.000 --> 00:37:19.000
+Beth J: Oh, don't tell Sean that. He might actually just use it and replace me. I'm kidding.
+
+00:37:12.000 --> 00:37:13.000
+Conner Galway: But, yeah.
+
+00:37:17.000 --> 00:37:29.000
+Conner Galway: I mean, my general theory on this is, like, we're not gonna fire people. Instead, we're gonna, like, get 10 times more work out of our people. Um, and so the smartest thing that we can do is literally what we're doing right now, right? Which is…
+
+00:37:23.000 --> 00:37:25.000
+Beth J: Right, right.
+
+00:37:29.000 --> 00:37:33.000
+Conner Galway: You know, have smart people use the tools to do more of what they do.
+
+00:37:33.000 --> 00:37:34.000
+Beth J: Right.
+
+00:37:34.000 --> 00:37:52.000
+Conner Galway: Um, so… so in Cloud Cowork, you could have it, like, go into your Google Drive, find a document, and update that document. You could have it go shopping for you, um, you could have it book a trip, uh, get a table at a restaurant, like, kind of anything you can imagine you could do with a browser or with your computer.
+
+00:37:44.000 --> 00:37:45.000
+Beth J: Hmm. Okay.
+
+00:37:52.000 --> 00:37:54.000
+Conner Galway: Cowork can do.
+
+00:37:54.000 --> 00:38:07.000
+Conner Galway: Um, but just to, like, I don't know, give a… an example of something I've had to do. So this is… I've sort of combined skills and co-work to create something I call a gap sales outreach.
+
+00:38:07.000 --> 00:38:22.000
+Conner Galway: And so it basically what it does is it goes out every morning at 4 a.m. and it searches the entire industry for job opportunities, right? People who are hiring consultants or training or whatever. And then it comes back with 20 opportunities.
+
+00:38:22.000 --> 00:38:37.000
+Conner Galway: and then it writes draft emails based on what it knows about our business, what it's researched about their business, and then it just puts those in my Gmail, and it's just sitting there waiting for me. So when I open up my Gmail in the morning, and I'll show you what this looks like.
+
+00:38:37.000 --> 00:38:47.000
+Conner Galway: Um, I have 20 sales emails that are ready for me, I don't have to research them, I don't… like, obviously, like, I don't just use what Claude wrote, but like…
+
+00:38:45.000 --> 00:38:47.000
+Beth J: Hmm.
+
+00:38:47.000 --> 00:39:02.000
+Conner Galway: It is a game, because, like, then I don't have to be like, oh, God, where do I look, and what do I do? So here's mine for today. So it even knows that, like, we had previously been talking to Moose Jaw, so it wrote a follow-up email. Or, you know, it said, for this one.
+
+00:38:52.000 --> 00:38:53.000
+Beth J: Yes.
+
+00:38:55.000 --> 00:38:56.000
+Beth J: Ha!
+
+00:39:02.000 --> 00:39:17.000
+Conner Galway: For Northwest Territories, it talks about, it went and researched that they have a 2030 plan. And so here's some of the things that they might be interested in. So, and like, do you, do you all do like outbound sales or like any sort of business development?
+
+00:39:08.000 --> 00:39:09.000
+Beth J: Huh.
+
+00:39:11.000 --> 00:39:12.000
+Beth J: Wow.
+
+00:39:17.000 --> 00:39:47.000
+Beth J: Um, yeah, well, we want to do… I mean, that's kind of where we're going with SEO, is, like, we do need to look at, obviously, marketing. Um, I know Sean's done some advertising with Facebook, Google Ads, and that kind of thing. Um, he didn't feel it was the best fit for him, but yes, I mean, I'll use Jobber, uh, for email marketing, and, you know, I'll, uh, put ads up on Instagram and share them with Facebook, but, um, that's something that we are very.
+
+00:39:29.000 --> 00:39:30.000
+Conner Galway: Mmhm.
+
+00:39:40.000 --> 00:39:42.000
+Conner Galway: Mm, mm-hmm.
+
+00:39:47.000 --> 00:39:51.000
+Beth J: weaken. So that's something we definitely need to strengthen.
+
+00:39:48.000 --> 00:39:50.000
+Conner Galway: Right.
+
+00:39:51.000 --> 00:40:06.000
+Conner Galway: Well, I mean, for like B2C, obviously you're just not gonna be able to find like, is there a homeowner with a broken toilet? But for B2B, you might be able to use something like this to say, find all of the new builds, all the construction companies, all the developers.
+
+00:40:06.000 --> 00:40:21.000
+Conner Galway: who could be looking for an HVAC or a plumbing company, um, and then create a list of those, ranking them with, like, the information, that sort of thing, and then you would sort of have a list that you could start from to start reaching out to those businesses to be like, hey, we're over here.
+
+00:40:16.000 --> 00:40:17.000
+Beth J: Okay.
+
+00:40:21.000 --> 00:40:23.000
+Beth J: Mm-hmm.
+
+00:40:21.000 --> 00:40:24.000
+Conner Galway: And we, you know, we would love to work together.
+
+00:40:24.000 --> 00:40:27.000
+Beth J: Yeah, that's important for sure.
+
+00:40:27.000 --> 00:40:33.000
+Beth J: And Sean's amazing at actually, like, building that relationship. We just need to find it.
+
+00:40:27.000 --> 00:40:29.000
+Conner Galway: So that…
+
+00:40:33.000 --> 00:40:36.000
+Conner Galway: Right. Yeah. Or, like, if I mean, I know.
+
+00:40:36.000 --> 00:40:52.000
+Conner Galway: I talked to Sean about this. Sometimes he'll literally just like show up at their office. Be like, Hey, I'm Sean. Like, you know, you want to do business together. I mean, this could figure out like who, you know, who could be looking, what's their address? Where is their office? What's their boss's name? And it can just like do all of that for you.
+
+00:40:43.000 --> 00:40:44.000
+Beth J: Yep.
+
+00:40:46.000 --> 00:40:48.000
+Beth J: You bet.
+
+00:40:49.000 --> 00:40:51.000
+Beth J: For sure.
+
+00:40:51.000 --> 00:40:55.000
+Beth J: Yeah. Wow, that's so cool.
+
+00:40:53.000 --> 00:40:54.000
+Conner Galway: So…
+
+00:40:54.000 --> 00:41:10.000
+Conner Galway: And so as you can see here, we can use — within Cowork, we can also use projects. So again, it's like Cowork is agentic, meaning we're not just working in Claude. We're also working off in the wild world of the internet. But we can organize all of those tasks within a project.
+
+00:40:59.000 --> 00:41:00.000
+Beth J: Mmhm.
+
+00:41:10.000 --> 00:41:15.000
+Conner Galway: And we can also use skills to automate those tasks.
+
+00:41:10.000 --> 00:41:11.000
+Beth J: Okay.
+
+00:41:15.000 --> 00:41:16.000
+Beth J: Hmm.
+
+00:41:17.000 --> 00:41:27.000
+Conner Galway: And then the last thing, and this, again, may or may not become relevant, but I think it's important to understand, excuse me, is cloud code.
+
+00:41:25.000 --> 00:41:26.000
+Beth J: Mm-hmm.
+
+00:41:27.000 --> 00:41:31.000
+Conner Galway: Um, have you ever navigated over to this part of Claude?
+
+00:41:30.000 --> 00:41:33.000
+Beth J: No, no.
+
+00:41:32.000 --> 00:41:51.000
+Conner Galway: this is the part that seems scary at first, but it's actually not. This would be where you actually build stuff, right? And so it could be a website, it could be, like, an interactive, um, like, dashboard for clients, it could be, you know, kind of anything you can imagine you can build in…
+
+00:41:51.000 --> 00:42:00.000
+Conner Galway: Um… in Cloud Code. So I'm just gonna give a couple of examples of stuff that we've built. And for context, I'm…
+
+00:41:55.000 --> 00:41:56.000
+Beth J: Mm-hmm.
+
+00:42:00.000 --> 00:42:10.000
+Conner Galway: I know enough HTML to, like, break your website. Like, I can get in there and create problems, and so, like, the fact that I'm able to do all of this stuff is… blows my mind all the time.
+
+00:42:02.000 --> 00:42:03.000
+Beth J: Mmhm.
+
+00:42:07.000 --> 00:42:08.000
+Beth J: Okay.
+
+00:42:10.000 --> 00:42:11.000
+Beth J: Huh.
+
+00:42:10.000 --> 00:42:16.000
+Conner Galway: So here's just some examples of stuff that we've done. So Claude Code.
+
+00:42:14.000 --> 00:42:15.000
+Beth J: Okay.
+
+00:42:16.000 --> 00:42:33.000
+Conner Galway: For example, let's see, what would be a good example of this? Oh, the quote generator. So we were working with this tour company and a very different business from yours, but similar in that they had a problem, which was that quoting on group tours was super complicated.
+
+00:42:22.000 --> 00:42:23.000
+Beth J: No.
+
+00:42:33.000 --> 00:42:35.000
+Beth J: Right.
+
+00:42:33.000 --> 00:42:35.000
+Conner Galway: And he was like.
+
+00:42:35.000 --> 00:42:48.000
+Conner Galway: when there's 20 people, I have all these fixed costs, I have very few variable costs, so I kinda know what that price is, but if it's 25 people, like, how many extra hotel room nights, how many guys, what are the hours, and, like, meals, etc.
+
+00:42:46.000 --> 00:42:47.000
+Beth J: Okay.
+
+00:42:47.000 --> 00:42:49.000
+Beth J: Yeah.
+
+00:42:48.000 --> 00:43:04.000
+Conner Galway: I'm like, this is a job for Claude. And so we've created this pricing tool. This is probably similar to what Sean's trying to build. And so now he just goes in, what's the package name? What's the tour company? What's the date? How many days? And then it knows already what his fixed costs are, but he can adjust those if he wants to.
+
+00:42:50.000 --> 00:42:51.000
+Beth J: Huh.
+
+00:42:54.000 --> 00:42:56.000
+Beth J: Yes.
+
+00:43:04.000 --> 00:43:16.000
+Conner Galway: It knows what its per-person variable costs are, but we can also, like, add that in, so you could say, put in additional materials, that kind of thing, what's the group, maximum group size, and then we just… it creates this.
+
+00:43:04.000 --> 00:43:06.000
+Beth J: Okay.
+
+00:43:15.000 --> 00:43:17.000
+Beth J: Hmm.
+
+00:43:16.000 --> 00:43:22.000
+Conner Galway: And we can export that as a PDF or a CSV. Um, so just, like…
+
+00:43:19.000 --> 00:43:20.000
+Beth J: Okay.
+
+00:43:22.000 --> 00:43:25.000
+Conner Galway: Simple example, but like this probably took forever.
+
+00:43:25.000 --> 00:43:44.000
+Conner Galway: I don't know, half an hour and just a bunch of, you know, me going back and forth to Claude being like, this is something that I want to make. How do I make it? And so you can absolutely make stuff like this. This is not, it doesn't require any like special technical abilities. It just kind of requires understanding how to be able to prompt the system.
+
+00:43:27.000 --> 00:43:28.000
+Beth J: Huh.
+
+00:43:33.000 --> 00:43:34.000
+Beth J: Okay.
+
+00:43:43.000 --> 00:44:00.000
+Beth J: Okay, that's so neat. Yeah, because I do want to. I've been trying in projects to create like a dashboard for the text and whatnot. But I mean, I haven't spent a ton of time on it. But now I can actually.
+
+00:44:00.000 --> 00:44:05.000
+Beth J: play with this and probably make it even faster and better.
+
+00:44:01.000 --> 00:44:03.000
+Conner Galway: Totally.
+
+00:44:04.000 --> 00:44:18.000
+Conner Galway: A warning, it's super addictive, right? You'll find it'll be like 10 o'clock at night and you're still like messing around with it and adjusting features and colors and you're like, where did five hours go? But it's super fun.
+
+00:44:16.000 --> 00:44:21.000
+Beth J: Okay, awesome.
+
+00:44:19.000 --> 00:44:36.000
+Conner Galway: Kind of as a demo, I had it create your SEO audit. And so this is kind of our bridge to our next conversation. So I used Cloud Code to do exactly that. So you can see here, it kind of did two things. One, I had one of our tools do an audit of the website, and so I fed that in.
+
+00:44:27.000 --> 00:44:28.000
+Beth J: Okay.
+
+00:44:36.000 --> 00:44:37.000
+Beth J: Okay.
+
+00:44:36.000 --> 00:44:52.000
+Conner Galway: Actually, you know, just for your information, I'll show you how I did this. Actually, you know what, it's not gonna look pretty because I will show you, but once you kind of get to the next level of Claude, you start using this, which sounds terrifying, or it looks terrifying.
+
+00:44:40.000 --> 00:44:41.000
+Beth J: Okay.
+
+00:44:45.000 --> 00:44:46.000
+Beth J: Okay.
+
+00:44:52.000 --> 00:44:53.000
+Beth J: Okay.
+
+00:44:52.000 --> 00:44:53.000
+Conner Galway: Um, so…
+
+00:44:53.000 --> 00:44:58.000
+Conner Galway: But I promise you, you're not writing any of this code.
+
+00:44:55.000 --> 00:45:07.000
+Beth J: I could do little bits. I've been taught a little bit of HTML, but very, very, yeah, I would be able to maybe change a color or something.
+
+00:45:00.000 --> 00:45:02.000
+Conner Galway: Oh, is that right?
+
+00:45:07.000 --> 00:45:09.000
+Beth J: No.
+
+00:45:07.000 --> 00:45:23.000
+Conner Galway: Okay. Well, it's funny, honestly, that having even that knowledge is super helpful for this kind of thing. And so, yeah, so what you will do, and here, so what I did is I went into Claude, I provided it that report.
+
+00:45:13.000 --> 00:45:15.000
+Beth J: Okay.
+
+00:45:23.000 --> 00:45:28.000
+Conner Galway: And then I'll show you exactly what I did. I went over here.
+
+00:45:28.000 --> 00:45:30.000
+Conner Galway: And I said…
+
+00:45:30.000 --> 00:45:45.000
+Conner Galway: You're tasked to perform an expert comprehensive SEO analysis for this website. I've attached, you know, or what I said, yeah, I've attached the, the report, et cetera. And then it went off and did its thing. And so you can see there, I'm kind of like training it to be an expert and not just like a generalist.
+
+00:45:45.000 --> 00:45:54.000
+Conner Galway: And then it came back with all of these things, and then it created this file, and then I went over to this, the scary looking thing.
+
+00:45:45.000 --> 00:45:47.000
+Beth J: Okay.
+
+00:45:54.000 --> 00:46:07.000
+Conner Galway: And I was like, I want you to build me an interactive dashboard. So I said, create a world-class, awards-worthy microsite that displays the results, display these findings, use these, blah blah blah. And they came back, asked me for a bunch of permissions, etc, and then it.
+
+00:46:07.000 --> 00:46:09.000
+Conner Galway: this.
+
+00:46:09.000 --> 00:46:15.000
+Conner Galway: Um, and so I'll send this over to you and to Sean so you can look at it, but basically.
+
+00:46:12.000 --> 00:46:13.000
+Beth J: Oh.
+
+00:46:15.000 --> 00:46:31.000
+Conner Galway: Honestly, this did, like, 50% of the work that that agency would have done. And it's just like, all right, what's going on in the site? What are our biggest gaps? What are our opportunities? And so it looked at, like, what are all the keywords that you're currently appearing for?
+
+00:46:19.000 --> 00:46:20.000
+Beth J: Mm-hmm.
+
+00:46:31.000 --> 00:46:32.000
+Beth J: Okay.
+
+00:46:31.000 --> 00:46:49.000
+Conner Galway: So these are what you're currently ranking for. What are the biggest opportunities? So, like, these type of things. Um, emergency, HVAC, local. Um, and then… and it goes down here to go on to be like, alright, well, who else is competing? So obviously these are some of the big guys, and it's sort of ranked you against them.
+
+00:46:33.000 --> 00:46:34.000
+Beth J: Oh.
+
+00:46:36.000 --> 00:46:38.000
+Beth J: Mmm.
+
+00:46:49.000 --> 00:46:51.000
+Beth J: Okay.
+
+00:46:50.000 --> 00:47:05.000
+Conner Galway: And then it said, what are the six things you need to do? So it kind of broke that down into step by step. And this is, like I said, these are the things that we can talk about sort of in session four, if that's the best use of our time. Because now, like, none of these things are like…
+
+00:46:58.000 --> 00:46:59.000
+Beth J: Okay.
+
+00:47:01.000 --> 00:47:02.000
+Beth J: Hmm.
+
+00:47:05.000 --> 00:47:13.000
+Conner Galway: magic. They're all just, like, pretty basic things that, like, if you know how to, like, write an open bracket, close bracket, you can probably do yourself.
+
+00:47:08.000 --> 00:47:10.000
+Beth J: Okay.
+
+00:47:13.000 --> 00:47:15.000
+Beth J: Okay.
+
+00:47:14.000 --> 00:47:23.000
+Conner Galway: And for context, and Sean and I talked about this, what we're not going to do is, like, make half of your job SEO. Like, I promise you that.
+
+00:47:21.000 --> 00:47:25.000
+Beth J: Okay, thank God.
+
+00:47:23.000 --> 00:47:38.000
+Conner Galway: The whole point of this is like, can we just maybe create an hour or two of work every week or two that would maybe get you 80% of the value that you would've gotten from hiring some expensive agency?
+
+00:47:38.000 --> 00:47:39.000
+Beth J: Right.
+
+00:47:38.000 --> 00:47:50.000
+Conner Galway: Um, and then, you know, once we get to, say, 3, 4 months, and you're like, wow, this SEO thing is really working, then maybe it would be time to revisit and be like, does it make sense to bring in a professional and pay them a bunch of money?
+
+00:47:50.000 --> 00:47:51.000
+Beth J: Hmm. Okay.
+
+00:47:52.000 --> 00:48:00.000
+Conner Galway: So yeah, so this is just a perfect example of something that you could absolutely build yourself with like a couple of simple prompts.
+
+00:48:00.000 --> 00:48:01.000
+Beth J: Okay.
+
+00:48:02.000 --> 00:48:03.000
+Beth J: Thank you.
+
+00:48:02.000 --> 00:48:18.000
+Conner Galway: But okay, so you're welcome. So that's kind of like a high level tour and like we'll, we'll dig deeper into all of those different things. Um, but in the rest of the time we have today, what I would love to cover is just a little bit about your current workflow.
+
+00:48:10.000 --> 00:48:11.000
+Beth J: Okay.
+
+00:48:18.000 --> 00:48:20.000
+Conner Galway: Um, and…
+
+00:48:20.000 --> 00:48:25.000
+Conner Galway: Just kind of setting AI aside for now, I wonder.
+
+00:48:25.000 --> 00:48:28.000
+Conner Galway: What are a few of the things that maybe…
+
+00:48:29.000 --> 00:48:41.000
+Conner Galway: take a lot of time, or, like, you have to do over and over again. Like, you've started to explore some of these things yourself with AI, but when you think about, like, a day or a week, like, what are some of those bottlenecks that come up?
+
+00:48:42.000 --> 00:48:50.000
+Beth J: For me and my job specifically. Let's see, I didn't. I should have planned that. Sorry.
+
+00:48:44.000 --> 00:48:45.000
+Conner Galway: Yeah, so…
+
+00:48:49.000 --> 00:48:50.000
+Conner Galway: No.
+
+00:48:50.000 --> 00:48:52.000
+Beth J: Okay.
+
+00:48:51.000 --> 00:49:03.000
+Conner Galway: Maybe even just like walk through the last couple of days in your head, like are there spreadsheets that you're updating? Are there documents you're preparing? Like are you communicating with the crew? Like what takes up most of your time?
+
+00:49:02.000 --> 00:49:17.000
+Beth J: Um, well, what takes… yeah, I guess, um, in the last few days, because I'm trying to update our MVP, it's gonna be just, like, reconciling accounts and getting receipts from employees and, um…
+
+00:49:17.000 --> 00:49:34.000
+Beth J: and then, I mean, our scheduling takes up quite a bit of time, but that's kind of… I mean, that's not something that you can… well, what? I mean, unless you get someone who can talk to everybody or respond… we could work with it to respond to emails and book stuff for us, I guess. Um…
+
+00:49:34.000 --> 00:49:42.000
+Beth J: I think that it is. Yeah. So scheduling reconciling.
+
+00:49:39.000 --> 00:49:47.000
+Conner Galway: Maybe tell me a little bit more about scheduling. What does that look like? How are you creating the schedule from end to end?
+
+00:49:47.000 --> 00:50:03.000
+Beth J: Uh, well, right now, so I, I deal mostly with, uh, serv… well, I only deal with service calls, like, I'll, um, so I basically have one technician, and, uh, you know, I might be able to pull other technicians from, uh, more, like, bigger, more commercial, but custom.
+
+00:49:52.000 --> 00:49:54.000
+Conner Galway: Mm-hmm.
+
+00:50:03.000 --> 00:50:18.000
+Beth J: some commercial, some new construction and whatnot. But mostly I have one technician that I'm using for anybody who calls in to like fix a toilet or get change out a faucet or fix.
+
+00:50:18.000 --> 00:50:31.000
+Beth J: a cartridge, you know, just, like, very… pretty basic stuff that it's usually… his appointments are gonna take an hour and a half to two hours, and then… so then I'm dealing with him as far as, like, uh, you know, it…
+
+00:50:31.000 --> 00:50:50.000
+Beth J: is he followed up with the client to… if he had to order something, or… and maybe now a part's in, so now I'm booking… checking in to see when they… they can do it. So, it is only one technician, technically, that I'm working with, um, but it takes up… so I'm… I'm also answering the phones for…
+
+00:50:50.000 --> 00:51:01.000
+Beth J: um, plumbing, uh, service, office manager, and scheduling. Um, so that, yeah, it's just more client communication, I guess you could call it.
+
+00:51:00.000 --> 00:51:04.000
+Conner Galway: Got it. So you're kind of like the emergency room of the business.
+
+00:51:03.000 --> 00:51:09.000
+Beth J: It seems that way, yes. Yeah.
+
+00:51:04.000 --> 00:51:06.000
+Conner Galway: Yeah.
+
+00:51:06.000 --> 00:51:17.000
+Conner Galway: Fair enough. And then, on the reconciling work that you were talking about with, like, all of the receipts and that kind of thing, so are they, like, texting and emailing these receipts to you? And, like, what else goes into that?
+
+00:51:17.000 --> 00:51:34.000
+Beth J: So it's that they actually upload into Dext and to Jobber, um, depending on what they have. It's more, um, so I'm… I do the bookkeeping as well, so just making sure that, you know, they actually are, um, putting in the receipts that they need, and then I'm reconciling to make sure that.
+
+00:51:20.000 --> 00:51:21.000
+Conner Galway: Mmhm.
+
+00:51:34.000 --> 00:51:46.000
+Beth J: uh, you know, there's not any duplicate entries, or there's no missing things. It's really just finding what's missing, um, and then just reporting, uh, our monthly financials and whatnot to.
+
+00:51:46.000 --> 00:52:00.000
+Beth J: Sean, uh, so that he can kind of, like, see where we are on for budget, and… and, you know, just the basics. It isn't, like, I am a bookkeeper, but this job is more of the basic bookkeeper kind of thing.
+
+00:51:51.000 --> 00:51:53.000
+Conner Galway: Mmhm.
+
+00:52:00.000 --> 00:52:03.000
+Beth J: It's just keeping things organized, really.
+
+00:52:00.000 --> 00:52:02.000
+Conner Galway: Yeah, just.
+
+00:52:02.000 --> 00:52:09.000
+Conner Galway: Got it. And tell me, what do you use Jobber for? Like, what are the most…
+
+00:52:03.000 --> 00:52:04.000
+Beth J: Yeah.
+
+00:52:09.000 --> 00:52:12.000
+Conner Galway: common tasks that Jobber is used for.
+
+00:52:11.000 --> 00:52:29.000
+Beth J: So it holds our jobs. So we are going to enter in any material expenses. It's going to give us what our gross profit is for that specific job. So it's going to combine. So we're going to use it for scheduling technicians. So it's going to hold on to the labor for that specific job.
+
+00:52:29.000 --> 00:52:44.000
+Beth J: Um, and then it's… we use it for note-taking, and, like, so if I'm… I… if I have a new plumbing permit, or gas, or heating, whatever it might be, whatever permit, I'll add it into Jobber. So it's basically the hub of, um…
+
+00:52:44.000 --> 00:52:54.000
+Beth J: information and telling us how we're doing with a specific job and scheduling. So it's kind of the main thing that we use.
+
+00:52:51.000 --> 00:52:52.000
+Conner Galway: Got it.
+
+00:52:53.000 --> 00:52:56.000
+Conner Galway: Mm-hmm, okay.
+
+00:52:54.000 --> 00:52:58.000
+Beth J: And then QuickBooks I'll use for, like, the back end side of things.
+
+00:52:58.000 --> 00:53:07.000
+Conner Galway: Got it. So there is a way to connect Java to Claude, which could actually be a pretty incredible unlock, but we all…
+
+00:53:02.000 --> 00:53:04.000
+Beth J: Okay.
+
+00:53:05.000 --> 00:53:12.000
+Beth J: Oh my gosh, I bet it would be, because honestly, Jobber's AI is not very good.
+
+00:53:07.000 --> 00:53:09.000
+Conner Galway: Yeah.
+
+00:53:11.000 --> 00:53:12.000
+Conner Galway: Yeah.
+
+00:53:12.000 --> 00:53:25.000
+Conner Galway: Yeah, most of these software, they're using pretty outdated, like, and they have to be careful to, like, not over-promise what the AI does, so they put, like, pretty strict guardrails on it, which also means that it's kind of useless.
+
+00:53:24.000 --> 00:53:32.000
+Beth J: Yeah, yeah. And so we were kind of concerned by connecting, um, Jobber and, uh, Claude, like.
+
+00:53:32.000 --> 00:53:49.000
+Beth J: we weren't a hundred percent sure about security and and that kind of thing, just because it does hold our our big client, any all of our clients information. So I know that there is more. Yeah, I guess it's just a matter of like understanding it a little bit more to.
+
+00:53:41.000 --> 00:53:43.000
+Conner Galway: Mm-hmm.
+
+00:53:49.000 --> 00:53:51.000
+Beth J: feel a little bit more comfortable with that.
+
+00:53:51.000 --> 00:53:59.000
+Conner Galway: Yeah, and so part of my work is I do like policy development for large organizations and I mean, I'll take like a.
+
+00:53:56.000 --> 00:53:57.000
+Beth J: Okay.
+
+00:53:59.000 --> 00:54:16.000
+Conner Galway: Three week project and boil it down to one sentence, which is like, at the end of the day, it's just about making decisions. Um, and so Anthropic within the pro plan. So like, if you have a team in Anthropic, it basically has the same security promises that Google Drive does.
+
+00:54:04.000 --> 00:54:06.000
+Beth J: Hmm.
+
+00:54:11.000 --> 00:54:12.000
+Beth J: Yep.
+
+00:54:16.000 --> 00:54:28.000
+Conner Galway: Because, like, Google Drive also uses AI, right? So, like, they make the exact same promises about data security, about not using it to train other parts of AI. That being said, like.
+
+00:54:16.000 --> 00:54:17.000
+Beth J: Bye.
+
+00:54:19.000 --> 00:54:21.000
+Beth J: Right.
+
+00:54:26.000 --> 00:54:28.000
+Beth J: Okay.
+
+00:54:28.000 --> 00:54:46.000
+Conner Galway: As we've seen over the years, software companies don't always keep their promises. So it's kind of like at the end of the day, the decision comes down to the business owner as to like what level of risk we feel comfortable with. But I would say if we trust Anthropic or Claude, Anthropic is the owner of.
+
+00:54:32.000 --> 00:54:33.000
+Beth J: Yes.
+
+00:54:39.000 --> 00:54:41.000
+Beth J: Okay.
+
+00:54:46.000 --> 00:54:59.000
+Conner Galway: Claude, if we trust them with our data, we're doing the same thing that the US military and Fortune 500 companies are doing. So they've also made those connections. But that's not to say that you necessarily have to make the same decision.
+
+00:54:53.000 --> 00:54:54.000
+Beth J: Okay.
+
+00:54:55.000 --> 00:54:56.000
+Beth J: Okay.
+
+00:54:57.000 --> 00:55:16.000
+Beth J: Oh, no. Well, I'll leave that up to Sean. I think it's a great, I mean, it would just change so much. I mean, we basically have decided we won't, or Sean's decided that we're not moving into a more sophisticated software until we hit a certain level of income throughout the year.
+
+00:55:00.000 --> 00:55:02.000
+Conner Galway: Yeah. Okay.
+
+00:55:16.000 --> 00:55:17.000
+Conner Galway: Mm-hmm.
+
+00:55:16.000 --> 00:55:29.000
+Beth J: And Jobber, to me, is a very low-level kind of software to use. So if we can make it a little bit higher level, that would be great.
+
+00:55:28.000 --> 00:55:34.000
+Conner Galway: Yeah, I'm sure you can, and, like, it's better than a spreadsheet, right? At least you have some software.
+
+00:55:31.000 --> 00:55:33.000
+Beth J: Yes, yeah, yeah.
+
+00:55:33.000 --> 00:55:43.000
+Beth J: Yeah, absolutely. No, it's incredible, like, that we can do what we do. I just… I, um… I really like it to be a little bit smarter.
+
+00:55:43.000 --> 00:55:48.000
+Conner Galway: Well, maybe we can do that using Claude.
+
+00:55:46.000 --> 00:55:49.000
+Beth J: Okay.
+
+00:55:49.000 --> 00:55:59.000
+Conner Galway: Um, and then, sorry, I feel like I interrupted you. Was there, there's something else that you were, um, that you were thinking about, like, work that you do on a regular basis that is either repetitive or takes up a lot of time?
+
+00:55:59.000 --> 00:56:00.000
+Beth J: Hmm.
+
+00:56:00.000 --> 00:56:03.000
+Beth J: Sure there is.
+
+00:56:03.000 --> 00:56:08.000
+Conner Galway: Well, this is just our first session, so, like, we can always come back on the second one.
+
+00:56:05.000 --> 00:56:17.000
+Beth J: Okay, so… so I know, just because I'm not great at social media, I have… we have used WebRunner to create ads for us, um, but even just, like.
+
+00:56:10.000 --> 00:56:12.000
+Conner Galway: Mmhm.
+
+00:56:17.000 --> 00:56:36.000
+Beth J: I don't know, writing out the right words to add to the ad that they've given or whatever. It takes me a long time. And I know I'm using ChatGPT, but then I want to also make sure that it's not super, because Sean hates cheesy, so not hate, he just doesn't want to advertise cheesy.
+
+00:56:25.000 --> 00:56:26.000
+Conner Galway: Mm-hmm. Okay.
+
+00:56:33.000 --> 00:56:38.000
+Conner Galway: I know what you mean. I mean, we all do. Yeah.
+
+00:56:37.000 --> 00:56:49.000
+Beth J: Yeah. So it's just trying to like, because I'm a very cheesy person. So it's hard for me to differentiate. Yeah, it it it reduces. Yeah, it takes too long.
+
+00:56:44.000 --> 00:56:46.000
+Conner Galway: Mm-hmm. Well, the…
+
+00:56:48.000 --> 00:57:03.000
+Conner Galway: There's now also a Meta Advantage Plus connector, too, so, like, you can literally run your entire, like, Meta, Facebook, Instagram, all your ads through Claude. And, like… and so… and maybe this is one more thing that I… as it relates to marketing.
+
+00:56:58.000 --> 00:56:59.000
+Beth J: Oh.
+
+00:57:03.000 --> 00:57:20.000
+Conner Galway: that I should cover in the limited time that we have left today. Um, but probably, like, the most common thing that people do with projects is they will set it up for marketing, right? So what you'll do is you'll go in here, and you'll create a new project, and we'll call it, you know, SMR Marketing.
+
+00:57:21.000 --> 00:57:37.000
+Conner Galway: And the reason why a project is so good for this is because first of all, we'll give it instructions. Be like, you're my marketing assistant. You're an expert in plumbing, marketing, lead generation, et cetera, like all of those things. You could also say, here's some brands that we think do an amazing job.
+
+00:57:37.000 --> 00:57:46.000
+Conner Galway: be similar to those brands. So you'll do all of that. Here's a little sort of recursive hack. You would go in here and be like, help me.
+
+00:57:46.000 --> 00:57:50.000
+Conner Galway: to set up a Claude project.
+
+00:57:50.000 --> 00:57:52.000
+Conner Galway: or…
+
+00:57:52.000 --> 00:57:54.000
+Conner Galway: SMR plumbing.
+
+00:57:55.000 --> 00:57:56.000
+Conner Galway: I want it.
+
+00:57:56.000 --> 00:57:59.000
+Conner Galway: To be my marketing assistant.
+
+00:58:01.000 --> 00:58:04.000
+Conner Galway: And then you'd say, interview me.
+
+00:58:05.000 --> 00:58:09.000
+Conner Galway: to, um, uncover what, um.
+
+00:58:09.000 --> 00:58:11.000
+Conner Galway: I want it.
+
+00:58:11.000 --> 00:58:18.000
+Conner Galway: to do, then help me to write the project.
+
+00:58:18.000 --> 00:58:20.000
+Conner Galway: Instructions.
+
+00:58:20.000 --> 00:58:29.000
+Conner Galway: And so, like, that way you… because you're looking at a blank sheet, you're like, I don't really even know what to put into these instructions. Claude will tell you what to put into the instructions.
+
+00:58:28.000 --> 00:58:31.000
+Beth J: Okay, awesome.
+
+00:58:30.000 --> 00:58:34.000
+Conner Galway: This is the thing that I tell my team all the time. I'm like.
+
+00:58:34.000 --> 00:58:47.000
+Conner Galway: anytime you feel stuck, um, ask Claude, because it probably knows, and I always tell them, like, give it harder problems. Instead of just, like, can you write this Instagram caption? It might be like, how can we use Instagram to drive more leads?
+
+00:58:41.000 --> 00:58:42.000
+Beth J: Okay.
+
+00:58:44.000 --> 00:58:45.000
+Beth J: Hmm.
+
+00:58:47.000 --> 00:58:56.000
+Conner Galway: Right? Or like just get a little bit higher level to their questions. So this would be like, it's…
+
+00:58:47.000 --> 00:58:49.000
+Beth J: That's great.
+
+00:58:56.000 --> 00:59:01.000
+Conner Galway: Yeah, their team will use it. Uh, content creation and strategy.
+
+00:59:01.000 --> 00:59:06.000
+Conner Galway: Um, and well, it knows that I'm junction and not a SMR, right? So it's…
+
+00:59:05.000 --> 00:59:06.000
+Beth J: Yeah.
+
+00:59:06.000 --> 00:59:11.000
+Conner Galway: Um, so it'll go through and ask you a bunch of those questions, and then…
+
+00:59:10.000 --> 00:59:11.000
+Beth J: Okay.
+
+00:59:11.000 --> 00:59:17.000
+Conner Galway: You can see, like, the interview will continue, and then eventually what you'll get output is something like…
+
+00:59:17.000 --> 00:59:28.000
+Conner Galway: I didn't put custom instructions in that one. Something like this, where like, I didn't write all of this. Claude wrote this as a result of one of those interviews that I did.
+
+00:59:28.000 --> 00:59:29.000
+Beth J: Okay.
+
+00:59:28.000 --> 00:59:34.000
+Conner Galway: So you'll start with that. And then what you want to do is you want to create a couple of documents.
+
+00:59:34.000 --> 00:59:37.000
+Conner Galway: Um, that you're gonna put into the files, and the documents will be, like.
+
+00:59:37.000 --> 00:59:54.000
+Conner Galway: This is what the business is about. This is the level of service that we deliver. This is our tone of voice. This is our brand. And just kind of like describe that in detail. Um, and actually if you're going through cloud, it will probably prompt you to create those documents. Um, but basically that will be sort of your like.
+
+00:59:52.000 --> 00:59:53.000
+Beth J: Okay.
+
+00:59:54.000 --> 01:00:12.000
+Conner Galway: archival, like, ground, uh, grounding documents that go into it. So, like, every time it's writing an ad or suggesting a caption for an Instagram post, it's always returning back to, like, how do we talk? What are our services? Like, who are our people, even? And so it's, like, it's gonna sound a lot more like you.
+
+01:00:12.000 --> 01:00:14.000
+Conner Galway: Then just clawed out of the box.
+
+01:00:13.000 --> 01:00:16.000
+Beth J: Okay, that's great.
+
+01:00:17.000 --> 01:00:29.000
+Conner Galway: Um, and then we're just about out of time, um, and so the next thing we're gonna do is start, like, coming up with prompts, but what I would love to do is maybe, if you don't mind, give you a little bit of homework.
+
+01:00:29.000 --> 01:00:30.000
+Beth J: Yeah.
+
+01:00:29.000 --> 01:00:46.000
+Conner Galway: Um, and so my homework to you is, and it was going to be, I think I know what I want you to do, but I'll let you choose your own adventure was like to take one, one of the things that we've talked about, whether it's like a task or a project or something that you do on a regular basis.
+
+01:00:46.000 --> 01:01:02.000
+Conner Galway: And just like talk to Claude and basically ask it how it could help you to do that. And like allocate like 15 minutes or so and go back and forth and be like, hey, how would you help me with this? It'll describe it. And you're like, well, it's not really that. I actually wanted to do this.
+
+01:01:02.000 --> 01:01:10.000
+Conner Galway: And, like, push it, and just keep pushing it until you get to a place where you feel like, like, oh my god, like, I feel like I could actually do this.
+
+01:01:10.000 --> 01:01:23.000
+Conner Galway: and sort of, like, two reasons why I'm asking you to do that. One is, of course, like, if we can just automate that task, amazing. Um, and the other is I find that, like, a big unlock with working with AI is when.
+
+01:01:23.000 --> 01:01:38.000
+Conner Galway: folks, and I think you're probably already doing this, when we can realize that we can give it feedback, right? And we don't have to accept the first prompt that it gives us. We can go back, like, I want you to change this, or that's terrible, or, you know, do this in an entirely different way.
+
+01:01:38.000 --> 01:01:53.000
+Conner Galway: Because it's always, every single time, going to be like, yes, sir, please, sir, may I have another? Like, it's never going to be like, oh, God, this guy is like, has endless rounds of feedback. It will always just be like, absolutely, I'll change that for you.
+
+01:01:49.000 --> 01:01:52.000
+Beth J: Thank you.
+
+01:01:53.000 --> 01:02:04.000
+Beth J: Okay, yeah, I'll have to get comfortable with it. I have been able to do a little bit of that, but I always kind of feel like I'm taking advantage of it.
+
+01:02:03.000 --> 01:02:10.000
+Conner Galway: It doesn't… it's not going to get offended. It's a robot. That's what it… that's what it's there to do.
+
+01:02:10.000 --> 01:02:14.000
+Beth J: Right, right. Okay, I can definitely do that.
+
+01:02:14.000 --> 01:02:16.000
+Conner Galway: Um, and then…
+
+01:02:16.000 --> 01:02:31.000
+Conner Galway: Um, yeah, and then maybe just to help me to prepare for next session. So next session, as I said, is all about prompting. Um, so we're gonna, like, get into that, like, how to write a really good prompt, what a structure looks like, that kind of thing, how to get more out of the AI tools. Um, but just…
+
+01:02:32.000 --> 01:02:41.000
+Conner Galway: Knowing what you know now, is there anything specific that you would really hope that we cover in these sessions? Anything that you would like me to make sure that it is included?
+
+01:02:42.000 --> 01:02:45.000
+Beth J: Um, yeah, I think, uh, I mean…
+
+01:02:45.000 --> 01:03:05.000
+Beth J: I, I think what I would love to do is kind of play around, especially with the code, um, as far as building that dashboard. I know, primarily, we obviously need to, uh, just become amazing at SEO. Uh, so I don't know, necessarily, I know, um…
+
+01:02:54.000 --> 01:02:55.000
+Conner Galway: Mmhm.
+
+01:03:05.000 --> 01:03:09.000
+Beth J: like, co-work, I'll have to play around with that as well.
+
+01:03:10.000 --> 01:03:21.000
+Beth J: I think, yeah, just for what Sean wants to really get out of this is just to be able to, like, do that efficiently.
+
+01:03:20.000 --> 01:03:22.000
+Conner Galway: Mmhm.
+
+01:03:21.000 --> 01:03:30.000
+Beth J: So, whatever, I guess, you might think might benefit from that. Right now, I don't really know what's going to benefit from that, or for that, but…
+
+01:03:27.000 --> 01:03:28.000
+Conner Galway: Totally, yeah.
+
+01:03:29.000 --> 01:03:40.000
+Conner Galway: Yeah, just kind of thinking ahead, I wonder if it might be — so probably as a part of this SEO work, we'll want to be adding more content to the website.
+
+01:03:39.000 --> 01:03:43.000
+Beth J: Yes. Yeah. So website work. Yeah.
+
+01:03:40.000 --> 01:03:42.000
+Conner Galway: So pages of…
+
+01:03:42.000 --> 01:03:52.000
+Conner Galway: Yeah, and so it may be that you use… like, you create a tool that's gonna make it really easy for you to do that, right? To come up with ideas, and so it could be…
+
+01:03:52.000 --> 01:04:10.000
+Conner Galway: When I say blog posts, people are normally like, nobody reads blog posts, but it's like, we use blog posts to describe this general category of, like, pages about certain topics, so, you know, maybe you're able to use Claude to come up with, like, homeowners tips about caring for their.
+
+01:04:10.000 --> 01:04:27.000
+Conner Galway: heating and cooling, right? Or, like, you know, what to do when the place is flooding. Like, all of these types of content is then gonna bring more traffic to the website. Um, so it may be that you're able to adapt something like this, which I'll send over, right? So you'll… this'll kind of be, like, your bible.
+
+01:04:27.000 --> 01:04:37.000
+Conner Galway: And then from this you might be like, okay, what if I had something that helped me to actually execute on all of these things? So just a thought starter, that might be where we end up going with this.
+
+01:04:33.000 --> 01:04:34.000
+Beth J: Okay.
+
+01:04:37.000 --> 01:04:38.000
+Beth J: Okay.
+
+01:04:39.000 --> 01:04:40.000
+Beth J: Yeah.
+
+01:04:39.000 --> 01:04:40.000
+Conner Galway: Cool.
+
+01:04:40.000 --> 01:04:55.000
+Conner Galway: But then, yeah, like, in the meantime… so what I'll do is I'll send over another link, um, so we can schedule our next session. I mean, ideally, we could get these done, like, once a week, just kind of keep the momentum going, but… excuse me, kind of whatever works for you. Um, and in the meantime, I'll send over the summary from today.
+
+01:04:48.000 --> 01:04:49.000
+Beth J: Okay.
+
+01:04:50.000 --> 01:04:51.000
+Beth J: Yep.
+
+01:04:55.000 --> 01:05:01.000
+Conner Galway: The link, to that dashboard that I created, and then kind of what what those next steps look like.
+
+01:05:01.000 --> 01:05:06.000
+Beth J: Okay, awesome. All right. Well, thank you so much. This has been super helpful already.
+
+01:05:05.000 --> 01:05:13.000
+Conner Galway: Well, I'm glad. Yeah, I'm just like, this is fun for me, honestly. I really enjoy doing these. So thanks for joining me.
+
+01:05:06.000 --> 01:05:08.000
+Beth J: See?
+
+01:05:12.000 --> 01:05:16.000
+Beth J: All right. Well, thank you. All right. Hey, have a good night. Oh.
+
+01:05:14.000 --> 01:05:15.000
+Conner Galway: But…
+
+01:05:15.000 --> 01:05:18.000
+Conner Galway: Thank you. You too. I'll talk to you soon.
+
+01:05:17.000 --> 01:05:19.000
+Beth J: Okay, bye.
+
+01:05:18.000 --> 01:05:20.000
+Conner Galway: Bye-bye.
+
