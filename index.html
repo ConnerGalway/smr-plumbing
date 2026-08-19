@@ -1419,6 +1419,94 @@ section { scroll-margin-top: var(--nav-h); }
   color: #666;
 }
 
+/* Session Agenda Timeline */
+.agenda-timeline {
+  position: relative;
+  margin-top: 16px;
+}
+.agenda-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  border-radius: 4px;
+  background: linear-gradient(
+    to bottom,
+    var(--red) 0%,
+    var(--red) 22%,
+    var(--gold) 28%,
+    var(--gold) 50%,
+    var(--green) 56%,
+    var(--green) 72%,
+    var(--blue) 78%,
+    var(--blue) 100%
+  );
+}
+.agenda-part {
+  position: relative;
+  padding: 0 0 24px 28px;
+}
+.agenda-part:last-child {
+  padding-bottom: 0;
+}
+.agenda-part-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.agenda-part-dot {
+  position: absolute;
+  left: -5px;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 3px solid currentColor;
+}
+.agenda-part-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.agenda-part-time {
+  font-size: 12px;
+  font-weight: 500;
+  color: #999;
+  background: var(--light);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+.agenda-part-intro {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.agenda-part ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.agenda-part li {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 6px;
+}
+.agenda-part li:last-child {
+  margin-bottom: 0;
+}
+.agenda-part li strong {
+  color: var(--ink);
+}
+.agenda-part.part-red .agenda-part-dot { color: var(--red); border-color: var(--red); }
+.agenda-part.part-gold .agenda-part-dot { color: var(--gold); border-color: var(--gold); }
+.agenda-part.part-green .agenda-part-dot { color: var(--green); border-color: var(--green); }
+.agenda-part.part-blue .agenda-part-dot { color: var(--blue); border-color: var(--blue); }
+
 .session-action-btn {
   display: inline-block;
   margin-top: 8px;
@@ -2449,10 +2537,15 @@ Ask any questions you need answered before getting started.</pre>
           <div class="session-topics">
             <h4><span class="section-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>Session Agenda (2 hours)</h4>
 
-            <div class="topic-item" style="border-left: 3px solid var(--red);">
-              <div class="topic-title">Part 1: Foundation Fixes (35 min)</div>
-              <div class="topic-desc">We'll knock these out together on the call:
-                <ul style="margin-top:8px; margin-bottom:0;">
+            <div class="agenda-timeline">
+              <div class="agenda-part part-red">
+                <div class="agenda-part-dot"></div>
+                <div class="agenda-part-header">
+                  <span class="agenda-part-title">Part 1: Foundation Fixes</span>
+                  <span class="agenda-part-time">35 min</span>
+                </div>
+                <p class="agenda-part-intro">We'll knock these out together on the call:</p>
+                <ul>
                   <li><strong>Fix mobile speed first.</strong> Your 35/100 mobile score is hurting rankings. We'll configure WP Rocket (Critical CSS, defer JS, lazy loading) to hit 70+.</li>
                   <li><strong>Add the business address to the footer.</strong> 1081 Roosevelt Crescent, North Vancouver, BC V7P 1M4. Must match GBP exactly.</li>
                   <li><strong>Check phone number on every page.</strong> 604-616-0062 everywhere.</li>
@@ -2461,23 +2554,29 @@ Ask any questions you need answered before getting started.</pre>
                   <li><strong>Submit sitemap to Bing.</strong> ChatGPT Search runs on Bing. If you're not in Bing, ChatGPT can't find you.</li>
                 </ul>
               </div>
-            </div>
 
-            <div class="topic-item" style="border-left: 3px solid var(--gold);">
-              <div class="topic-title">Part 2: Content Creation (40 min)</div>
-              <div class="topic-desc">We'll use Claude to write pages that put the answer first. (44% of AI citations come from the top third of a page.)
-                <ul style="margin-top:8px; margin-bottom:0;">
+              <div class="agenda-part part-gold">
+                <div class="agenda-part-dot"></div>
+                <div class="agenda-part-header">
+                  <span class="agenda-part-title">Part 2: Content Creation</span>
+                  <span class="agenda-part-time">40 min</span>
+                </div>
+                <p class="agenda-part-intro">We'll use Claude to write pages that put the answer first. (44% of AI citations come from the top third of a page.)</p>
+                <ul>
                   <li><strong>BC Heat Pump Rebates Page.</strong> Targets "fortisbc rebate heat pump" (720/mo) and "bc hydro heat pump rebate" (390/mo). Opens with: "SMR Plumbing installs heat pumps in North Vancouver with up to $9,000 in combined BC rebates. As a registered FortisBC contractor, we handle the rebate paperwork."</li>
                   <li><strong>North Vancouver Location Page.</strong> Targets "plumber north vancouver" and "hvac north vancouver." Includes real numbers ("500+ installations since 2018"), quotes from manufacturers, and FAQ schema.</li>
                   <li><strong>Heat Pump vs Furnace Comparison.</strong> Targets "heat pump vs furnace bc" (300/mo). AI tools love comparison pages.</li>
                 </ul>
               </div>
-            </div>
 
-            <div class="topic-item" style="border-left: 3px solid var(--green);">
-              <div class="topic-title">Part 3: Google Business Profile (20 min)</div>
-              <div class="topic-desc">Google auto-generates business summaries now. We want to control what it says about SMR:
-                <ul style="margin-top:8px; margin-bottom:0;">
+              <div class="agenda-part part-green">
+                <div class="agenda-part-dot"></div>
+                <div class="agenda-part-header">
+                  <span class="agenda-part-title">Part 3: Google Business Profile</span>
+                  <span class="agenda-part-time">20 min</span>
+                </div>
+                <p class="agenda-part-intro">Google auto-generates business summaries now. We want to control what it says about SMR:</p>
+                <ul>
                   <li><strong>Add all your services.</strong> Heat pumps, gas fitting, furnace repair, drain cleaning, etc.</li>
                   <li><strong>Upload geotagged photos.</strong> Interior and team shots shape the AI-written "vibe" description. We'll add location data during the call.</li>
                   <li><strong>Add 15-20 Q&amp;As.</strong> AI overviews pull from GBP Q&A. We'll write common questions with keyword-rich answers.</li>
@@ -2485,12 +2584,15 @@ Ask any questions you need answered before getting started.</pre>
                   <li><strong>Set up review responses.</strong> Reply to every review within 24 hours. Use keywords naturally.</li>
                 </ul>
               </div>
-            </div>
 
-            <div class="topic-item" style="border-left: 3px solid var(--blue);">
-              <div class="topic-title">Part 4: 30-Day Plan + Tracking (20 min)</div>
-              <div class="topic-desc">We'll map out the next month and set up tracking:
-                <ul style="margin-top:8px; margin-bottom:0;">
+              <div class="agenda-part part-blue">
+                <div class="agenda-part-dot"></div>
+                <div class="agenda-part-header">
+                  <span class="agenda-part-title">Part 4: 30-Day Plan + Tracking</span>
+                  <span class="agenda-part-time">20 min</span>
+                </div>
+                <p class="agenda-part-intro">We'll map out the next month and set up tracking:</p>
+                <ul>
                   <li><strong>Content calendar.</strong> 8-10 pages in 30 days. We'll plan the West Van page, emergency plumbing page, pricing content, and service page updates.</li>
                   <li><strong>Quick backlinks.</strong> Write 3 testimonials for your suppliers this week (Noble Trade, Emco, etc.) and ask them to link back. Each one is a DA 40-60 link.</li>
                   <li><strong>Review requests.</strong> Set up a post-job SMS asking for reviews. Target: 3-5 new reviews per week, 125 total by Day 30.</li>
