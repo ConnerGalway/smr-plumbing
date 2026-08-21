@@ -1,0 +1,2201 @@
+WEBVTT
+
+00:00:31.000 --> 00:00:33.000
+Conner Galway: Andy, how you doing?
+
+00:00:36.000 --> 00:00:39.000
+Andrew Regan: Oh, can you hear me?
+
+00:00:38.000 --> 00:00:40.000
+Conner Galway: I can hear you just fine. How you doing?
+
+00:00:40.000 --> 00:00:42.000
+Andrew Regan: Good, good, how are you?
+
+00:00:41.000 --> 00:00:45.000
+Conner Galway: I'm doing great, thank you. What's going on at SMR these days?
+
+00:00:43.000 --> 00:00:45.000
+Andrew Regan: Right on.
+
+00:00:45.000 --> 00:00:49.000
+Andrew Regan: No, not much. A lot of the same old stuff.
+
+00:00:49.000 --> 00:00:53.000
+Andrew Regan: Yeah, no, she's keeping busy, which is nice.
+
+00:00:53.000 --> 00:00:56.000
+Andrew Regan: But, yeah. How about you?
+
+00:00:55.000 --> 00:00:57.000
+Conner Galway: Yeah, um…
+
+00:00:57.000 --> 00:00:59.000
+Conner Galway: Honestly, lots of it.
+
+00:01:00.000 --> 00:01:16.000
+Conner Galway: Lots of AI work these days, as I'm sure you know, we've been working with a bunch of trades companies, like, and that's turned into, like, building projects and, tools and software. And it's actually it's been really fun. It's interesting.
+
+00:01:03.000 --> 00:01:04.000
+Andrew Regan: Yeah.
+
+00:01:16.000 --> 00:01:20.000
+Conner Galway: Like kind of learning the business as we go.
+
+00:01:20.000 --> 00:01:22.000
+Andrew Regan: Nice, nice.
+
+00:01:23.000 --> 00:01:32.000
+Conner Galway: And… yeah, here there's been some, or I don't know if you've been involved with it, some website hiccups recently, which are always fun.
+
+00:01:32.000 --> 00:01:34.000
+Conner Galway: Hey Scott, how you doing?
+
+00:01:33.000 --> 00:01:35.000
+seanregan: Hey, Bud!
+
+00:01:35.000 --> 00:01:38.000
+Conner Galway: It's good to see you. What's going on?
+
+00:01:38.000 --> 00:01:40.000
+seanregan: Same old bullshit, man.
+
+00:01:42.000 --> 00:01:44.000
+seanregan: Oh, sorry, we're in…
+
+00:01:42.000 --> 00:01:43.000
+Conner Galway: Yeah, it's pretty.
+
+00:01:42.000 --> 00:01:44.000
+Andrew Regan: Oh, that's it.
+
+00:01:44.000 --> 00:01:48.000
+Conner Galway: Unclogging toilets and wrist-deep in poop.
+
+00:01:44.000 --> 00:01:46.000
+seanregan: Just trying to figure this out.
+
+00:01:49.000 --> 00:01:54.000
+seanregan: Always. That's my happy place. That's where I feel comfortable. I know.
+
+00:01:49.000 --> 00:02:00.000
+Andrew Regan: They always think that. They're always just dealing with poop.
+
+00:01:59.000 --> 00:02:11.000
+seanregan: We were talking about that, like, yesterday, weren't we? Or the day before, where you tell someone you're a plumber, and you could be, like, wiring up a confusing boiler, but everyone's just like, oh, toilets and poop!
+
+00:02:00.000 --> 00:02:01.000
+Andrew Regan: Okay.
+
+00:02:02.000 --> 00:02:04.000
+Andrew Regan: Yeah, we were.
+
+00:02:04.000 --> 00:02:05.000
+Andrew Regan: No.
+
+00:02:05.000 --> 00:02:07.000
+Andrew Regan: It is.
+
+00:02:11.000 --> 00:02:15.000
+Conner Galway: I mean, people still think I build websites for a living.
+
+00:02:12.000 --> 00:02:13.000
+Andrew Regan: Okay, okay, okay.
+
+00:02:14.000 --> 00:02:22.000
+seanregan: I still don't know what you do for a little. You've told me so many times, and when someone asks me like what you do, I'm like.
+
+00:02:17.000 --> 00:02:19.000
+Andrew Regan: Yeah.
+
+00:02:19.000 --> 00:02:20.000
+Andrew Regan: Okay.
+
+00:02:21.000 --> 00:02:22.000
+Andrew Regan: Okay.
+
+00:02:22.000 --> 00:02:26.000
+Conner Galway: You're literally looking at what I do for a living right now.
+
+00:02:22.000 --> 00:02:24.000
+seanregan: You ask him.
+
+00:02:23.000 --> 00:02:24.000
+Andrew Regan: Okay.
+
+00:02:26.000 --> 00:02:28.000
+seanregan: Yeah, and I still don't know.
+
+00:02:26.000 --> 00:02:28.000
+Andrew Regan: Mmhm.
+
+00:02:28.000 --> 00:02:36.000
+seanregan: Maybe this session we can just go over fully what you do for a living. I take.
+
+00:02:34.000 --> 00:02:36.000
+Conner Galway: I don't think we have enough time.
+
+00:02:36.000 --> 00:02:39.000
+seanregan: Okay.
+
+00:02:39.000 --> 00:02:44.000
+Conner Galway: You know what, it's funny, Annie and I were just talking about this. It's been really interesting, this…
+
+00:02:44.000 --> 00:02:51.000
+Conner Galway: sort of that experiment into trades. The because as I think, you know, like we.
+
+00:02:51.000 --> 00:03:01.000
+Conner Galway: we're doing AI training for tourism businesses, and I was like, I feel like… and then I was talking to you and to my buddy who did my home reno and that, and like…
+
+00:03:01.000 --> 00:03:03.000
+Conner Galway: It's… it's…
+
+00:03:03.000 --> 00:03:18.000
+Conner Galway: I feel like there's something really unique happening, which is that. And tell me if I'm off here, but I don't think I am. That specifically when it comes to trades companies, they're almost all run by like 40 year old men who are.
+
+00:03:18.000 --> 00:03:25.000
+Conner Galway: not the most tech-savvy. Um, they also have, like, super complicated businesses that are…
+
+00:03:25.000 --> 00:03:37.000
+Conner Galway: you know, need a lot of help in terms of, like, efficiency and operations, but they're all super curious about AI at the same time. It seems to be, like, the same pattern that I'm hearing from every Trades business owner that I'm talking to.
+
+00:03:33.000 --> 00:03:34.000
+seanregan: Thank you.
+
+00:03:37.000 --> 00:03:40.000
+seanregan: Yeah, yeah, you both nailed it there.
+
+00:03:40.000 --> 00:03:41.000
+Conner Galway: Which is…
+
+00:03:40.000 --> 00:03:41.000
+seanregan: like…
+
+00:03:41.000 --> 00:03:51.000
+seanregan: that's why we have training with you, and I have a business coach, and uh… because at the end of the day, I'm just a dumb plumber. You know what I mean?
+
+00:03:50.000 --> 00:03:53.000
+Conner Galway: Well, this is why you have a bath.
+
+00:03:51.000 --> 00:03:53.000
+seanregan: Thank you.
+
+00:03:53.000 --> 00:03:57.000
+seanregan: And so, yes, this is why we need a bath.
+
+00:03:55.000 --> 00:03:57.000
+Andrew Regan: Mm-hmm.
+
+00:03:56.000 --> 00:03:57.000
+Conner Galway: Yeah.
+
+00:03:57.000 --> 00:04:00.000
+Andrew Regan: Yep.
+
+00:03:57.000 --> 00:03:59.000
+seanregan: We're doing our thing.
+
+00:03:59.000 --> 00:04:03.000
+Conner Galway: Yeah, without Beth, you would just be a bunch of monkeys with your hands in poop.
+
+00:04:03.000 --> 00:04:07.000
+seanregan: Yeah, I've done payroll once before, and I screwed it up.
+
+00:04:07.000 --> 00:04:10.000
+seanregan: No one got paid.
+
+00:04:07.000 --> 00:04:08.000
+Andrew Regan: Thank you.
+
+00:04:08.000 --> 00:04:12.000
+Conner Galway: I feel like that's a pretty important part of the job.
+
+00:04:12.000 --> 00:04:14.000
+seanregan: Yeah, people want to get paid, I guess.
+
+00:04:12.000 --> 00:04:14.000
+Andrew Regan: I remember those days.
+
+00:04:14.000 --> 00:04:16.000
+Andrew Regan: All right.
+
+00:04:15.000 --> 00:04:20.000
+Conner Galway: Oh, weird, you guys wanted your checks? That's odd.
+
+00:04:16.000 --> 00:04:17.000
+seanregan: Yeah, but…
+
+00:04:16.000 --> 00:04:18.000
+Andrew Regan: Yes.
+
+00:04:18.000 --> 00:04:23.000
+Andrew Regan: Yeah, yeah. He just pretended like he didn't know how to do it.
+
+00:04:24.000 --> 00:04:27.000
+Conner Galway: Beth, it's good to see you. How are you doing today.
+
+00:04:26.000 --> 00:04:30.000
+seanregan: Yeah, it's better now, I just got the password.
+
+00:04:26.000 --> 00:04:28.000
+Andrew Regan: Mm-hmm.
+
+00:04:26.000 --> 00:04:31.000
+Beth J: Good Better now I just got the password.
+
+00:04:30.000 --> 00:04:31.000
+Conner Galway: Oh, nice.
+
+00:04:31.000 --> 00:04:34.000
+Beth J: I don't know if you got my last email.
+
+00:04:33.000 --> 00:04:37.000
+Conner Galway: I didn't, I was just talking to these guys, but no, that's exciting.
+
+00:04:35.000 --> 00:04:57.000
+Beth J: Oh, okay. Yeah, because we had, I know you knew that we had some issues with our website. So then we were still having some attacks on our forms. So our neon pig guys that do our like updates and fixes, they did it and then they changed our password and I couldn't get in. So he literally just sent me. I've been like harassing him trying to get it.
+
+00:04:44.000 --> 00:04:46.000
+Conner Galway: Mm-hmm.
+
+00:04:57.000 --> 00:04:59.000
+Beth J: So I have WordPress. We're in.
+
+00:04:58.000 --> 00:05:14.000
+Conner Galway: But actually, since I was talking to you, I met up with a buddy of mine who runs a big website development company, and he said, and maybe NeonPig shared this with you, but there was WordPress did a big update, and somebody figured out using AI a way to like.
+
+00:05:10.000 --> 00:05:11.000
+Beth J: Yeah.
+
+00:05:14.000 --> 00:05:20.000
+Conner Galway: hack a security issue, and basically hacked millions of websites around the world. Um…
+
+00:05:15.000 --> 00:05:17.000
+Beth J: Mmm.
+
+00:05:18.000 --> 00:05:22.000
+Beth J: Oh, so it wasn't just us.
+
+00:05:21.000 --> 00:05:31.000
+Conner Galway: It wasn't just you. And most of them, apparently, they were just, like, testing. They weren't actually doing anything malicious. Um, like, that… it was WordPress's fault.
+
+00:05:25.000 --> 00:05:26.000
+Beth J: Yeah. Okay.
+
+00:05:27.000 --> 00:05:29.000
+Beth J: Oh, okay.
+
+00:05:30.000 --> 00:05:50.000
+Beth J: Oh, okay. Yeah. Yeah, ours was they were sending spam through ours as well, but that we were able to stop. And then I was getting like emails being like, oh, you guys have sent 665 emails. And I was like, what? So we've just got a couple things changed and like some reCAPTCHA added to the forms and whatnot.
+
+00:05:50.000 --> 00:05:59.000
+Beth J: As long as I can get in, we're good. I was a little nervous. I was like, oh, no, is this whole session going to be useless now? But we're good.
+
+00:05:56.000 --> 00:05:57.000
+Conner Galway: Yes.
+
+00:05:58.000 --> 00:06:13.000
+Conner Galway: Well, we can always find stuff to talk about. But actually, so there's this one phishing scam going around that Sean and Andy, you should probably both be aware of. I don't know if you've seen this, but it's been huge in my world. You get an email from a client, like a real person who you've worked with before.
+
+00:06:03.000 --> 00:06:05.000
+Andrew Regan: Thank you.
+
+00:06:13.000 --> 00:06:29.000
+Conner Galway: And they say, hey, we're really excited to work with you. We've got this amazing project. Click here to get the request for proposal. And when you click there, then software downloads to your computer that then sends that same email out to literally everybody in your contacts.
+
+00:06:29.000 --> 00:06:46.000
+seanregan: Yeah, we got burnt by that one earlier in the year because it came like a lot of proposals come to us, right? I think Will might have clicked on the link and then it sent spam emails out to anyone.
+
+00:06:38.000 --> 00:06:40.000
+Conner Galway: Mm-hmm, yeah.
+
+00:06:46.000 --> 00:06:52.000
+seanregan: Uh, we got another one recently as well, but, uh, you know, fool me, fool me twice.
+
+00:06:49.000 --> 00:06:59.000
+Conner Galway: The craziest thing that I've noticed recently, and I'm like, I don't blame people for getting tricked by this. One of the things they're doing is they're… what they'll do is… so the…
+
+00:06:59.000 --> 00:07:17.000
+Conner Galway: robot will go into your inbox, it'll find a recent thread, where you have, like, lots of emails back and forth with people, and then it'll copy that, and then send that as an email. So I'm getting these emails from people, it's like, hey Conner, we would love for you to bid on this project, and then underneath it, there's, like, a whole conversation about.
+
+00:07:17.000 --> 00:07:29.000
+Conner Galway: a project back and forth between like the senior leaders at that company. So I'm like, oh, well, this must be legit. But obviously if you inspect the link and that it's not, but yeah, they're getting really good.
+
+00:07:29.000 --> 00:07:38.000
+Andrew Regan: I think Slopeside actually had that one, Neil was saying that it came through from like higher uppers in the company and stuff like that and then.
+
+00:07:29.000 --> 00:07:31.000
+seanregan: Tricky, tricky motherfuckers.
+
+00:07:38.000 --> 00:07:41.000
+Andrew Regan: That got them.
+
+00:07:40.000 --> 00:07:47.000
+Conner Galway: I'm sure it was Tristan's fault. He was probably, like, on some shady website using the company resources.
+
+00:07:42.000 --> 00:07:45.000
+Andrew Regan: Yeah, probably.
+
+00:07:45.000 --> 00:07:51.000
+Andrew Regan: Absolutely.
+
+00:07:46.000 --> 00:07:52.000
+seanregan: Yeah, looking for used swimming pools to put in his backyard.
+
+00:07:51.000 --> 00:07:55.000
+Andrew Regan: You need it.
+
+00:07:53.000 --> 00:07:57.000
+seanregan: what job you can bury it under.
+
+00:07:56.000 --> 00:07:58.000
+Andrew Regan: Okay.
+
+00:07:57.000 --> 00:08:16.000
+Conner Galway: Um, okay, so for today, we've got a lot to cover, um, but Beth and I were just chatting before this. There's kind of two parts, uh, to what we're gonna focus on today, because, like, today is the SEO day, um, where we're gonna get your website found by both AI and by Google. Um, one part is interesting, right? It's the content part. It's like, how do we set up.
+
+00:08:16.000 --> 00:08:29.000
+Conner Galway: AI to be a content creator for you so that there's something that Google can send traffic to. And then the other part is not interesting, um, which is, like, we're clicking buttons and adding stuff to the website. So…
+
+00:08:29.000 --> 00:08:43.000
+Conner Galway: uh, my thought was, Sean and Andy, you might want to join for the first part, where we're going to go through, like, actually setting up the project. We can also talk about, like, the type of content that you want to create, like the new pages on the website, um, and then you guys could.
+
+00:08:43.000 --> 00:08:48.000
+Conner Galway: take off and leave Beth and I to go through, like, the pointing and clicking.
+
+00:08:48.000 --> 00:08:49.000
+seanregan: That sounds good.
+
+00:08:48.000 --> 00:08:51.000
+Andrew Regan: Yeah, sounds good to me.
+
+00:08:49.000 --> 00:08:51.000
+Conner Galway: Yeah, makes sense.
+
+00:08:49.000 --> 00:08:53.000
+seanregan: Beth loves pointing and clicking, one of her favorite things to do.
+
+00:08:52.000 --> 00:08:55.000
+Conner Galway: Beth, you're good with that?
+
+00:08:53.000 --> 00:08:54.000
+Beth J: Yep.
+
+00:08:55.000 --> 00:08:58.000
+Andrew Regan: Is he? Is he?
+
+00:08:56.000 --> 00:09:05.000
+Conner Galway: Cool. OK. And so if you remember, I'm sure you all studied the dashboard diligently. I'll just bring it back.
+
+00:09:05.000 --> 00:09:16.000
+Conner Galway: the plan for today. As you can see, there's lots of little details, but the part that we're gonna focus on first is this, the content creation, and…
+
+00:09:16.000 --> 00:09:35.000
+Conner Galway: if I just rewind for a second, like, why are we talking about content? Um, like, the way that AI and Google both work is they need to have something that they're gonna send people to, right? And especially how AI search works now, when somebody… people will look for very specific things, right? Like, pre-AI, we would just Google.
+
+00:09:35.000 --> 00:09:42.000
+Conner Galway: best plumber in North Vancouver, right? Now, if you think about how you use ChatGPT, it's probably like.
+
+00:09:42.000 --> 00:09:58.000
+Conner Galway: I, you know, my kitchen faucet is leaking and I have this specific type of townhouse and I don't know who to go to help me solve this problem, right? So what AI is now doing is it's not just looking for that like one best plumber in North Vancouver.
+
+00:09:58.000 --> 00:10:13.000
+Conner Galway: It's looking for very specific answers to the questions. And so the websites that are winning are the ones that have that content in it. Right. And so that can be really simple. It can be like a FAQs page where we answer questions. But what works really well is when we have.
+
+00:10:14.000 --> 00:10:31.000
+Conner Galway: Dozens or even hundreds of pages. I mean, you can call them blog posts, you can call them whatever you want, but like pages on the website that are specific about that content. And so what like what other businesses will do is they'll have like helpful resources, right?
+
+00:10:31.000 --> 00:10:47.000
+Conner Galway: how to inspect your faucet or like how to guides about like, here's the best way to hire a plumber or fix whatever it is. But basically what we want to do is make it so that your website becomes the resource that both Google and AI are looking at.
+
+00:10:47.000 --> 00:10:55.000
+Conner Galway: So when somebody does ask a question, then it's like, okay, well, these guys are the experts. I should recommend this business.
+
+00:10:55.000 --> 00:11:08.000
+Conner Galway: And just for clarification, because sometimes when I talk about blog content, the reaction is like, does anybody want to read, like, blog content about this stuff? Like, do people still read blogs?
+
+00:11:08.000 --> 00:11:10.000
+Conner Galway: And the short answer is, like.
+
+00:11:10.000 --> 00:11:31.000
+Conner Galway: It's not even necessarily the point per se. We're just making all of the fuel to get all of these engines sending traffic. But also, I think done the best way, we're actually making interesting stuff for people. So we're making something like — again, if you are a new homeowner and you have a massive job that you need somebody to do.
+
+00:11:31.000 --> 00:11:49.000
+Conner Galway: and you've never hired somebody before, maybe it would be interesting to have you create something on your website that walks people through that process. Like, how do you evaluate different, um, vendors? Like, how do you hire them? Like, what is a contract? Like, all of that type of stuff. So these are the things that we could do.
+
+00:11:49.000 --> 00:11:59.000
+Conner Galway: with your content. Um, and the best news is, like, nobody is gonna have to sit there and, like, type thousands of words. Like, that's… that's what we have Claude for.
+
+00:11:59.000 --> 00:12:09.000
+Conner Galway: Sorry, I'm curious, as a general topic, does that make sense? Do you guys have thoughts or questions about content for SEO?
+
+00:12:09.000 --> 00:12:12.000
+seanregan: No, that makes sense. I get that part.
+
+00:12:10.000 --> 00:12:12.000
+Andrew Regan: That makes sense.
+
+00:12:12.000 --> 00:12:13.000
+Conner Galway: Cool.
+
+00:12:13.000 --> 00:12:30.000
+Conner Galway: OK. And so the way that we're going to do that — this is part human, part machine, right? I think if we just purely left this to the machine, what ends up happening is you get stuff on your website that like, why — I don't want this. This isn't interesting to me.
+
+00:12:30.000 --> 00:12:40.000
+Conner Galway: We want to do both human and machine, so what I've done is I've created, like, a demo of what we're calling the SMR Plumbing Content Assistant.
+
+00:12:40.000 --> 00:12:44.000
+Conner Galway: And so you're going to create, and I think I would probably delegate.
+
+00:12:44.000 --> 00:12:56.000
+Conner Galway: Beth, right, because you're going to be responsible for setting this up. The good news is anybody can use this, and you definitely don't have to be a content expert, and so, like, if you had an idea or something you wanted to, like.
+
+00:12:56.000 --> 00:13:00.000
+Conner Galway: Mess around with, you could do it, because you can just share the project with everyone.
+
+00:13:00.000 --> 00:13:13.000
+Conner Galway: But basically what we're gonna do is… there's a couple of different parts here. One is the instructions, and now I'm not actually gonna do this all for you, because I can't share this project with you, like, you're gonna have to set it up for yourself.
+
+00:13:13.000 --> 00:13:33.000
+Conner Galway: Um, so the instructions are the part that, like, kind of trains your project, right? So it tells it what it is, what it's not, how it should write, how it shouldn't. Um, the memory is where you're gonna put in, like, anything about the business, and so in, in the, or sorry, the context we're gonna put in anything about the business. So if you have, like, a brand style guide.
+
+00:13:33.000 --> 00:13:34.000
+Conner Galway: If you have…
+
+00:13:34.000 --> 00:13:49.000
+Conner Galway: I don't know, like, for other businesses, you'd be like, any, like, documents, reports, like, anything you've written in the past? Um, you guys think of anything that you have like that? Because what we're trying to do is train it on how you would write. Does anything like that exist?
+
+00:13:53.000 --> 00:13:55.000
+Conner Galway: Beth, I think you're muted.
+
+00:13:55.000 --> 00:13:56.000
+Andrew Regan: No.
+
+00:13:55.000 --> 00:13:57.000
+Conner Galway: Yes.
+
+00:14:06.000 --> 00:14:10.000
+Conner Galway: I can push a unmute prompt to you.
+
+00:14:14.000 --> 00:14:16.000
+Andrew Regan: At least it wasn't me this time.
+
+00:14:16.000 --> 00:14:20.000
+Conner Galway: I mean, I'm sure it'll be all of us at some point.
+
+00:14:19.000 --> 00:14:22.000
+Andrew Regan: Yeah.
+
+00:14:22.000 --> 00:14:25.000
+Conner Galway: All right, Beth, I think you're unmuted now.
+
+00:14:23.000 --> 00:14:38.000
+Beth J: No, I'm sorry, my computer just froze. Uh, that's why I couldn't get back to it. Um, sorry, so yes, I have been working on creating its own brand, um, using, like, what, uh, like, I have that in another project, um.
+
+00:14:32.000 --> 00:14:33.000
+Conner Galway: Mmhm.
+
+00:14:38.000 --> 00:14:54.000
+Beth J: And I've told it that it's like an expert in marketing and whatnot. So I can use that from there and bring that. So yes, I guess this is a good question. So can you get projects to like communicate with each other?
+
+00:14:54.000 --> 00:14:57.000
+Beth J: Or, um…
+
+00:14:55.000 --> 00:15:04.000
+Conner Galway: No, no, you can't. What you can either do is copy and paste, or you can download a file to your computer and then upload it to the other project.
+
+00:14:59.000 --> 00:15:01.000
+Beth J: Okay.
+
+00:15:03.000 --> 00:15:10.000
+Beth J: Okay. All right. So I have been working on creating the brand. Unfortunately, my computer just…
+
+00:15:11.000 --> 00:15:26.000
+Beth J: freezes every time I want to do it. Um, but, and then I have also, with our other social media, I've given it instructions that it's talking like Sean, and so it's connected to our Google Drive, and I wanted it to, like.
+
+00:15:23.000 --> 00:15:24.000
+Conner Galway: Hmm. Okay.
+
+00:15:26.000 --> 00:15:27.000
+Beth J: um…
+
+00:15:27.000 --> 00:15:30.000
+Beth J: Yeah So I I'm working on that Yes.
+
+00:15:29.000 --> 00:15:42.000
+Conner Galway: Cool. Okay. And then the other thing that I'll give you is, I'm sure you remember we did that whole SEO audit and report with all the recommendations. I'll package that up in an MD file, and I'll send that to you, and you can put that into the project memory.
+
+00:15:36.000 --> 00:15:38.000
+Beth J: Mm-hmm.
+
+00:15:42.000 --> 00:15:44.000
+Beth J: Oh, awesome. Okay.
+
+00:15:44.000 --> 00:16:01.000
+Conner Galway: But then sort of the, so, and then last thing on this, so what you'll do is you'll go in here into the project and rather than having to write out, I'm sure you've probably done this before, right? Rather than having to write out all the project instructions yourself, you'll just describe to it what you want the project to do and to be.
+
+00:15:51.000 --> 00:15:52.000
+Beth J: Yeah.
+
+00:15:57.000 --> 00:15:59.000
+Beth J: Mm-hmm.
+
+00:16:01.000 --> 00:16:08.000
+Conner Galway: and then say, I want you to write me the project instructions, and then you just copy and paste that and put it into the instructions field.
+
+00:16:08.000 --> 00:16:09.000
+Beth J: Okay.
+
+00:16:10.000 --> 00:16:12.000
+Beth J: Awesome.
+
+00:16:11.000 --> 00:16:22.000
+Conner Galway: And then on the human side of things, so once we have this, then the next step is to have it actually start making us stuff.
+
+00:16:22.000 --> 00:16:36.000
+Conner Galway: this is why I'm… it's good for you and Sean and Andy to be here. What I want to start doing is brainstorming, and we have our little AI assistant running in the background, so it'll capture all of this for us. But, like.
+
+00:16:36.000 --> 00:16:39.000
+Conner Galway: What do we think some of the…
+
+00:16:39.000 --> 00:16:54.000
+Conner Galway: Common questions might be like, and think about your ideal client, like somebody who would be the best person to pick up the phone and call you. Um, and more specifically, what might they be typing into Google, uh, or into, like, into ChatGPT?
+
+00:16:55.000 --> 00:17:04.000
+Conner Galway: So maybe we'll start with Sean. Can you describe for us who is this ideal client and what are they hiring you to do?
+
+00:17:04.000 --> 00:17:07.000
+seanregan: Um, um.
+
+00:17:07.000 --> 00:17:15.000
+seanregan: I mean, right away, I'm thinking, like, service or retrofit. We literally just had a meeting about this with a rep, so, like…
+
+00:17:15.000 --> 00:17:19.000
+seanregan: Um, we'd be looking for…
+
+00:17:19.000 --> 00:17:32.000
+seanregan: a client who has, like, an existing furnace and is looking for a new heat pump, so it'll be, like, a retrofit application. Um, that's a high average job size. Um…
+
+00:17:25.000 --> 00:17:26.000
+Conner Galway: Hmm. Okay.
+
+00:17:32.000 --> 00:17:43.000
+seanregan: uh, you know, it's an average shop size of, what, I guess, like, around $16,000 to $18,000. Um, that would be probably the best for us, uh, at the moment, yeah.
+
+00:17:41.000 --> 00:17:45.000
+Conner Galway: And is this like a homeowner or a building manager?
+
+00:17:44.000 --> 00:17:46.000
+seanregan: Homeowner, yeah.
+
+00:17:45.000 --> 00:17:50.000
+Conner Galway: Got it. Okay. Um, then…
+
+00:17:50.000 --> 00:17:52.000
+Conner Galway: I mean, so…
+
+00:17:52.000 --> 00:18:06.000
+Conner Galway: I'm a homeowner, I don't have a heat pump, but I'm like, I can think of some of the things that I might search, but you probably know your customers better than I do. Like, what do you think that they would Google? Like, this… the problem just happened, they know, oh fuck, I need to hire somebody. What are they searching?
+
+00:18:07.000 --> 00:18:08.000
+seanregan: Um…
+
+00:18:09.000 --> 00:18:25.000
+seanregan: I'm guessing they're actually just searching like, well, if they're in North Vancouver, they might just be typing in, let's say they have a furnace, but they want the heat pump. They're like, oh, now's the opportunity. My furnace isn't working. So they might just say like heat pumps, North Vancouver.
+
+00:18:21.000 --> 00:18:22.000
+Conner Galway: Hmm. Okay.
+
+00:18:25.000 --> 00:18:26.000
+Conner Galway: Right.
+
+00:18:25.000 --> 00:18:29.000
+seanregan: I mean, it could be as simple as that, right?
+
+00:18:28.000 --> 00:18:36.000
+Conner Galway: Do you think any of them are curious enough to search something like, what are the best heat pumps? Or like, what type of heat pump should I use for my house?
+
+00:18:37.000 --> 00:18:39.000
+seanregan: Uh…
+
+00:18:39.000 --> 00:18:41.000
+Conner Galway: Or do they just not care?
+
+00:18:39.000 --> 00:18:45.000
+seanregan: At that stage, at that stage, I don't know. I mean, if there is — you got to think of —.
+
+00:18:45.000 --> 00:18:52.000
+seanregan: Like, I mean, it could be one of those things. Sorry, we were just talking about this. So it could be like.
+
+00:18:52.000 --> 00:19:08.000
+seanregan: it's heating season. Someone's furnace breaks down, and it just it could be like furnace repair, right? But then they start thinking about heat pumps as well. Right? So it could be as simple as like, Oh, I need a, you know, furnace repair in North Vancouver, and then we could might be able to be like that one.
+
+00:19:08.000 --> 00:19:23.000
+seanregan: your furnace is dead, it's 30 years old, sell them on a heat pump. So, yeah, but I don't think too many people are looking into brand specifics that early, if they don't have heat, right? They're just, like, trying to get something repaired at that point.
+
+00:19:12.000 --> 00:19:14.000
+Conner Galway: Thank you.
+
+00:19:19.000 --> 00:19:20.000
+Conner Galway: Right.
+
+00:19:22.000 --> 00:19:24.000
+Conner Galway: Got it.
+
+00:19:23.000 --> 00:19:31.000
+seanregan: Um, so, I mean, I could ask Will, he is the, uh, he's the HVAC guy, and see if he knows kind of what people might be searching.
+
+00:19:31.000 --> 00:19:33.000
+seanregan: Hey, Will.
+
+00:19:33.000 --> 00:19:36.000
+seanregan: I'll search specific if they know, right?
+
+00:19:36.000 --> 00:19:37.000
+seanregan: Right.
+
+00:19:38.000 --> 00:19:41.000
+seanregan: The most common, right?
+
+00:19:41.000 --> 00:19:43.000
+seanregan: Carry, yeah. This way.
+
+00:19:43.000 --> 00:19:47.000
+seanregan: It's more like that. It's broke down. So if you like carrying this.
+
+00:19:47.000 --> 00:19:51.000
+seanregan: Right. Like a car, right?
+
+00:19:51.000 --> 00:20:07.000
+seanregan: sometimes. Yeah, but we'll bring a good point. So it's like, if if they have a carrier furnace, they're probably gonna say the name right? Yeah. So yeah, they'll probably instantly go like carrier furnace, you know.
+
+00:19:59.000 --> 00:20:01.000
+Conner Galway: Hmm, okay.
+
+00:20:01.000 --> 00:20:02.000
+Conner Galway: Yeah, thanks.
+
+00:20:07.000 --> 00:20:10.000
+seanregan: repair or something like that.
+
+00:20:09.000 --> 00:20:13.000
+Conner Galway: Okay, yeah, no, that's, that's super helpful. And are there, like.
+
+00:20:10.000 --> 00:20:11.000
+seanregan: um…
+
+00:20:12.000 --> 00:20:14.000
+seanregan: It, uh…
+
+00:20:13.000 --> 00:20:20.000
+Conner Galway: Is there a whole, like, array of different brands that you can service or replace?
+
+00:20:19.000 --> 00:20:34.000
+seanregan: Well, again, going back to the meeting we just had, we just kind of got, like, scolded a little bit, because we're carrier rep, um, but, like, we sell carrier, and they want you to be selling a certain amount of their equipment, so he basically just gave us a slap on the wrist, because.
+
+00:20:34.000 --> 00:20:41.000
+seanregan: Um, we have not sold enough of their equipment, because we're not doing too many retrofits, because people aren't finding us.
+
+00:20:41.000 --> 00:20:53.000
+seanregan: Right? Um, and so, um, yeah, it's… we kind of want to push Carrier on our end as well, right? So we want… talking about landing pages, like, we want Carrier to be mentioned, right?
+
+00:20:52.000 --> 00:20:54.000
+Conner Galway: You want to be the carrier guys.
+
+00:20:53.000 --> 00:20:56.000
+seanregan: Yeah, carrier guys in North Vancouver, yeah.
+
+00:20:55.000 --> 00:21:05.000
+Conner Galway: Okay, that's super helpful. Um, cool, alright, and then, is there anything else that you think they might be searching at this point? Like, if you put yourself in their shoes?
+
+00:21:06.000 --> 00:21:09.000
+seanregan: Will, anything else they might be searching?
+
+00:21:10.000 --> 00:21:12.000
+seanregan: At this point.
+
+00:21:12.000 --> 00:21:16.000
+Beth J: Maybe like a lifespan, lifespan of it or.
+
+00:21:15.000 --> 00:21:19.000
+Conner Galway: Mm, mm-hmm, like, what is the lifespan of a heat pump?
+
+00:21:20.000 --> 00:21:22.000
+seanregan: Oh.
+
+00:21:22.000 --> 00:21:25.000
+seanregan: Would they be looking into warranties, you think? No?
+
+00:21:25.000 --> 00:21:27.000
+Andrew Regan: Annual maintenance or?
+
+00:21:25.000 --> 00:21:29.000
+seanregan: Nice. A lot of people. Yeah.
+
+00:21:26.000 --> 00:21:28.000
+Conner Galway: Mm, mm-hmm.
+
+00:21:28.000 --> 00:21:32.000
+Conner Galway: Yeah, I would think, like, how much does it cost? I would want to know that.
+
+00:21:29.000 --> 00:21:32.000
+seanregan: That's why they were popping with certain brands instead.
+
+00:21:32.000 --> 00:21:45.000
+seanregan: Yeah, I guess, yeah, maybe, like, average cost would be a good one. Like, how much is it gonna cost for me to, uh, install a new carrier heat pump, or something like that, or repair my…
+
+00:21:36.000 --> 00:21:38.000
+Conner Galway: Yes.
+
+00:21:43.000 --> 00:21:44.000
+Conner Galway: Mm-hmm.
+
+00:21:45.000 --> 00:21:48.000
+seanregan: carrier permits or something like that.
+
+00:21:46.000 --> 00:21:48.000
+Conner Galway: Mm-hmm.
+
+00:21:48.000 --> 00:22:00.000
+Conner Galway: Cool. Then I want to talk about another customer profile, but I also wanted to get your take on this. So especially in, you might have noticed this before, if you're ever looking at like business software.
+
+00:22:00.000 --> 00:22:03.000
+Conner Galway: There's a practice that they use that's like…
+
+00:22:03.000 --> 00:22:19.000
+Conner Galway: It works really well and it's comparative. So basically what they do is, let's say I was selling project management software for plumbing companies. I would create a post called best project management software for plumbing companies. And then I would have.
+
+00:22:19.000 --> 00:22:35.000
+Conner Galway: 6 different options. Now, obviously, I would put myself as number 1, but then I would have, like, 5 others, and I would talk about, sort of, the features and benefits of each one of them. And then, what some of these will do, they'll publish, like, 500 of these blog posts on their website.
+
+00:22:35.000 --> 00:22:41.000
+Conner Galway: And the thing is, it works, right? So when then somebody searches best plumbing software company.
+
+00:22:41.000 --> 00:22:45.000
+Conner Galway: their blog post comes up first. Now it's obviously.
+
+00:22:46.000 --> 00:23:02.000
+Conner Galway: Do you ever want to talk about your competitors? That's kind of where that friction comes up. But maybe before we get too deep into that, I'm curious to get your take. Would that be something that you'd be open to having on your site?
+
+00:23:02.000 --> 00:23:04.000
+Conner Galway: Um, so…
+
+00:23:04.000 --> 00:23:08.000
+Conner Galway: And if not, I have alternatives, but I'm curious to get your hot take on that.
+
+00:23:08.000 --> 00:23:10.000
+seanregan: You're asking if…
+
+00:23:10.000 --> 00:23:12.000
+seanregan: we would…
+
+00:23:12.000 --> 00:23:16.000
+seanregan: Mention our competitors on a web page.
+
+00:23:15.000 --> 00:23:31.000
+Conner Galway: Yes, yes, it sounds counterintuitive, but so here's what it would be. So this is like the out of the box version of it, where you would create a post called like best plumbing companies in Vancouver. And number one, of course, would be SMR plumbing. And you talk about the reasons why.
+
+00:23:16.000 --> 00:23:19.000
+seanregan: I'm sorry, on the — yeah, on the blog post.
+
+00:23:31.000 --> 00:23:48.000
+Conner Galway: And then you might be like, then you would talk about usually what you do is you talk about companies that aren't like direct competitors, but also do like plumbing related things, like maybe they only work with commercial or maybe they only do emergency or whatever. And then so you would include them on your page.
+
+00:23:48.000 --> 00:23:55.000
+Conner Galway: But the whole goal is that when somebody goes into ChatGPT and says, best plumbing company in Vancouver, you show up number one.
+
+00:23:48.000 --> 00:23:50.000
+seanregan: Yeah.
+
+00:23:55.000 --> 00:24:04.000
+seanregan: But how does it help with mentioning the other companies on your blog post, just because it always has you listed as number one?
+
+00:24:03.000 --> 00:24:12.000
+Conner Galway: Because you have to have something on that post, right? Because if the blog post was just best plumbing companies in Vancouver and it was like SMR plumbing.
+
+00:24:04.000 --> 00:24:05.000
+seanregan: But, like, alright.
+
+00:24:11.000 --> 00:24:14.000
+Beth J: Hehehehehehehehehehehehehehehe.
+
+00:24:12.000 --> 00:24:13.000
+seanregan: Yes.
+
+00:24:12.000 --> 00:24:16.000
+Conner Galway: That's not… like, that's not really a post.
+
+00:24:15.000 --> 00:24:23.000
+seanregan: And then what do you, and then so are you like, so let's say you're, so you're putting another company's name, number two, right?
+
+00:24:22.000 --> 00:24:24.000
+Conner Galway: Yep.
+
+00:24:23.000 --> 00:24:28.000
+seanregan: Let's call it Melanie. And then are you now shit talking, Melanie?
+
+00:24:27.000 --> 00:24:31.000
+Conner Galway: No, well, so here, I will…
+
+00:24:31.000 --> 00:24:46.000
+Conner Galway: See if I, so I'll, I'll give you a specific example again, very, very different industry. But so I searched best social media management software and I get this article from buffer. They sell social media management software. So they did.
+
+00:24:46.000 --> 00:25:01.000
+Conner Galway: tools in 2026 because they, they, they think that people are searching best social media management tools in 2026. And so then they go down here like here's a little bit of a description. What are they comparison? And so number one shocker buffer.
+
+00:24:53.000 --> 00:24:54.000
+seanregan: Yep.
+
+00:25:02.000 --> 00:25:07.000
+Conner Galway: And then they go, this is best for creators and small businesses, because that's who they want.
+
+00:25:07.000 --> 00:25:12.000
+Conner Galway: And then they go, Hootsuite? Well, that's better for larger teams who are doing social listening.
+
+00:25:12.000 --> 00:25:24.000
+Conner Galway: Hootsuite would tell you that's bullshit. Hootsuite would say that, no, we're great for creators of small businesses. But basically what they do is they position all of their competitors as being something a little bit different. And then you see here.
+
+00:25:23.000 --> 00:25:24.000
+seanregan: Okay, so there…
+
+00:25:25.000 --> 00:25:34.000
+Conner Galway: So they're only saying nice things about all these businesses, but they're like, it's really good if this is what you want, but that's not the exact thing that we're best for.
+
+00:25:34.000 --> 00:25:43.000
+seanregan: Okay, so you're just mentioning basically things about other companies that are nice, but it's whatever you're not looking for.
+
+00:25:43.000 --> 00:25:45.000
+seanregan: Like, from a client?
+
+00:25:45.000 --> 00:25:57.000
+Conner Galway: Yeah, and like, what some people will do is, like, they'll just straight up say, these are the five best, and they'll, like, hype up their competitors. But, like, they're really good, but they're not number one. We're number one.
+
+00:25:45.000 --> 00:25:47.000
+seanregan: I guess, ish.
+
+00:25:59.000 --> 00:26:09.000
+Andrew Regan: So it'd be like slope side and commercial boiler systems, but we would also want to do that too, I guess, because that's part of ours, but yeah.
+
+00:26:08.000 --> 00:26:17.000
+seanregan: Well, we don't want to be like an emergency company. So you'd be like slope side, 24 hour emergency, you know, shit.
+
+00:26:12.000 --> 00:26:14.000
+Andrew Regan: Yeah. Okay.
+
+00:26:16.000 --> 00:26:18.000
+Andrew Regan: Mm-hmm, yeah.
+
+00:26:16.000 --> 00:26:18.000
+Conner Galway: So, yeah, that is…
+
+00:26:17.000 --> 00:26:19.000
+seanregan: Which we don't care about, right?
+
+00:26:18.000 --> 00:26:35.000
+Conner Galway: that's one way of doing it, where, like, again, like, it's… it's businesses that service clients that you don't want, right? And so you could build the list that way. The other way to do it that's a little bit less… I don't want to call it shady, um, but is… you could create lists that are more like…
+
+00:26:19.000 --> 00:26:20.000
+Andrew Regan: Yeah, poor man.
+
+00:26:21.000 --> 00:26:22.000
+Andrew Regan: Number 10.
+
+00:26:25.000 --> 00:26:26.000
+seanregan: Yeah.
+
+00:26:27.000 --> 00:26:29.000
+Andrew Regan: Yep.
+
+00:26:35.000 --> 00:26:51.000
+Conner Galway: Um, so if there's somebody who, like, legitimately… like, for example, if there's a… I mean, you know your industry better than I do, um, but, like, if it's somebody who's, like, a tile setter, somebody who does drywall, right? So you might say.
+
+00:26:51.000 --> 00:27:13.000
+Conner Galway: best companies for construction in Vancouver, then you would be number one. You're not getting that direct best plumbing company, but you're still starting to build up some of that credibility. And then you're genuinely able to recommend other businesses that you like to work with. And you're saying nice things about the other companies that are your partners.
+
+00:27:02.000 --> 00:27:03.000
+Andrew Regan: Mmm.
+
+00:27:14.000 --> 00:27:15.000
+seanregan: Okay.
+
+00:27:14.000 --> 00:27:16.000
+Andrew Regan: Right.
+
+00:27:15.000 --> 00:27:23.000
+seanregan: like that drain cleaning, which we don't really like and want. O'Reilly put him on there, he is very good, we don't want it.
+
+00:27:18.000 --> 00:27:21.000
+Andrew Regan: O'Reilly's.
+
+00:27:21.000 --> 00:27:25.000
+Andrew Regan: Uh, number two.
+
+00:27:23.000 --> 00:27:25.000
+seanregan: Number two.
+
+00:27:25.000 --> 00:27:40.000
+Conner Galway: Okay, well, let's do that exercise for a second there. Let's say we're kind of meeting in the middle, and it was things that were all, like, sort of plumbing related, but not exactly what you do, right? So, drain cleaning is one thing. Emergency sounds like is another. You guys don't want to do emergency.
+
+00:27:37.000 --> 00:27:38.000
+Andrew Regan: Hello.
+
+00:27:41.000 --> 00:27:42.000
+Conner Galway: Bye.
+
+00:27:41.000 --> 00:27:44.000
+Andrew Regan: Perimeter drainage would be one too, yeah.
+
+00:27:43.000 --> 00:27:49.000
+Conner Galway: Perimeter drainage. Okay. So, emergency would be slope side. Is that right?
+
+00:27:45.000 --> 00:27:47.000
+Andrew Regan: Yep.
+
+00:27:50.000 --> 00:27:51.000
+seanregan: Yeah.
+
+00:27:51.000 --> 00:27:56.000
+Conner Galway: Okay. And the first one was just regular drainage?
+
+00:27:55.000 --> 00:27:57.000
+Beth J: O'Reilly's. Yeah.
+
+00:27:56.000 --> 00:27:59.000
+seanregan: Yeah, drain cleaning, yeah.
+
+00:27:56.000 --> 00:27:58.000
+Conner Galway: O'Reilly's.
+
+00:27:58.000 --> 00:28:03.000
+Conner Galway: Drain cleaning. OK. And then perimeter drainage, who would we recommend for that?
+
+00:28:02.000 --> 00:28:04.000
+seanregan: Perimeter drainage.
+
+00:28:04.000 --> 00:28:15.000
+Andrew Regan: That's their name. I guess it's, sorry, it's more like site services. They do everything outside of the house or more interior of the house.
+
+00:28:05.000 --> 00:28:06.000
+seanregan: Thank you.
+
+00:28:06.000 --> 00:28:09.000
+seanregan: That's their name. That's their name.
+
+00:28:15.000 --> 00:28:17.000
+Andrew Regan: For the most part.
+
+00:28:17.000 --> 00:28:28.000
+Conner Galway: What about, like, I don't know, does their client ever work directly with a supplier? Like, are they buying plumbing-related supplies, or are they only doing that through you?
+
+00:28:29.000 --> 00:28:31.000
+Beth J: Typically just through us.
+
+00:28:30.000 --> 00:28:40.000
+Andrew Regan: They might work with, um… for, like, plumbing fixtures, they probably… oh, sometimes they work directly with, like, Andrew Sherritz or EMCO, the en suite.
+
+00:28:41.000 --> 00:28:44.000
+Andrew Regan: Like for toilets and stuff.
+
+00:28:41.000 --> 00:28:43.000
+Conner Galway: Yeah, so you could say, like…
+
+00:28:41.000 --> 00:28:42.000
+seanregan: Good.
+
+00:28:43.000 --> 00:28:50.000
+Conner Galway: Yeah. So under, like, best plumbing companies in Vancouver, one, you could be like, if you want to go and buy this stuff yourself, go to Andrew Sher.
+
+00:28:50.000 --> 00:28:52.000
+Andrew Regan: Mm-hmm.
+
+00:28:52.000 --> 00:28:53.000
+Andrew Regan: Yep.
+
+00:28:52.000 --> 00:28:54.000
+seanregan: Good one.
+
+00:28:54.000 --> 00:29:00.000
+Conner Galway: Anything else you can think of? Any other, like, sort of plumbing-related companies that do something complimentary?
+
+00:29:00.000 --> 00:29:12.000
+seanregan: I mean, like, maybe like the piping insulators, right? We don't do it. We don't, you know, we use them, we hire them for jobs that we do, right? Could be one.
+
+00:29:09.000 --> 00:29:10.000
+Conner Galway: Yeah. Okay.
+
+00:29:11.000 --> 00:29:15.000
+Andrew Regan: Yeah, there's those, uh, trenchless…
+
+00:29:12.000 --> 00:29:14.000
+seanregan: Sort of, sort of related.
+
+00:29:15.000 --> 00:29:18.000
+Andrew Regan: Sorry, trenchless water lines.
+
+00:29:15.000 --> 00:29:17.000
+seanregan: Yep.
+
+00:29:18.000 --> 00:29:24.000
+Andrew Regan: Those guys that do that. I guess that's more of a bigger company that just specializes in that area, but…
+
+00:29:24.000 --> 00:29:32.000
+Conner Galway: No, that's a good thing. Again, like, if there's somebody that somebody would call that they wouldn't call you for that same thing, yeah, that's ideal.
+
+00:29:26.000 --> 00:29:29.000
+Andrew Regan: Yeah, that could be best for…
+
+00:29:31.000 --> 00:29:35.000
+Andrew Regan: Right, yeah, okay, yeah, that's one.
+
+00:29:36.000 --> 00:29:38.000
+Andrew Regan: Like, other ones.
+
+00:29:37.000 --> 00:29:40.000
+seanregan: I mean, fire suppression, yeah.
+
+00:29:37.000 --> 00:29:41.000
+Conner Galway: All right, and then what? Fire suppression? Okay.
+
+00:29:38.000 --> 00:29:39.000
+Andrew Regan: Yes.
+
+00:29:40.000 --> 00:29:42.000
+seanregan: Yeah.
+
+00:29:41.000 --> 00:29:43.000
+Andrew Regan: Oh, yeah.
+
+00:29:45.000 --> 00:29:47.000
+seanregan: Sorry, Connor, what were you gonna say.
+
+00:29:45.000 --> 00:29:47.000
+Conner Galway: Yeah, and…
+
+00:29:47.000 --> 00:29:53.000
+Conner Galway: I'd say, Beth, feel free to take notes, but know that, like, we also have our AI notes, so it's all getting captured, yeah.
+
+00:29:51.000 --> 00:29:53.000
+seanregan: I know, I know.
+
+00:29:51.000 --> 00:29:55.000
+Beth J: I know, I know, it's just a reflex.
+
+00:29:53.000 --> 00:29:54.000
+Conner Galway: Pretty sure. Yeah.
+
+00:29:54.000 --> 00:29:56.000
+Conner Galway: Fair enough.
+
+00:29:56.000 --> 00:30:09.000
+Conner Galway: Um, cool. Okay, and then the other thing we can do is we can give this list that you've created to Claude, and then have it be like, are there any other categories? Are there any businesses that you would recommend? And then you can review that and approve it before it goes up.
+
+00:30:09.000 --> 00:30:22.000
+Conner Galway: Um, the next thing I wanted to talk about is, is there another ideal client, right? So we talked about a residential homeowner who needs heat pump and furnace. Is there another one that you would want calling you?
+
+00:30:24.000 --> 00:30:35.000
+seanregan: I mean, general contractors like any like you know small to medium-sized general contractors that are doing renovations and new construction Obviously.
+
+00:30:33.000 --> 00:30:38.000
+Conner Galway: Do you think they're ever, like, Googling, or is it all just, like, I know a guy?
+
+00:30:37.000 --> 00:30:39.000
+seanregan: That there.
+
+00:30:38.000 --> 00:30:40.000
+Andrew Regan: Ah, okay.
+
+00:30:39.000 --> 00:30:51.000
+seanregan: Yeah, I'd say like, I mean, Andy will probably agree that it's the really small guys that are googling that might be just like, oh, you know, we're using a guy we're not happy with.
+
+00:30:46.000 --> 00:30:48.000
+Conner Galway: Mm-hmm.
+
+00:30:51.000 --> 00:30:56.000
+seanregan: maybe the fastest thing I'll do is go in North Vancouver plumbers or plumbing and Hvac.
+
+00:30:55.000 --> 00:30:57.000
+Conner Galway: Mm-hmm. Okay.
+
+00:30:56.000 --> 00:31:04.000
+seanregan: look at their reviews, I'll give these guys a shout to see if they're interested in doing these small renovations. So, again, it's…
+
+00:31:01.000 --> 00:31:02.000
+Conner Galway: Yes.
+
+00:31:02.000 --> 00:31:04.000
+Andrew Regan: Yeah…
+
+00:31:04.000 --> 00:31:13.000
+Andrew Regan: I think it's the transition when they're looking to go from a smaller company, they're using the uninsured guy.
+
+00:31:13.000 --> 00:31:21.000
+Andrew Regan: You know, does it pretty cheap, and then they're trying to get into bigger projects where they want a legitimate company that's got insurance and all.
+
+00:31:21.000 --> 00:31:27.000
+Andrew Regan: the right documents and, you know, going through proper channels for purpose and stuff like that. I think that's the stage.
+
+00:31:25.000 --> 00:31:26.000
+Conner Galway: Mm-hmm.
+
+00:31:27.000 --> 00:31:31.000
+Andrew Regan: I'm thinking of, like, platinum contracting that one, but…
+
+00:31:27.000 --> 00:31:28.000
+Conner Galway: Wasn't it?
+
+00:31:28.000 --> 00:31:47.000
+Conner Galway: No, sorry, you're onto something there, Andy. I want to dig into that. So the, it would be like what to look for when hiring a plumbing company. And so like genuinely, if you were like talking to a friend, let's say you have a friend in Calgary and they're like, I need to hire a plumber. How do I make sure that I hire a good plumbing company? Like what? So you mentioned insurance.
+
+00:31:31.000 --> 00:31:32.000
+Andrew Regan: Okay.
+
+00:31:43.000 --> 00:31:44.000
+Andrew Regan: Mmhm.
+
+00:31:47.000 --> 00:31:50.000
+Conner Galway: What are the other things that you would tell them to look for?
+
+00:31:48.000 --> 00:31:49.000
+Andrew Regan: Mmhm.
+
+00:31:50.000 --> 00:31:52.000
+seanregan: Ticketed.
+
+00:31:51.000 --> 00:31:56.000
+Andrew Regan: Uh, I guess, yeah, fully licensed, uh, ticketed, um…
+
+00:31:58.000 --> 00:32:00.000
+Andrew Regan: And…
+
+00:32:01.000 --> 00:32:08.000
+Andrew Regan: Yeah, I mean, they probably want to look at our website just to see projects, the projects we've done and stuff like that.
+
+00:32:02.000 --> 00:32:04.000
+seanregan: Uh, in… in business.
+
+00:32:04.000 --> 00:32:05.000
+Conner Galway: Mm, okay.
+
+00:32:06.000 --> 00:32:09.000
+Conner Galway: It's a track record.
+
+00:32:08.000 --> 00:32:13.000
+seanregan: Yeah, in business for X amount of years, you know, 10 years, whatever, I guess.
+
+00:32:08.000 --> 00:32:11.000
+Andrew Regan: Yeah. Yeah.
+
+00:32:11.000 --> 00:32:20.000
+Conner Galway: Maybe that they, they actually do the type of work that you're looking for, right? So you're not like hiring somebody who's way too big for your job or way too small.
+
+00:32:19.000 --> 00:32:21.000
+seanregan: Hmm.
+
+00:32:20.000 --> 00:32:24.000
+Andrew Regan: Mm-hmm. Yeah, we take most sizes, but yeah.
+
+00:32:24.000 --> 00:32:25.000
+Andrew Regan: And, um…
+
+00:32:26.000 --> 00:32:33.000
+Andrew Regan: Yeah, it's usually like the guys that are going from renos to maybe new house construction. That's kind of the area.
+
+00:32:32.000 --> 00:32:34.000
+Conner Galway: Yeah. Okay.
+
+00:32:33.000 --> 00:32:36.000
+Andrew Regan: Would definitely be able to fit them.
+
+00:32:37.000 --> 00:32:39.000
+Andrew Regan: service their needs, but…
+
+00:32:39.000 --> 00:32:40.000
+seanregan: Yep.
+
+00:32:40.000 --> 00:32:57.000
+Conner Galway: All right. Well, then if we go back to the homeowner, um and like you guys have done enough like call outs and jobs yourself. I'm curious, like aside from fix my problem, uh when you arrive on the job site, like what are the most consistent questions that you hear from people? Like what, what are they asking you when you show up?
+
+00:32:40.000 --> 00:32:42.000
+Andrew Regan: Yes.
+
+00:32:59.000 --> 00:33:08.000
+Conner Galway: I'm assuming, like, how long is this going to take? Will I be able to use my water? Like, what else comes up?
+
+00:33:06.000 --> 00:33:08.000
+Andrew Regan: Mm-hmm.
+
+00:33:09.000 --> 00:33:16.000
+Andrew Regan: Um, I guess it depends on the job. I mean, obviously, we're not the first ones on site, but we might take the phone call for the job.
+
+00:33:16.000 --> 00:33:19.000
+Andrew Regan: Um, often for, like, a…
+
+00:33:17.000 --> 00:33:23.000
+Conner Galway: Sorry, it could also be on the phone call, right? Like, that initial phone call when they're calling you, like, what are they asking?
+
+00:33:20.000 --> 00:33:22.000
+Andrew Regan: Yeah.
+
+00:33:22.000 --> 00:33:23.000
+Andrew Regan: Yeah, okay.
+
+00:33:23.000 --> 00:33:29.000
+Andrew Regan: So, uh, for instance, it was last week, I think, a guy had no hot water.
+
+00:33:29.000 --> 00:33:41.000
+Andrew Regan: Um, he want… one of the initial questions was, do you have… are you sending a guy who's experienced with a Wiesman boiler? Because that's the type of boiler he had, or like, you know…
+
+00:33:41.000 --> 00:33:47.000
+Andrew Regan: Other guys, they send, are you sending your best guy? Which is always, the answer's always yes, even if it's no, but uh…
+
+00:33:43.000 --> 00:33:45.000
+Conner Galway: Hmm.
+
+00:33:46.000 --> 00:33:47.000
+Conner Galway: Yeah, thank you.
+
+00:33:47.000 --> 00:33:49.000
+Andrew Regan: Um…
+
+00:33:49.000 --> 00:33:55.000
+Andrew Regan: Stuff like that, um, yeah, are you familiar with this? Are you guys familiar with this?
+
+00:33:55.000 --> 00:34:03.000
+Andrew Regan: This brand or model, but that's mostly when it comes to boys with toilets and faucets, it's, it's.
+
+00:34:03.000 --> 00:34:07.000
+Andrew Regan: It's nothing really like that. They kind of… I guess they…
+
+00:34:04.000 --> 00:34:08.000
+Conner Galway: I mean, it sounds like you don't even really want the toilet and faucet work anyways, right?
+
+00:34:09.000 --> 00:34:14.000
+Andrew Regan: Well, no, I think they're good money makers. We have a guy that's…
+
+00:34:10.000 --> 00:34:12.000
+Conner Galway: Yeah. Okay.
+
+00:34:14.000 --> 00:34:24.000
+Andrew Regan: you know, because most of our plumbers… all of our plumbers can take care of that. It's… it's really easy work, and we're still charging our service rates, which are good, so they're… they're high margin.
+
+00:34:23.000 --> 00:34:24.000
+Conner Galway: Mm-hmm.
+
+00:34:24.000 --> 00:34:28.000
+Andrew Regan: Um, so we do want those. Um, yeah. It's just…
+
+00:34:25.000 --> 00:34:26.000
+Conner Galway: Yeah. Yeah.
+
+00:34:28.000 --> 00:34:33.000
+Andrew Regan: The boiler work, those are the ones that can be really good money makers as well.
+
+00:34:30.000 --> 00:34:32.000
+Conner Galway: Hmm. Okay.
+
+00:34:33.000 --> 00:34:48.000
+Andrew Regan: but we've struggled with those. Our service guy isn't really good with those, so I have to take one of our other guys. Doesn't really want to do the service work, because they're on our larger, um, ongoing jobs, like renovations and new builds and stuff like that. Commercial jobs, too.
+
+00:34:49.000 --> 00:34:51.000
+Andrew Regan: So…
+
+00:34:51.000 --> 00:34:56.000
+Andrew Regan: Yeah, that's kind of where we're at, I guess, in terms of those. Yeah.
+
+00:34:51.000 --> 00:34:53.000
+Conner Galway: Got it.
+
+00:34:54.000 --> 00:35:06.000
+Beth J: So, yeah, if we're… if we're basically looking at, um, expanding and creating a proper service division, we do need those calls, and we need those strata com… um… um…
+
+00:35:06.000 --> 00:35:21.000
+Beth J: strata communities to, like, hire us and have contracts with us for that, and that would be, like, the easier-to-market kind of stuff, even though, like, overall, we're gonna make a lot more money with less effort.
+
+00:35:08.000 --> 00:35:09.000
+Andrew Regan: That is nice.
+
+00:35:21.000 --> 00:35:26.000
+Beth J: per se, for those bigger jobs. We still want to keep the little ones going.
+
+00:35:26.000 --> 00:35:41.000
+Conner Galway: I think Strata is interesting, right? Because I'm on my Strata, and we recently had to hire carpet and wallpaper. And people around Strata don't have a clue what we're doing. We're not experts in this stuff, right? So we're some idiots who got hired.
+
+00:35:26.000 --> 00:35:28.000
+Andrew Regan: Yeah.
+
+00:35:37.000 --> 00:35:39.000
+Beth J: Hahaha!
+
+00:35:41.000 --> 00:35:57.000
+Conner Galway: We put our hands up. Um And so I had to do a ton of googling and I found like there was nothing like I didn't have the first clue about like, do I need somebody from like for a new build? Do I need like a interior designer? Um So I think that's an interesting category.
+
+00:35:57.000 --> 00:36:11.000
+Conner Galway: given that, like, yeah, like, your general contractors, they know what they're doing. Residential, for sure, will want to cover that, but I think strata specifically, like, how to hire a plumber for a strata building. Like, that type of thing, I think, would be useful.
+
+00:35:58.000 --> 00:36:00.000
+Andrew Regan: Okay.
+
+00:36:12.000 --> 00:36:14.000
+Andrew Regan: Yeah, that'd be awesome.
+
+00:36:14.000 --> 00:36:33.000
+seanregan: Yeah, it's, uh, you can definitely get a lot of repeat work out of Stratus, too, if they like you. So if they bring you in for one specific job, and then you can become their guy. The only hiccup with that is that we do… we don't have any interest in being 24 hours, so if you do end up becoming the Stratus.
+
+00:36:30.000 --> 00:36:32.000
+Conner Galway: Hmm, okay.
+
+00:36:33.000 --> 00:36:48.000
+seanregan: You know, you signed a contract and everything. A lot of them do have the expectation that you're 24 hours, but we wouldn't do that. Some of the people we do have not official contracts, but we've been working with them for a lot of years.
+
+00:36:35.000 --> 00:36:37.000
+Andrew Regan: Thank you.
+
+00:36:48.000 --> 00:37:00.000
+seanregan: If they have anything outside of the work hours, they'll call Milani, but they hate Milani, but they're available. And then for everything else, they'll just call us, or they'll see if it can wait until we're, you know, in the morning, kind of thing.
+
+00:36:52.000 --> 00:36:54.000
+Conner Galway: Yeah, that's right.
+
+00:36:57.000 --> 00:36:59.000
+Conner Galway: Mm-hmm.
+
+00:36:59.000 --> 00:37:01.000
+Conner Galway: That's a good point, though.
+
+00:37:00.000 --> 00:37:03.000
+seanregan: That would be the only issue with that, yeah.
+
+00:37:01.000 --> 00:37:09.000
+Conner Galway: Yeah, like, once you have a vendor, like, switching vendors requires a strata meeting and a vote and all, like, it's just, like, once you're in, you'.
+
+00:37:09.000 --> 00:37:11.000
+Conner Galway: Yeah, yeah, okay.
+
+00:37:10.000 --> 00:37:12.000
+seanregan: Yeah, yeah, that's.
+
+00:37:11.000 --> 00:37:13.000
+Conner Galway: Um…
+
+00:37:12.000 --> 00:37:17.000
+seanregan: Kind of, if you're showing up and you're fixing problems and stuff, and it's… you're low maintenance to.
+
+00:37:17.000 --> 00:37:21.000
+seanregan: You can stay there forever, right? Yeah.
+
+00:37:18.000 --> 00:37:19.000
+Conner Galway: Yes.
+
+00:37:20.000 --> 00:37:23.000
+Conner Galway: Cool, okay. Um…
+
+00:37:23.000 --> 00:37:30.000
+Conner Galway: Yeah, I think that kind of gives us what to go off of for, um…
+
+00:37:30.000 --> 00:37:43.000
+Conner Galway: content, because one of the things that I maybe suggested was, like, the comparisons of, like, different heat pumps and furnaces, but what I'm hearing is we don't think the customer cares, right? They're just like, fix my heat problem.
+
+00:37:43.000 --> 00:37:45.000
+Conner Galway: And.
+
+00:37:45.000 --> 00:37:52.000
+Conner Galway: Oh, and we did talk a little bit about the BC heat pump rebates. Sounds like that's important for your business, is that right?
+
+00:37:52.000 --> 00:38:04.000
+Beth J: I think it's over now, though. I'm not sure if the rebates are still valid. I'd have to touch base with Will on that. But yeah, I think that that was all last year.
+
+00:37:54.000 --> 00:37:55.000
+Conner Galway: Is that right?
+
+00:38:05.000 --> 00:38:10.000
+seanregan: The rebates are there. I don't think there's much out there right now.
+
+00:38:10.000 --> 00:38:16.000
+seanregan: Sorry? Yeah, okay, there's some out for condos. Only electric.
+
+00:38:17.000 --> 00:38:30.000
+seanregan: But yeah, they, they were fantastic like last year and they're, you know, customers are getting like 10 grand back and every fucker out there was, you know, advertising for it. But yeah, not so much right now.
+
+00:38:22.000 --> 00:38:24.000
+Conner Galway: Mm-hmm.
+
+00:38:29.000 --> 00:38:40.000
+Conner Galway: Got it. Then, just a couple more quick ones, and then I can let you guys go. One is, rank for me the neighborhoods in Vancouver that you would want to appear for, so…
+
+00:38:40.000 --> 00:38:47.000
+Conner Galway: North Vancouver, I would assume downtown, but, like, Burnaby, Coquitlam, Surrey, like, what would be.
+
+00:38:45.000 --> 00:38:48.000
+seanregan: West, yeah, West Bank's a good one.
+
+00:38:47.000 --> 00:38:49.000
+Conner Galway: North Bend, West Bend.
+
+00:38:49.000 --> 00:38:52.000
+seanregan: Yeah, so northbound.
+
+00:38:50.000 --> 00:38:53.000
+Andrew Regan: Yeah, quick columns.
+
+00:38:53.000 --> 00:38:56.000
+Andrew Regan: Burnaby, Vancouver.
+
+00:38:55.000 --> 00:38:57.000
+seanregan: Coquitlam.
+
+00:38:57.000 --> 00:38:59.000
+Andrew Regan: I'll go on.
+
+00:38:59.000 --> 00:39:02.000
+seanregan: Ah, Squamish, I don't know.
+
+00:39:00.000 --> 00:39:02.000
+Andrew Regan: Definitely not Surrey.
+
+00:39:02.000 --> 00:39:07.000
+Conner Galway: Yeah, I mean, like, if it's kind of a meh, then let's not bother. But, like…
+
+00:39:06.000 --> 00:39:13.000
+seanregan: I think I'm just saying Squamish for, again, average job size matters.
+
+00:39:13.000 --> 00:39:26.000
+seanregan: heat pump retrofit in Squamish, that's totally fine. It's 2 days, a lot of money. You don't want to be driving out to Squamish for a faucet repair or replacement that's going to take 20 minutes, right? They don't want to be paying for your drive time as well.
+
+00:39:17.000 --> 00:39:18.000
+Conner Galway: Hmm. Okay.
+
+00:39:19.000 --> 00:39:21.000
+Andrew Regan: Okay.
+
+00:39:21.000 --> 00:39:22.000
+Conner Galway: Right.
+
+00:39:24.000 --> 00:39:30.000
+Conner Galway: I mean, we can create that problem, right? You can just get too many leads coming in, and you just say, no, sorry, it's too small.
+
+00:39:30.000 --> 00:39:31.000
+seanregan: Yeah.
+
+00:39:30.000 --> 00:39:35.000
+Conner Galway: Um, then, like, Richmond, Delta, Surrey… nope.
+
+00:39:31.000 --> 00:39:32.000
+seanregan: Okay.
+
+00:39:37.000 --> 00:39:38.000
+seanregan: Again.
+
+00:39:38.000 --> 00:39:56.000
+seanregan: it's and I don't even know if it's worth the headache. But like again, we're we're aiming for average job size, you know, like hot water tanks are great, but it's like, how far are you willing to go, you know, to make that that money. But if we advertise in Surrey for a heat pump, and we start getting.
+
+00:39:39.000 --> 00:39:40.000
+Andrew Regan: Yes.
+
+00:39:48.000 --> 00:39:51.000
+Conner Galway: Mmhm. Mmhm.
+
+00:39:52.000 --> 00:39:53.000
+Conner Galway: Still with me.
+
+00:39:56.000 --> 00:40:01.000
+seanregan: 80 phone calls a week for a 20-minute service call. It's, like, a little bit of a nuisance.
+
+00:39:59.000 --> 00:40:02.000
+Conner Galway: So maybe not Surrey, but Shaughnessy.
+
+00:40:04.000 --> 00:40:05.000
+seanregan: Yeah.
+
+00:40:06.000 --> 00:40:13.000
+Conner Galway: This is the great thing about AI, because, like, normally I would never recommend that, because I'm like, oh, we have to build another page, whatever, but, like.
+
+00:40:06.000 --> 00:40:08.000
+seanregan: Yeah, that's all right.
+
+00:40:13.000 --> 00:40:19.000
+Conner Galway: we can build as many pages as we want, right? So we could do, like, Carisdale, Kitsilano, Point Grey, like.
+
+00:40:15.000 --> 00:40:16.000
+seanregan: Yep.
+
+00:40:19.000 --> 00:40:22.000
+Conner Galway: I would assume that those are all a yes.
+
+00:40:22.000 --> 00:40:23.000
+seanregan: Yeah.
+
+00:40:23.000 --> 00:40:27.000
+Conner Galway: Port Moody, Port Coquitlam.
+
+00:40:30.000 --> 00:40:35.000
+seanregan: You're kind of getting right to the edge of where we don't like to go. You're flirting with it.
+
+00:40:31.000 --> 00:40:34.000
+Conner Galway: Got it. Okay.
+
+00:40:34.000 --> 00:40:39.000
+Conner Galway: We've got our core, plenty to go off of. And then on that topic.
+
+00:40:39.000 --> 00:40:49.000
+Conner Galway: Just as important, what would be — let's come up with five neighborhoods where you have lots of examples of jobs, ideally with photos.
+
+00:40:51.000 --> 00:40:53.000
+Andrew Regan: With photos.
+
+00:40:53.000 --> 00:41:07.000
+Conner Galway: Doesn't have to be. But basically, if you think about what the page is, if I'm going to create the, we're the, you know, West Van plumbing company, we got to have something to go in the page. Right. So ideally it would be like, here's five examples of jobs that we've done in West Van.
+
+00:41:04.000 --> 00:41:05.000
+Andrew Regan: Yep.
+
+00:41:07.000 --> 00:41:19.000
+Beth J: Okay, I can do that. I was just trying to pull photos, um, and I'm not entirely sure where they're all from, so I can, uh, I can work on creating it per, um…
+
+00:41:19.000 --> 00:41:20.000
+Beth J: Per area.
+
+00:41:20.000 --> 00:41:21.000
+Conner Galway: Cool.
+
+00:41:20.000 --> 00:41:25.000
+Andrew Regan: I could probably tell you which photos are from where, if you need.
+
+00:41:24.000 --> 00:41:36.000
+Conner Galway: And you don't need a ton, right? Like, just… because we're just like, like, we love working in Westman, etc, we've done lots of jobs, here's two examples. At the bottom, call us.
+
+00:41:25.000 --> 00:41:26.000
+Andrew Regan: Um.
+
+00:41:26.000 --> 00:41:29.000
+Beth J: Yeah I can just go into the job.
+
+00:41:27.000 --> 00:41:28.000
+Andrew Regan: No.
+
+00:41:33.000 --> 00:41:34.000
+Beth J: Yeah.
+
+00:41:37.000 --> 00:41:39.000
+Beth J: Okay.
+
+00:41:38.000 --> 00:41:44.000
+Andrew Regan: I have lots of photos, but they're not very good for website photos. They're just…
+
+00:41:44.000 --> 00:41:47.000
+Andrew Regan: Bombing stuff that doesn't really show.
+
+00:41:47.000 --> 00:41:50.000
+Andrew Regan: Yeah, not good for a website, but yeah.
+
+00:41:48.000 --> 00:41:51.000
+Conner Galway: Got it. Like, nerdy plumbing stuff.
+
+00:41:50.000 --> 00:41:53.000
+seanregan: Plumbers taking photos of plumbing.
+
+00:41:50.000 --> 00:41:51.000
+Andrew Regan: Yep.
+
+00:41:52.000 --> 00:41:58.000
+Andrew Regan: Deficiencies. All the bad stuff.
+
+00:41:56.000 --> 00:42:01.000
+Conner Galway: I mean, realistically, you could also just pull, like, MLS photos, be like, here's a house that we did.
+
+00:42:02.000 --> 00:42:04.000
+Andrew Regan: Yeah. Yeah.
+
+00:42:03.000 --> 00:42:09.000
+seanregan: I mean, yeah, we we should have a bunch of pictures. Yeah.
+
+00:42:06.000 --> 00:42:09.000
+Beth J: We do, yeah. Yeah.
+
+00:42:09.000 --> 00:42:23.000
+Conner Galway: Okay. Um, yeah, I think that gives us plenty to start with. So basically, like, just to summarize this, what Beth and I are gonna put together is basically an AI assistant that will generate these pages.
+
+00:42:23.000 --> 00:42:32.000
+Conner Galway: we won't just completely copy and paste it, like, you'll review it and, like, make sure that it's what you would want, but then you can just literally go into WordPress.
+
+00:42:32.000 --> 00:42:48.000
+Conner Galway: put a title, put the content, and we're good to go. And then the project, and Beth, one of the things you and I will work on is making sure that the Claude project knows how to optimize a post for SEO. Um, because that's really… I see a lot of businesses putting up a lot of content, and they don't get anything from it.
+
+00:42:48.000 --> 00:42:56.000
+Conner Galway: But it's just because they don't have the right content in the right places. So yes, appreciate you guys. Thank you. This has given us a lot to work with.
+
+00:42:57.000 --> 00:43:05.000
+Andrew Regan: Sorry, can I just circle back to one thing about when customers call? This one comes up quite often, is, do you guys do gas?
+
+00:43:04.000 --> 00:43:05.000
+Conner Galway: Mmm.
+
+00:43:05.000 --> 00:43:13.000
+Andrew Regan: Because we're plumbing and heating, and we do do gas, and they often ask that question. That's all. Just wanted to add that part too.
+
+00:43:12.000 --> 00:43:14.000
+seanregan: That's a, that's a good, good.
+
+00:43:13.000 --> 00:43:16.000
+Conner Galway: Cool, okay. Yeah, I'll…
+
+00:43:16.000 --> 00:43:27.000
+Conner Galway: Yeah, I think one of the things that we'll do is, let's just do an FAQs page, um, and we can, like, put all of the, like, that's not a blog post, um, but we can easily put that on an FAQs page.
+
+00:43:21.000 --> 00:43:22.000
+Andrew Regan: Yeah.
+
+00:43:29.000 --> 00:43:30.000
+Andrew Regan: Cool.
+
+00:43:30.000 --> 00:43:33.000
+Conner Galway: Awesome, alright, well…
+
+00:43:32.000 --> 00:43:51.000
+seanregan: And then… sorry, one more thing, and I know you're probably already incorporating it, just… but we're also still kind of at that stage, because we're… our name is still plumbing and heating, and going back to the gas thing, but it also is the same for HVAC. Sometimes people don't get that, so we… eventually, we might end up changing the name.
+
+00:43:33.000 --> 00:43:34.000
+Conner Galway: Yeah, sure.
+
+00:43:33.000 --> 00:43:35.000
+Andrew Regan: All right.
+
+00:43:34.000 --> 00:43:36.000
+Conner Galway: Thank you for noting that.
+
+00:43:51.000 --> 00:43:59.000
+seanregan: Um, but we just, we need to, we want a lot of HVAC service traffic and retrofits as well.
+
+00:43:56.000 --> 00:44:06.000
+Conner Galway: Got it. Okay, so, and for the benefit of our AI friend and for Beth, in addition to Best Plumbing Company Vancouver, we'll want to do Best Heating Company Vancouver, Best.
+
+00:44:06.000 --> 00:44:08.000
+Conner Galway: HVAC Company Vancouver.
+
+00:44:11.000 --> 00:44:12.000
+Conner Galway: Beauty.
+
+00:44:12.000 --> 00:44:14.000
+Conner Galway: All right, well, clause dismissed.
+
+00:44:12.000 --> 00:44:14.000
+seanregan: Correct. Yeah.
+
+00:44:14.000 --> 00:44:16.000
+Conner Galway: Thanks.
+
+00:44:15.000 --> 00:44:17.000
+seanregan: Are you done with the plumbers?
+
+00:44:16.000 --> 00:44:19.000
+Conner Galway: Done with the plumbers.
+
+00:44:19.000 --> 00:44:21.000
+seanregan: See ya, pals.
+
+00:44:19.000 --> 00:44:21.000
+Andrew Regan: Thanks, Connor.
+
+00:44:19.000 --> 00:44:21.000
+Conner Galway: Yeah, good to see you guys.
+
+00:44:21.000 --> 00:44:24.000
+Andrew Regan: Yeah, Eric.
+
+00:44:22.000 --> 00:44:23.000
+seanregan: Thanks, buddy. Appreciate it.
+
+00:44:25.000 --> 00:44:28.000
+Conner Galway: Yeah, Beth, on to the fun stuff.
+
+00:44:28.000 --> 00:44:31.000
+Beth J: Woohoo!
+
+00:44:28.000 --> 00:44:31.000
+Conner Galway: Yeah. And so we, we use up…
+
+00:44:31.000 --> 00:44:36.000
+Conner Galway: a majority of our time, um, but I think we…
+
+00:44:34.000 --> 00:44:39.000
+Beth J: Yeah, I know. I was like, we have 15 minutes left.
+
+00:44:36.000 --> 00:44:49.000
+Conner Galway: But I think we can cover off, like, some of the critical stuff, and then, um, you know, if you want to start on some of the other things on your own, like, we can always just go back and forth on email, and then we can cover off the rest in the next session.
+
+00:44:41.000 --> 00:44:43.000
+Beth J: Okay.
+
+00:44:46.000 --> 00:44:49.000
+Beth J: Yeah. Yeah.
+
+00:44:50.000 --> 00:44:51.000
+Conner Galway: So…
+
+00:44:50.000 --> 00:44:59.000
+Beth J: Yeah. Honestly, I find it very difficult because my computer just — it slows right down as soon as I open up Claude.
+
+00:44:57.000 --> 00:44:58.000
+Conner Galway: Mm-hmm.
+
+00:44:59.000 --> 00:45:03.000
+Beth J: But we will do our best. All right, so where do you want me?
+
+00:45:01.000 --> 00:45:11.000
+Conner Galway: So for this, you don't have to have Claude open at all. So I just open up the website. And actually, would you mind sharing your screen?
+
+00:45:04.000 --> 00:45:08.000
+Beth J: Oh, okay, perfect. That will help.
+
+00:45:09.000 --> 00:45:10.000
+Beth J: Okay.
+
+00:45:12.000 --> 00:45:14.000
+Beth J: Yes. Yeah.
+
+00:45:14.000 --> 00:45:16.000
+Beth J: More.
+
+00:45:20.000 --> 00:45:24.000
+Beth J: All right. Are you getting it?
+
+00:45:26.000 --> 00:45:29.000
+Beth J: Yeah, let me get rid of this.
+
+00:45:30.000 --> 00:45:33.000
+Beth J: Okay, bring that down.
+
+00:45:34.000 --> 00:45:36.000
+Beth J: And we want up here.
+
+00:45:41.000 --> 00:45:43.000
+Beth J: Okay, great.
+
+00:45:51.000 --> 00:46:01.000
+Beth J: Alright, so are you getting the, um, the top… sorry, what screen are you seeing? I chose screen 2, but are you seeing you and I?
+
+00:45:58.000 --> 00:46:00.000
+Conner Galway: Sure, it…
+
+00:46:00.000 --> 00:46:04.000
+Conner Galway: It's still loading. I will let you know as soon as it's up.
+
+00:46:04.000 --> 00:46:07.000
+Beth J: Okay.
+
+00:46:05.000 --> 00:46:10.000
+Conner Galway: Alright, uh, yeah, I can see Springs Hosting and a blank page.
+
+00:46:09.000 --> 00:46:11.000
+Beth J: Okay, perfect.
+
+00:46:11.000 --> 00:46:17.000
+Beth J: Yeah, it's still loading. Unfortunately, this is the beauty of my technology.
+
+00:46:11.000 --> 00:46:13.000
+Conner Galway: Okay.
+
+00:46:17.000 --> 00:46:23.000
+Beth J: I will just see if I can re redo that page here One second.
+
+00:46:20.000 --> 00:46:25.000
+Conner Galway: You probably just have a lot of background applications running at the same time.
+
+00:46:25.000 --> 00:46:30.000
+Beth J: No I just have a really crappy computer.
+
+00:46:26.000 --> 00:46:29.000
+Conner Galway: Yeah, that'll fix it.
+
+00:46:30.000 --> 00:46:34.000
+Beth J: Yeah. One sec here.
+
+00:46:36.000 --> 00:46:42.000
+Beth J: And it's also the WordPress site, so it always takes a little bit longer. I'm just going to move this down.
+
+00:46:38.000 --> 00:46:54.000
+Conner Galway: Yeah, yeah, WordPress can be annoying. So yes, the first two things we're going to do is check on the plugin that I talked about, the WP Rocket, and then just do some basic information updates, like adding the address to the footer and that sort of thing.
+
+00:46:42.000 --> 00:46:44.000
+Beth J: Yes.
+
+00:46:49.000 --> 00:46:50.000
+Beth J: Yep.
+
+00:46:55.000 --> 00:46:57.000
+Beth J: Okay.
+
+00:46:57.000 --> 00:46:59.000
+Beth J: One second here.
+
+00:47:15.000 --> 00:47:19.000
+Beth J: Okay. Just one more second. Here we go.
+
+00:47:56.000 --> 00:48:01.000
+Beth J: So by the time it loads, our session will be over.
+
+00:48:01.000 --> 00:48:03.000
+Beth J: I'm so sorry.
+
+00:48:01.000 --> 00:48:04.000
+Conner Galway: No, don't worry about it, it's my fault.
+
+00:48:05.000 --> 00:48:07.000
+Beth J: Well, how is it your fault?
+
+00:48:05.000 --> 00:48:09.000
+Conner Galway: Well, I let the first half run a little long.
+
+00:48:12.000 --> 00:48:21.000
+Beth J: Okay. I did also have us logged into the admin console, but that's now logged us out.
+
+00:48:22.000 --> 00:48:23.000
+Beth J: and…
+
+00:48:25.000 --> 00:48:40.000
+Beth J: Okay And uh so like I said um I'll just have to work with Sean to get you the analytics uh user I did add you to the um ad account I don't know if that's helpful at all but at least you're part of the Google uh.
+
+00:48:34.000 --> 00:48:37.000
+Conner Galway: It could be, yeah.
+
+00:48:38.000 --> 00:48:39.000
+Conner Galway: Mm-hmm. Bye.
+
+00:48:39.000 --> 00:48:49.000
+Conner Galway: I might be able to use that. I'll see. I might be able to use it because Search Console is the thing that we really want because getting analytics is our gateway into that.
+
+00:48:40.000 --> 00:48:42.000
+Beth J: School accounts there.
+
+00:48:45.000 --> 00:48:48.000
+Beth J: Yeah, yeah.
+
+00:48:48.000 --> 00:49:05.000
+Beth J: Absolutely, yeah. So I had used, I had spoken with someone else for marketing and initially we thought that it was going to be a lot less expensive. So I had added them and they were able to pull some analytics by having that user access.
+
+00:49:03.000 --> 00:49:04.000
+Conner Galway: Mm-hmm. Okay.
+
+00:49:05.000 --> 00:49:11.000
+Beth J: I'll I'll just work with Sean after this and, and get you the actual analytics.
+
+00:49:10.000 --> 00:49:11.000
+Conner Galway: Great, thank you.
+
+00:49:11.000 --> 00:49:16.000
+Beth J: I am so sorry. It is just taking forever.
+
+00:49:12.000 --> 00:49:14.000
+Conner Galway: Oh, don't worry about it.
+
+00:49:19.000 --> 00:49:29.000
+Beth J: Okay, I had these… I tried to, like, have everything open so that it would be easy, but I'm just gonna close it all out, and if we need it, then I'll reopen it.
+
+00:49:29.000 --> 00:49:31.000
+Beth J: And hopefully, that'll speed things up.
+
+00:49:54.000 --> 00:50:00.000
+Conner Galway: In the meantime, I'm working on your schema, which is just like a little data file that you'll add.
+
+00:50:01.000 --> 00:50:02.000
+Beth J: Okay.
+
+00:50:13.000 --> 00:50:18.000
+Beth J: I'm going to see if this is any faster. Maybe it's need to clear the cache.
+
+00:50:30.000 --> 00:50:33.000
+Beth J: Oh, hmm.
+
+00:50:33.000 --> 00:50:39.000
+Beth J: And normally I would just reboot my computer, but then you'd have to start this whole thing all over again.
+
+00:50:38.000 --> 00:50:48.000
+Conner Galway: Well, what I could do, if we do run out of time, I could just give this, like, as much as it is, like, a step-by-step, I could just create a separate doc that's just, like, a checklist of the things, because.
+
+00:50:47.000 --> 00:50:48.000
+Beth J: Yeah.
+
+00:50:48.000 --> 00:51:01.000
+Conner Galway: nothing that we're doing today is really complicated, right? So, just while it's loading, um, one is, so the WP Rocket plugin, uh, but I'm looking at Squarespace. Isn't it a WordPress site?
+
+00:50:48.000 --> 00:50:49.000
+Beth J: Okay.
+
+00:50:52.000 --> 00:50:54.000
+Beth J: No, okay.
+
+00:51:03.000 --> 00:51:07.000
+Beth J: Uh, it is a WordPress, this is just… so, I…
+
+00:51:07.000 --> 00:51:20.000
+Beth J: I just had everything open for all of the stuff that we have, just in case I wasn't sure where we wanted to go. You had mentioned something about having access to the FTP, so that would be our domain, um…
+
+00:51:16.000 --> 00:51:17.000
+Conner Galway: Hmm.
+
+00:51:20.000 --> 00:51:28.000
+Beth J: And so I would be able to like put records in for this using this one And then I just.
+
+00:51:22.000 --> 00:51:24.000
+Conner Galway: Got it. Okay.
+
+00:51:24.000 --> 00:51:28.000
+Conner Galway: And so your domain is… your domain is still on Squarespace?
+
+00:51:29.000 --> 00:51:30.000
+Conner Galway: Okay.
+
+00:51:29.000 --> 00:51:33.000
+Beth J: It is, yeah, but it's hosted by Springs Hosting.
+
+00:51:32.000 --> 00:51:34.000
+Conner Galway: Got it. Okay.
+
+00:51:33.000 --> 00:51:37.000
+Beth J: So that's why I also had Springs Hosting open.
+
+00:51:35.000 --> 00:51:45.000
+Conner Galway: I mean, this is a total side project, but we might want to migrate your domain off of Squarespace at some point, just because they're not a domain host, so it's just more expensive than it needs to be.
+
+00:51:42.000 --> 00:51:44.000
+Beth J: Okay.
+
+00:51:45.000 --> 00:51:58.000
+Beth J: Right, and so we also used Squarespace for our Google Workspace, so that's how we buy users and whatnot. I'm not sure if that's why maybe we're still on there. I'm not sure…
+
+00:51:51.000 --> 00:51:52.000
+Conner Galway: the…
+
+00:51:52.000 --> 00:51:53.000
+Conner Galway: Oh, gosh.
+
+00:51:58.000 --> 00:52:01.000
+Beth J: How this was all set up initially, but…
+
+00:51:59.000 --> 00:52:02.000
+Conner Galway: I originally set up just like a…
+
+00:52:02.000 --> 00:52:12.000
+Conner Galway: very beginner website for Sean. I was just like, um, you need a website, I'll spend a couple of hours and make a thing for you. And so I did that, I did that through Squarespace.
+
+00:52:02.000 --> 00:52:04.000
+Beth J: Oh…
+
+00:52:05.000 --> 00:52:07.000
+Beth J: Yeah, okay.
+
+00:52:10.000 --> 00:52:12.000
+Beth J: Oh.
+
+00:52:12.000 --> 00:52:14.000
+Beth J: Okay.
+
+00:52:14.000 --> 00:52:19.000
+Beth J: Alright. I don't know if it's gonna open. I'm not sure.
+
+00:52:19.000 --> 00:52:23.000
+Beth J: I could give you my login credentials if you want.
+
+00:52:21.000 --> 00:52:26.000
+Conner Galway: Yeah, actually, you know what? Why don't you do that, and then I can just do…
+
+00:52:26.000 --> 00:52:28.000
+Beth J: Okay!
+
+00:52:26.000 --> 00:52:37.000
+Conner Galway: if you can just email that over, I will do some of the things, like the schema, and a few things like that, and the WP Rocket, and then I'll just send over a step-by-step for, like.
+
+00:52:29.000 --> 00:52:31.000
+Beth J: Okay.
+
+00:52:37.000 --> 00:52:43.000
+Conner Galway: Putting the business address in the footer, um, the, uh…
+
+00:52:43.000 --> 00:52:53.000
+Conner Galway: Oh, and one of the other things that you'll want to do is… do you know if you have a Microsoft account? Like, how you get Microsoft 360 and Office and things like that?
+
+00:52:54.000 --> 00:53:04.000
+Beth J: Um, yeah, so I do have Microsoft, um, I… I have it for, like, my Excel products and whatnot, so yes, I do have an account.
+
+00:52:59.000 --> 00:53:01.000
+Conner Galway: Okay, perfect.
+
+00:53:02.000 --> 00:53:12.000
+Conner Galway: So then, yeah, one of the things you'll do is you'll just go to Bing Places, use a Microsoft account to log in, and then just submit your sitemap to Bing.
+
+00:53:12.000 --> 00:53:14.000
+Beth J: Okay.
+
+00:53:12.000 --> 00:53:19.000
+Conner Galway: Super simple. You just take yourwebsite.com/sitemap.xml. I'll send that over.
+
+00:53:19.000 --> 00:53:20.000
+Beth J: Okay.
+
+00:53:19.000 --> 00:53:22.000
+Conner Galway: Um, and then…
+
+00:53:20.000 --> 00:53:21.000
+Beth J: Okay.
+
+00:53:22.000 --> 00:53:31.000
+Beth J: And uh oh sorry Yeah And I'm really good when I can focus So like I can easily get this done as long as I can actually focus. So.
+
+00:53:25.000 --> 00:53:26.000
+Conner Galway: Mm-hmm.
+
+00:53:27.000 --> 00:53:29.000
+Conner Galway: Yes.
+
+00:53:29.000 --> 00:53:35.000
+Conner Galway: I have no doubt. And then the next part will be the Google business profile. And remind me, do you have access to that?
+
+00:53:31.000 --> 00:53:32.000
+Beth J: Alright.
+
+00:53:36.000 --> 00:53:52.000
+Beth J: I do, yes. I'm just not able to, like, change, so I can see users and manage, like, my own and whatnot, but I can't seem to add a user, so I'll work with Sean to add you as a user, because I think it's all under his main account.
+
+00:53:36.000 --> 00:53:38.000
+Conner Galway: Okay.
+
+00:53:46.000 --> 00:53:48.000
+Conner Galway: Hmm. Okay.
+
+00:53:50.000 --> 00:53:55.000
+Conner Galway: If you can, great, if not, like, the updates are super simple, like, it's…
+
+00:53:55.000 --> 00:54:11.000
+Conner Galway: The Google Business, um, the accounts, they'll get seen by more people if it's active, so we just want more photos, we'll want, um, like, to add, uh, geotags to the photos, like, and then there's, like, a posting.
+
+00:54:02.000 --> 00:54:04.000
+Beth J: Right.
+
+00:54:11.000 --> 00:54:17.000
+Conner Galway: it's kind of like Facebook posts, where you can post your Google Business profile.
+
+00:54:15.000 --> 00:54:17.000
+Beth J: Okay.
+
+00:54:17.000 --> 00:54:23.000
+Conner Galway: Almost nobody's gonna use that, but you're just gonna, like, show a little bit more activity in your Google Business profile.
+
+00:54:18.000 --> 00:54:19.000
+Beth J: Yeah?
+
+00:54:23.000 --> 00:54:25.000
+Beth J: Okay, okay.
+
+00:54:25.000 --> 00:54:40.000
+Conner Galway: Um, and then, yeah, then once I can get… the other big thing is once I can get that analytics access from Sean, then submitting your sitemap to Search Console will be helpful. And, like, all of these things are, like, 1% changes, but, like.
+
+00:54:33.000 --> 00:54:34.000
+Beth J: Yes.
+
+00:54:37.000 --> 00:54:39.000
+Beth J: Okay.
+
+00:54:40.000 --> 00:54:46.000
+Conner Galway: They kind of compound, so if we do, like, lots of these things, it'll just start to improve the site.
+
+00:54:42.000 --> 00:54:43.000
+Beth J: He'll make it.
+
+00:54:44.000 --> 00:54:45.000
+Beth J: Yeah.
+
+00:54:47.000 --> 00:54:49.000
+Beth J: Okay.
+
+00:54:49.000 --> 00:54:54.000
+Beth J: Alright. Sending my info over here.
+
+00:54:52.000 --> 00:55:08.000
+Conner Galway: Yeah, so why don't you just do that? With the final five and a half minutes that we have, if you can send me the login over, I'll get a couple of things done. I'll send you over a checklist of what I've done and then what the next steps are. And then you let me know if you run into any issues.
+
+00:55:02.000 --> 00:55:04.000
+Beth J: Okay.
+
+00:55:04.000 --> 00:55:06.000
+Beth J: Yeah.
+
+00:55:08.000 --> 00:55:14.000
+Conner Galway: And then, separate from that, I'll, uh, just send a bit of a summary.
+
+00:55:09.000 --> 00:55:11.000
+Beth J: Okay.
+
+00:55:15.000 --> 00:55:28.000
+Conner Galway: summary of the Claude project. I'll send the file, the SEO file that you want to add to the project. And then I think, I can't remember what we had planned for Session 4, but let me just have a look here.
+
+00:55:17.000 --> 00:55:18.000
+Beth J: Okay.
+
+00:55:20.000 --> 00:55:22.000
+Beth J: Yep.
+
+00:55:28.000 --> 00:55:42.000
+Conner Galway: Um, it was… we called it Integrating AI into Daily Operations, but I'm thinking what we could do is use that to clean up any sort of, you know, leftover tasks, and actually start creating some content on the website.
+
+00:55:32.000 --> 00:55:34.000
+Beth J: Hmm.
+
+00:55:39.000 --> 00:55:40.000
+Beth J: Okay.
+
+00:55:42.000 --> 00:55:43.000
+Beth J: Okay.
+
+00:55:43.000 --> 00:55:45.000
+Conner Galway: Um, so…
+
+00:55:43.000 --> 00:55:45.000
+Beth J: All right. Yep.
+
+00:55:45.000 --> 00:55:58.000
+Conner Galway: And for, on that topic, um, right now, the site doesn't have, like, a blog section. That's, I mean, super easy to do, but, um, would it make sense.
+
+00:55:54.000 --> 00:55:55.000
+Beth J: Yeah.
+
+00:55:58.000 --> 00:56:05.000
+Conner Galway: to, I guess, would it make sense to have Neon Peg add that, or do you feel like you can do that yourself?
+
+00:56:05.000 --> 00:56:22.000
+Beth J: I should be able to do that. I just wanted to get NeonPig to do the reCAPTCHA, because I was like, uh, it's gonna take me forever to figure out. Um, but, uh, and I apologize. I'm just gonna have to reboot my computer. It's… it's not showing… it's saying that it won't send the message either to you for the…
+
+00:56:11.000 --> 00:56:13.000
+Conner Galway: Yeah, it's hard.
+
+00:56:21.000 --> 00:56:23.000
+Conner Galway: Fun.
+
+00:56:22.000 --> 00:56:28.000
+Beth J: So I feel like I just need to reboot it, then it'll… everything will work.
+
+00:56:27.000 --> 00:56:31.000
+Conner Galway: Yeah, I mean, when that happens to me, I feel like a soldier without a gun. I'm like…
+
+00:56:30.000 --> 00:56:34.000
+Beth J: Yeah, totally. Yeah, it's different.
+
+00:56:32.000 --> 00:56:34.000
+Conner Galway: I'm useless.
+
+00:56:34.000 --> 00:56:46.000
+Beth J: And I'm, like, looking at all these things, I'm like, oh… anyway, I won't waste any more of your time, I'll quickly reboot it, get it sent over to you, and uh… and then I'll work on whatever tasks need to get done, um, at home.
+
+00:56:44.000 --> 00:56:46.000
+Conner Galway: Amazing. I'll…
+
+00:56:46.000 --> 00:56:57.000
+Conner Galway: I'll make sure I'll get all of that stuff over to you today, um, so you can get started on it, and… yeah, in the meantime, if anything else comes up, let me know, but I'll watch for that email coming from you.
+
+00:56:49.000 --> 00:56:50.000
+Beth J: Okay. Awesome.
+
+00:56:54.000 --> 00:56:55.000
+Beth J: Okay.
+
+00:56:57.000 --> 00:57:00.000
+Beth J: All right, perfect. Awesome. Thanks so much, Connor.
+
